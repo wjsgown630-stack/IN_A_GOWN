@@ -1,0 +1,76 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - heading "Jason Reynolds is a digital designer working with teams building places, products, and brands." [level=1] [ref=e6]
+    - generic [ref=e7]:
+      - paragraph [ref=e8]: For twenty years I've helped teams take ideas from zero to one. Recent work spans real estate, luxury, legal, and early-stage products. I care about the quiet details, the ones that shape how things feel, not just how they look.
+      - generic [ref=e9]:
+        - button [ref=e10] [cursor=pointer]:
+          - status [ref=e11]: Copy email
+        - link "Scroll to featured work" [ref=e12] [cursor=pointer]:
+          - /url: "#featured-work"
+  - generic [ref=e16]:
+    - heading "Featured work" [level=2] [ref=e17]
+    - generic [ref=e18]:
+      - link [ref=e19] [cursor=pointer]:
+        - /url: /work/howard-hughes
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: Howard Hughes
+          - paragraph [ref=e24]: Digital direction · Web design · Design systems
+      - link [ref=e25] [cursor=pointer]:
+        - /url: /work/the-framework
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: The Framework
+          - paragraph [ref=e30]: Branding · Product design · Web design
+      - link [ref=e31] [cursor=pointer]:
+        - /url: /work/salathe-vins
+        - generic [ref=e34]:
+          - paragraph [ref=e35]: Salathé Vins
+          - paragraph [ref=e36]: Branding · Packaging · Web design
+  - generic [ref=e38]:
+    - heading "Services" [level=2] [ref=e39]
+    - list [ref=e40]:
+      - listitem [ref=e41]: Digital direction
+      - listitem [ref=e42]: Web design
+      - listitem [ref=e43]: Product design
+      - listitem [ref=e44]: Design systems
+      - listitem [ref=e45]: Brand identity
+      - listitem [ref=e46]: Prototyping
+      - listitem [ref=e47]: Strategy
+      - listitem [ref=e48]: Front-end dev
+  - generic [ref=e50]:
+    - heading "Background" [level=2] [ref=e51]
+    - paragraph [ref=e52]:
+      - text: I'm based on the edge of the Bannau Brycheiniog National Park in Abergavenny, Wales, where I live with my wife and son. Since 2009 I've worked independently and remotely with startups, institutions, agencies, and global brands. Before going independent, I co-founded and was creative director of a small award-winning design agency. Today, I also partner with developer Micah Kohne as
+      - link "Kohne & Reynolds" [ref=e53] [cursor=pointer]:
+        - /url: https://kohnereynolds.com/
+      - text: ", a two-man studio taking larger projects from concept to production."
+    - link "How I work" [ref=e55] [cursor=pointer]:
+      - /url: /how-i-work
+  - generic [ref=e57]:
+    - heading "Selected clients & partners" [level=2] [ref=e58]
+    - generic [ref=e59]:
+      - img "Nike" [ref=e61]
+      - img "Uber" [ref=e63]
+      - img "Howard Hughes" [ref=e65]
+      - img "World Gold Council" [ref=e67]
+      - img "AKQA" [ref=e69]
+      - img "Related Companies" [ref=e71]
+      - img "EPFL" [ref=e73]
+      - img "Financial Times" [ref=e75]
+      - img "GoCardless" [ref=e77]
+      - img "Channel 4" [ref=e79]
+  - generic [ref=e81]:
+    - heading "Get in touch" [level=2] [ref=e82]
+    - paragraph [ref=e83]: Taking on new projects from December.
+    - generic [ref=e84]:
+      - button [ref=e85] [cursor=pointer]:
+        - status [ref=e86]: Copy email
+      - link "LinkedIn" [ref=e87] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/jsnrynlds/
+  - generic [ref=e90]:
+    - generic [ref=e91]:
+      - paragraph [ref=e92]:
+        - time [ref=e93]: Last updated 16.10.2026
+      - link "Back to top" [ref=e94] [cursor=pointer]:
+        - /url: "#"
+    - paragraph [ref=e95]: © 2026 Jason Reynolds

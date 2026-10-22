@@ -1,0 +1,306 @@
+- generic [ref=e5]:
+  - complementary [ref=e6]:
+    - generic [ref=e8]:
+      - link "tania.dev tania.dev" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "tania.dev" [ref=e11]
+        - generic [ref=e12]: tania.dev
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - button [ref=e15] [cursor=pointer]
+          - generic: Color
+        - generic [ref=e17]:
+          - button [ref=e18] [cursor=pointer]
+          - generic: Theme
+    - paragraph [ref=e27]:
+      - text: I'm
+      - link "Tania" [ref=e28] [cursor=pointer]:
+        - /url: /me/
+      - text: ", software engineer and open-source creator. This is my digital garden. 🌱"
+    - navigation [ref=e30]:
+      - link "Blog" [ref=e31] [cursor=pointer]:
+        - /url: /blog/
+      - link "Shelves" [ref=e32] [cursor=pointer]:
+        - /url: /shelves/
+      - link "Projects" [ref=e33] [cursor=pointer]:
+        - /url: /projects/
+      - link "About me" [ref=e34] [cursor=pointer]:
+        - /url: /me/
+    - generic [ref=e35]:
+      - navigation [ref=e37]:
+        - generic [ref=e38]:
+          - link "Email signup" [ref=e39] [cursor=pointer]:
+            - /url: https://taniarascia.substack.com
+          - generic: Email signup
+        - generic [ref=e43]:
+          - link "GitHub" [ref=e44] [cursor=pointer]:
+            - /url: https://github.com/taniarascia
+          - generic: GitHub
+        - generic [ref=e47]:
+          - link "Bluesky" [ref=e48] [cursor=pointer]:
+            - /url: https://bsky.app/profile/tania.dev
+          - generic: Bluesky
+        - generic [ref=e51]:
+          - link "RSS feed" [ref=e52] [cursor=pointer]:
+            - /url: /rss.xml
+          - generic: RSS feed
+        - generic [ref=e57]:
+          - link "New Moon" [ref=e58] [cursor=pointer]:
+            - /url: https://taniarascia.github.io/new-moon/
+          - generic: New Moon
+      - navigation [ref=e59]:
+        - link "Resume" [ref=e60] [cursor=pointer]:
+          - /url: /resume/
+        - link "Topics" [ref=e62] [cursor=pointer]:
+          - /url: /topics/
+        - link "Source" [ref=e64] [cursor=pointer]:
+          - /url: https://github.com/taniarascia/taniarascia.com
+  - generic [ref=e65]:
+    - main [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - heading "Hey, I'm Tania!" [level=1] [ref=e71]
+          - paragraph [ref=e72]: Principal software engineer, writer, all-around nerd.
+          - heading "A brief timeline" [level=2] [ref=e75]
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - generic [ref=e79]: 1998–2006
+              - generic [ref=e80]: Geocities kid, forum-goer, gamer, lover of obscure '80s bands.
+            - listitem [ref=e81]:
+              - generic [ref=e82]: 2007–2014
+              - generic [ref=e83]:
+                - link "Professional chef" [ref=e84] [cursor=pointer]:
+                  - /url: /from-cooking-to-coding/
+                - text: ": Culinary degree, 60-hour weeks in Chicago kitchens, line cook to chef-manager by 22."
+            - listitem [ref=e85]:
+              - generic [ref=e86]: 2014–2020
+              - generic [ref=e87]:
+                - link "Career change" [ref=e88] [cursor=pointer]:
+                  - /url: /how-i-made-a-career-change-into-web-development/
+                - text: ": Unpaid intern by day, cook by night, then junior dev to senior engineer."
+                - link "Wrote everything down" [ref=e89] [cursor=pointer]:
+                  - /url: /everything-i-know-as-a-software-developer-without-a-degree/
+                - text: along the way.
+            - listitem [ref=e90]:
+              - generic [ref=e91]: 2021–now
+              - generic [ref=e92]:
+                - link "Principal software engineer" [ref=e93] [cursor=pointer]:
+                  - /url: /resume/
+                - text: ": Building design systems, setting technical direction, shipping features, and still documenting:"
+                - link "177 posts" [ref=e94] [cursor=pointer]:
+                  - /url: /blog/
+                - text: ","
+                - link "40+ publications" [ref=e95] [cursor=pointer]:
+                  - /url: /me/#publications
+                - text: ", and"
+                - link "20,000+ stars on GitHub" [ref=e96] [cursor=pointer]:
+                  - /url: https://github.com/taniarascia
+                - text: .
+          - paragraph [ref=e97]:
+            - link "Also" [ref=e98] [cursor=pointer]:
+              - /url: /me/
+            - text: ": city explorer, weight-lifter, brick-clicker, accordion enthusiast, biker, Magic gatherer, webmaster."
+        - generic [ref=e99]:
+          - img "RAM Ram" [ref=e100]
+          - complementary [ref=e101]:
+            - text: Can't remember how to spell my name? Just go to
+            - link "tania.dev" [ref=e102] [cursor=pointer]:
+              - /url: https://tania.dev
+            - text: "!"
+      - generic [ref=e103]:
+        - generic [ref=e105]:
+          - heading "Latest" [level=2] [ref=e106]
+          - link "All Posts" [ref=e108] [cursor=pointer]:
+            - /url: /blog/
+        - generic [ref=e109]:
+          - 'link "Enabling Apache ECharts in React for Data Visualization March 31 # javascript # react # data-visualization" [ref=e110] [cursor=pointer]':
+            - /url: /apache-echarts-react/
+            - generic [ref=e112]:
+              - generic [ref=e113]: Enabling Apache ECharts in React for Data Visualization
+              - time [ref=e115]: March 31
+            - generic [ref=e116]:
+              - generic [ref=e117]: "# javascript"
+              - generic [ref=e118]: "# react"
+              - generic [ref=e119]: "# data-visualization"
+          - 'link "Year in Review: 2024 March 27 # meta # year-in-review" [ref=e120] [cursor=pointer]':
+            - /url: /2024-into-2025/
+            - generic [ref=e122]:
+              - generic [ref=e123]: "Year in Review: 2024"
+              - time [ref=e125]: March 27
+            - generic [ref=e126]:
+              - generic [ref=e127]: "# meta"
+              - generic [ref=e128]: "# year-in-review"
+          - 'link "Redesign: Version 7.0 December 1 # meta # redesign" [ref=e129] [cursor=pointer]':
+            - /url: /redesign-version-7/
+            - generic [ref=e131]:
+              - generic [ref=e132]: "Redesign: Version 7.0"
+              - time [ref=e134]: December 1
+            - generic [ref=e135]:
+              - generic [ref=e136]: "# meta"
+              - generic [ref=e137]: "# redesign"
+          - 'link "Creating a Keyboard Shortcut Hook in React (Deep Dive) October 19 # javascript # react # caching" [ref=e138] [cursor=pointer]':
+            - /url: /keyboard-shortcut-hook-react/
+            - generic [ref=e140]:
+              - generic [ref=e141]: Creating a Keyboard Shortcut Hook in React (Deep Dive)
+              - time [ref=e143]: October 19
+            - generic [ref=e144]:
+              - generic [ref=e145]: "# javascript"
+              - generic [ref=e146]: "# react"
+              - generic [ref=e147]: "# caching"
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "Shelves" [level=2] [ref=e151]
+            - link "All Shelves" [ref=e153] [cursor=pointer]:
+              - /url: /shelves/
+          - generic [ref=e154]: Hand-picked paths through everything I've written.
+        - generic [ref=e155]:
+          - link "Fundamentals 12 The guides I wished I had when I was learning how to code. I used to call them the missing instruction manuals of the web. These articles were all game changers for my understanding on topics such as version control, the command line, React, the DOM, and more." [ref=e156] [cursor=pointer]:
+            - /url: /shelves/#fundamentals
+            - generic [ref=e157]:
+              - generic [ref=e158]: Fundamentals
+              - generic [ref=e159]: "12"
+            - paragraph [ref=e161]: The guides I wished I had when I was learning how to code. I used to call them the missing instruction manuals of the web. These articles were all game changers for my understanding on topics such as version control, the command line, React, the DOM, and more.
+          - link "Deep dives 8 As my work became more advanced, I started documenting more advanced topics like authorization and authentication, data-driven design, build tools, and architecture." [ref=e162] [cursor=pointer]:
+            - /url: /shelves/#deep-dives
+            - generic [ref=e163]:
+              - generic [ref=e164]: Deep dives
+              - generic [ref=e165]: "8"
+            - paragraph [ref=e167]: As my work became more advanced, I started documenting more advanced topics like authorization and authentication, data-driven design, build tools, and architecture.
+          - link "Reinventing the wheel 8 It's not always necessary, but I like taking things apart to understand how they work. Here are some games and applications I've built." [ref=e168] [cursor=pointer]:
+            - /url: /shelves/#reinventing-the-wheel
+            - generic [ref=e169]:
+              - generic [ref=e170]: Reinventing the wheel
+              - generic [ref=e171]: "8"
+            - paragraph [ref=e173]: It's not always necessary, but I like taking things apart to understand how they work. Here are some games and applications I've built.
+          - link "Off the clock 4 Occasionally I'll write about things that aren't related to programming. So far, you'll find an ode to the lore of Animorphs, a writeup on my Keyboard Accordion, and everything I learned building my first PC." [ref=e174] [cursor=pointer]:
+            - /url: /shelves/#off-the-clock
+            - generic [ref=e175]:
+              - generic [ref=e176]: Off the clock
+              - generic [ref=e177]: "4"
+            - paragraph [ref=e179]: Occasionally I'll write about things that aren't related to programming. So far, you'll find an ode to the lore of Animorphs, a writeup on my Keyboard Accordion, and everything I learned building my first PC.
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - heading "Series" [level=2] [ref=e183]
+          - generic [ref=e185]: Some things I wrote span years or dozens of parts.
+        - generic [ref=e186]:
+          - link "How to Code in JavaScript A course on the fundamentals of the JavaScript language, from syntax and data types to objects, loops, and functions. Originally written for DigitalOcean." [ref=e187] [cursor=pointer]:
+            - /url: /series/how-to-code-in-javascript/
+            - generic [ref=e189]:
+              - generic [ref=e190]: How to Code in JavaScript
+              - paragraph [ref=e192]: A course on the fundamentals of the JavaScript language, from syntax and data types to objects, loops, and functions. Originally written for DigitalOcean.
+          - link "Understanding the DOM Learn how to communicate with a web browser by understanding, traversing, and making changes to the Document Object Model. Originally written for DigitalOcean." [ref=e193] [cursor=pointer]:
+            - /url: /series/understanding-the-dom/
+            - generic [ref=e195]:
+              - generic [ref=e196]: Understanding the DOM
+              - paragraph [ref=e198]: Learn how to communicate with a web browser by understanding, traversing, and making changes to the Document Object Model. Originally written for DigitalOcean.
+          - link "WordPress from Scratch The post that started it all for this website! This is a three part series on setting up and customizing a WordPress site from the ground up." [ref=e199] [cursor=pointer]:
+            - /url: /series/wordpress-from-scratch/
+            - generic [ref=e201]:
+              - generic [ref=e202]: WordPress from Scratch
+              - paragraph [ref=e204]: The post that started it all for this website! This is a three part series on setting up and customizing a WordPress site from the ground up.
+          - link "Year in Review A retrospective on life, work, and goals at the end of each year." [ref=e205] [cursor=pointer]:
+            - /url: /series/year-in-review/
+            - generic [ref=e207]:
+              - generic [ref=e208]: Year in Review
+              - paragraph [ref=e210]: A retrospective on life, work, and goals at the end of each year.
+          - link "Redesigns of this website This site gets tweaked a lot. Read about it!" [ref=e211] [cursor=pointer]:
+            - /url: /series/redesigns/
+            - generic [ref=e213]:
+              - generic [ref=e214]: Redesigns of this website
+              - paragraph [ref=e216]: This site gets tweaked a lot. Read about it!
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - heading "Projects" [level=2] [ref=e220]
+            - link "All Projects" [ref=e222] [cursor=pointer]:
+              - /url: /projects/
+          - generic [ref=e223]: Open-source projects I've worked on over the years.
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - time [ref=e226]: "2022"
+            - link "Keyboard Accordion" [ref=e227] [cursor=pointer]:
+              - /url: https://github.com/taniarascia/accordion
+            - paragraph [ref=e228]: Play the accordion online!
+            - generic [ref=e229]:
+              - link "Article" [ref=e230] [cursor=pointer]:
+                - /url: /musical-instrument-web-audio-api/
+              - link "Demo" [ref=e231] [cursor=pointer]:
+                - /url: https://www.keyboardaccordion.com
+              - link "Source" [ref=e232] [cursor=pointer]:
+                - /url: https://github.com/taniarascia/accordion
+          - generic [ref=e233]:
+            - time [ref=e234]: "2020"
+            - link "TakeNote" [ref=e235] [cursor=pointer]:
+              - /url: https://github.com/taniarascia/takenote
+            - paragraph [ref=e236]: Open source notes app
+            - generic [ref=e237]:
+              - link "Article" [ref=e238] [cursor=pointer]:
+                - /url: /building-takenote/
+              - link "Demo" [ref=e239] [cursor=pointer]:
+                - /url: https://takenote.dev
+              - link "Source" [ref=e240] [cursor=pointer]:
+                - /url: https://github.com/taniarascia/takenote
+          - generic [ref=e241]:
+            - time [ref=e242]: "2019"
+            - link "Chip8" [ref=e243] [cursor=pointer]:
+              - /url: https://github.com/taniarascia/chip8
+            - paragraph [ref=e244]: Retro game emulator
+            - generic [ref=e245]:
+              - link "Article" [ref=e246] [cursor=pointer]:
+                - /url: /writing-an-emulator-in-javascript-chip8/
+              - link "Demo" [ref=e247] [cursor=pointer]:
+                - /url: https://taniarascia.github.io/chip8
+              - link "Source" [ref=e248] [cursor=pointer]:
+                - /url: https://github.com/taniarascia/chip8
+          - generic [ref=e249]:
+            - time [ref=e250]: "2021"
+            - link "Sokoban" [ref=e251] [cursor=pointer]:
+              - /url: https://github.com/taniarascia/sokoban
+            - paragraph [ref=e252]: Web-based Sokoban
+            - generic [ref=e253]:
+              - link "Article" [ref=e254] [cursor=pointer]:
+                - /url: /sokoban-game/
+              - link "Demo" [ref=e255] [cursor=pointer]:
+                - /url: https://taniarascia.github.io/sokoban
+              - link "Source" [ref=e256] [cursor=pointer]:
+                - /url: https://github.com/taniarascia/sokoban
+          - generic [ref=e257]:
+            - time [ref=e258]: "2015"
+            - link "New Moon" [ref=e259] [cursor=pointer]:
+              - /url: https://github.com/taniarascia/new-moon
+            - paragraph [ref=e260]: Your new favorite theme
+            - generic [ref=e261]:
+              - link "Demo" [ref=e262] [cursor=pointer]:
+                - /url: https://taniarascia.github.io/new-moon
+              - link "Source" [ref=e263] [cursor=pointer]:
+                - /url: https://github.com/taniarascia/new-moon
+          - generic [ref=e264]:
+            - time [ref=e265]: "2019"
+            - link "Snek" [ref=e266] [cursor=pointer]:
+              - /url: https://github.com/taniarascia/snek
+            - paragraph [ref=e267]: A terminal-based Snake
+            - generic [ref=e268]:
+              - link "Article" [ref=e269] [cursor=pointer]:
+                - /url: /snake-game-in-javascript/
+              - link "Source" [ref=e270] [cursor=pointer]:
+                - /url: https://github.com/taniarascia/snek
+    - contentinfo [ref=e271]:
+      - generic [ref=e272]:
+        - navigation [ref=e273]:
+          - link "Email signup" [ref=e274] [cursor=pointer]:
+            - /url: https://taniarascia.substack.com
+          - link "RSS feed" [ref=e278] [cursor=pointer]:
+            - /url: /rss.xml
+          - link "Bluesky" [ref=e283] [cursor=pointer]:
+            - /url: https://bsky.app/profile/tania.dev
+          - link "Buy me a coffee" [ref=e286] [cursor=pointer]:
+            - /url: https://ko-fi.com/taniarascia
+        - navigation [ref=e289]:
+          - link "Gatsby" [ref=e290] [cursor=pointer]:
+            - /url: https://www.gatsbyjs.org
+          - link "GitHub" [ref=e292] [cursor=pointer]:
+            - /url: https://github.com/taniarascia
+          - link "Netlify" [ref=e294] [cursor=pointer]:
+            - /url: https://www.netlify.com
+        - generic [ref=e296]: Made with by Tania Rascia

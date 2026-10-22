@@ -1,0 +1,673 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - heading "~* stimmie's homepage *~" [level=1] [ref=e6]
+        - paragraph [ref=e7]:
+          - text: Hi! You found my website on
+          - strong [ref=e8]: THE INTERNET!!
+        - paragraph [ref=e9]:
+          - text: This is my personal corner of the web, all about Stimmie the person. If you came to learn more about my career, head over to
+          - link "stimmie.dev/career" [ref=e10] [cursor=pointer]:
+            - /url: /career
+          - text: .
+        - navigation "Primary" [ref=e11]:
+          - link "home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "career" [ref=e13] [cursor=pointer]:
+            - /url: /career
+          - link "projects" [ref=e14] [cursor=pointer]:
+            - /url: /projects
+          - link "talks" [ref=e15] [cursor=pointer]:
+            - /url: /talks
+          - link "blog" [ref=e16] [cursor=pointer]:
+            - /url: /blog
+          - link "opportunities" [ref=e17] [cursor=pointer]:
+            - /url: /opportunities
+          - link "resume workshop" [ref=e18] [cursor=pointer]:
+            - /url: /resume-workshop
+          - link "links" [ref=e19] [cursor=pointer]:
+            - /url: /links
+          - link "changelog" [ref=e20] [cursor=pointer]:
+            - /url: /changelog
+          - link "archive" [ref=e21] [cursor=pointer]:
+            - /url: /archive
+          - link "old bento site" [ref=e22] [cursor=pointer]:
+            - /url: /v2
+      - generic [ref=e24]: ✹ welcome to my corner of the web ✹ software engineer ✹ tinkerer ✹ builder of weird things ✹ linkedin shitposter ✹ last updated october 12, 2026 ✹ ✹ welcome to my corner of the web ✹ software engineer ✹ tinkerer ✹ builder of weird things ✹ linkedin shitposter ✹ last updated october 12, 2026 ✹
+      - generic [ref=e25]:
+        - complementary [ref=e26]:
+          - navigation "On this page" [ref=e27]:
+            - heading "~ on this page ~" [level=2] [ref=e28]
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - text: ►
+                - link "about me" [ref=e31] [cursor=pointer]:
+                  - /url: "#about"
+              - listitem [ref=e32]:
+                - text: ►
+                - link "resume workshop" [ref=e33] [cursor=pointer]:
+                  - /url: "#resume-workshop"
+              - listitem [ref=e34]:
+                - text: ►
+                - link "projects" [ref=e35] [cursor=pointer]:
+                  - /url: "#projects"
+              - listitem [ref=e36]:
+                - text: ►
+                - link "talks" [ref=e37] [cursor=pointer]:
+                  - /url: "#talks"
+              - listitem [ref=e38]:
+                - text: ►
+                - link "writing" [ref=e39] [cursor=pointer]:
+                  - /url: "#writing"
+              - listitem [ref=e40]:
+                - text: ►
+                - link "github" [ref=e41] [cursor=pointer]:
+                  - /url: "#github"
+              - listitem [ref=e42]:
+                - text: ►
+                - link "currently into" [ref=e43] [cursor=pointer]:
+                  - /url: "#currently"
+              - listitem [ref=e44]:
+                - text: ►
+                - link "friends" [ref=e45] [cursor=pointer]:
+                  - /url: "#friends"
+              - listitem [ref=e46]:
+                - text: ►
+                - link "book a call" [ref=e47] [cursor=pointer]:
+                  - /url: "#book"
+              - listitem [ref=e48]:
+                - text: ►
+                - link "support me" [ref=e49] [cursor=pointer]:
+                  - /url: "#support"
+          - generic [ref=e50]:
+            - heading "~ find me ~" [level=2] [ref=e51]
+            - generic [ref=e52]:
+              - paragraph [ref=e53]: Connect
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - link "LinkedIn" [ref=e56] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/stimmie
+                - listitem [ref=e58]:
+                  - link "Email" [ref=e59] [cursor=pointer]:
+                    - /url: mailto:semariquit@gmail.com
+                - listitem [ref=e61]:
+                  - link "Instagram" [ref=e62] [cursor=pointer]:
+                    - /url: https://www.instagram.com/friedicecrm
+                - listitem [ref=e64]:
+                  - link "Facebook" [ref=e65] [cursor=pointer]:
+                    - /url: https://www.facebook.com/stimmieuwu/
+                - listitem [ref=e67]:
+                  - generic "Discord - @pataponz" [ref=e68]: "Discord: @pataponz"
+            - generic [ref=e70]:
+              - paragraph [ref=e71]: Code
+              - list [ref=e72]:
+                - listitem [ref=e73]:
+                  - link "GitHub" [ref=e74] [cursor=pointer]:
+                    - /url: https://www.github.com/smmariquit
+                - listitem [ref=e76]:
+                  - link "PGP & SSH keys" [ref=e77] [cursor=pointer]:
+                    - /url: /keys
+                - listitem [ref=e79]:
+                  - link "LeetCode" [ref=e80] [cursor=pointer]:
+                    - /url: https://leetcode.com/u/stimmers/
+                - listitem [ref=e82]:
+                  - link "Kattis" [ref=e83] [cursor=pointer]:
+                    - /url: https://open.kattis.com/users/simonee
+                - listitem [ref=e85]:
+                  - link "Kaggle" [ref=e86] [cursor=pointer]:
+                    - /url: https://www.kaggle.com/stimmie
+                - listitem [ref=e88]:
+                  - link "OEIS" [ref=e89] [cursor=pointer]:
+                    - /url: https://oeis.org/wiki/User:Simonee_Ezekiel_M._Mariquit
+                - listitem [ref=e91]:
+                  - link "BuiltByBit" [ref=e92] [cursor=pointer]:
+                    - /url: https://builtbybit.com/members/himitsu.141037/
+            - generic [ref=e94]:
+              - paragraph [ref=e95]: Watching · Reading · Listening
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "Letterboxd" [ref=e98] [cursor=pointer]:
+                    - /url: http://letterboxd.com/stimmieuwu
+                - listitem [ref=e100]:
+                  - link "IMDb" [ref=e101] [cursor=pointer]:
+                    - /url: https://www.imdb.com/name/nm12149035/
+                - listitem [ref=e103]:
+                  - link "MyAnimeList" [ref=e104] [cursor=pointer]:
+                    - /url: https://myanimelist.net/profile/amorgosposter
+                - listitem [ref=e106]:
+                  - link "Goodreads" [ref=e107] [cursor=pointer]:
+                    - /url: https://goodreads.com/stimmie
+                - listitem [ref=e109]:
+                  - link "Spotify" [ref=e110] [cursor=pointer]:
+                    - /url: https://open.spotify.com/user/opzo90f4votlfqmg9rl94qrra?si=538e1f5748424274
+                - listitem [ref=e112]:
+                  - link "Last.fm" [ref=e113] [cursor=pointer]:
+                    - /url: https://www.last.fm/user/mistakenpog
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: Writing & Resources
+              - list [ref=e117]:
+                - listitem [ref=e118]:
+                  - link "Literary" [ref=e119] [cursor=pointer]:
+                    - /url: https://literary.stimmie.dev
+                - listitem [ref=e121]:
+                  - link "Pics" [ref=e122] [cursor=pointer]:
+                    - /url: https://pics.stimmie.dev
+                - listitem [ref=e124]:
+                  - link "Medium" [ref=e125] [cursor=pointer]:
+                    - /url: https://medium.com/@semariquit
+                - listitem [ref=e127]:
+                  - link "DEV" [ref=e128] [cursor=pointer]:
+                    - /url: https://dev.to/stimmie
+                - listitem [ref=e130]:
+                  - link "Wikipedia" [ref=e131] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Special:Contributions/101masterrace
+                - listitem [ref=e133]:
+                  - link "Pizza and Friends" [ref=e134] [cursor=pointer]:
+                    - /url: https://joinpizza.fun
+            - generic [ref=e136]:
+              - paragraph [ref=e137]: Play
+              - list [ref=e138]:
+                - listitem [ref=e139]:
+                  - link "Strava" [ref=e140] [cursor=pointer]:
+                    - /url: https://www.strava.com/athletes/129023200
+                - listitem [ref=e142]:
+                  - link "osu!" [ref=e143] [cursor=pointer]:
+                    - /url: https://osu.ppy.sh/users/14900686
+                - listitem [ref=e145]:
+                  - link "Duolingo" [ref=e146] [cursor=pointer]:
+                    - /url: https://www.duolingo.com/profile/stimmie
+                - listitem [ref=e148]:
+                  - link "itch.io" [ref=e149] [cursor=pointer]:
+                    - /url: https://stimmieuwu.itch.io/
+                - listitem [ref=e151]:
+                  - link "Fun" [ref=e152] [cursor=pointer]:
+                    - /url: https://fun.stimmie.dev
+          - generic [ref=e154]:
+            - heading "~ stimmieverse ~" [level=2] [ref=e155]
+            - generic [ref=e156]:
+              - paragraph [ref=e157]: Services
+              - paragraph [ref=e158]: Apps, tools, and services I make and offer
+              - list [ref=e159]:
+                - listitem [ref=e160]:
+                  - text: ►
+                  - link "Room TBA ↗" [ref=e161] [cursor=pointer]:
+                    - /url: https://room-tba.stimmie.dev
+                - listitem [ref=e162]:
+                  - text: ►
+                  - link "GradeSim ↗" [ref=e163] [cursor=pointer]:
+                    - /url: https://gradesim.stimmie.dev
+                - listitem [ref=e164]:
+                  - text: ►
+                  - link "The Crib ↗" [ref=e165] [cursor=pointer]:
+                    - /url: https://crib.stimmie.dev
+                - listitem [ref=e166]:
+                  - text: ►
+                  - link "Tutor ↗" [ref=e167] [cursor=pointer]:
+                    - /url: https://tutor.stimmie.dev
+            - generic [ref=e168]:
+              - paragraph [ref=e169]: Portfolios
+              - paragraph [ref=e170]: Showcases of my work across different domains
+              - list [ref=e171]:
+                - listitem [ref=e172]:
+                  - text: ►
+                  - link "Atlas ↗" [ref=e173] [cursor=pointer]:
+                    - /url: https://atlas-of-my-skies.stimmie.dev
+                - listitem [ref=e174]:
+                  - text: ►
+                  - link "Minecraft ↗" [ref=e175] [cursor=pointer]:
+                    - /url: https://minecraft.stimmie.dev
+                - listitem [ref=e176]:
+                  - text: ►
+                  - link "Web & Mobile ↗" [ref=e177] [cursor=pointer]:
+                    - /url: https://web.stimmie.dev
+                - listitem [ref=e178]:
+                  - text: ►
+                  - link "Data ↗" [ref=e179] [cursor=pointer]:
+                    - /url: https://data.stimmie.dev
+                - listitem [ref=e180]:
+                  - text: ►
+                  - link "Resume ↗" [ref=e181] [cursor=pointer]:
+                    - /url: https://resume.stimmie.dev
+                - listitem [ref=e182]:
+                  - text: ►
+                  - link "CV ↗" [ref=e183] [cursor=pointer]:
+                    - /url: https://cv.stimmie.dev
+            - generic [ref=e184]:
+              - paragraph [ref=e185]: Guides
+              - paragraph [ref=e186]: Walkthroughs I wrote to help you out
+              - list [ref=e187]:
+                - listitem [ref=e188]:
+                  - text: ►
+                  - link "All Guides ↗" [ref=e189] [cursor=pointer]:
+                    - /url: https://guide.stimmie.dev
+                - listitem [ref=e190]:
+                  - text: ►
+                  - link "Freshie Guide ↗" [ref=e191] [cursor=pointer]:
+                    - /url: https://guide.stimmie.dev/freshie
+                - listitem [ref=e192]:
+                  - text: ►
+                  - link "Hackathon Guide ↗" [ref=e193] [cursor=pointer]:
+                    - /url: https://guide.stimmie.dev/hackathons
+                - listitem [ref=e194]:
+                  - text: ►
+                  - link "Resume Guide ↗" [ref=e195] [cursor=pointer]:
+                    - /url: https://guide.stimmie.dev/resume
+            - generic [ref=e196]:
+              - paragraph [ref=e197]: Support
+              - paragraph [ref=e198]: Ways to support my work
+              - list [ref=e199]:
+                - listitem [ref=e200]:
+                  - text: ►
+                  - link "Kape ↗" [ref=e201] [cursor=pointer]:
+                    - /url: https://kape.stimmie.dev
+          - generic [ref=e203]:
+            - heading "~ the crib ~" [level=2] [ref=e204]
+            - status "Checking The Crib server status." [ref=e205]:
+              - generic [ref=e207]: checking server…
+            - paragraph [ref=e208]: my survival Minecraft server that never resets
+            - link "visit the crib ↗" [ref=e209] [cursor=pointer]:
+              - /url: https://crib.stimmie.dev
+          - generic [ref=e211]:
+            - heading "~ pizza & friends ~" [level=2] [ref=e212]
+            - paragraph [ref=e213]: Unexpectedly a tech community! Dinner meetups, Discord calls, hackathons, and slides parties. We make cool stuff and try not to take it too seriously.
+            - link "join pizza & friends ↗" [ref=e214] [cursor=pointer]:
+              - /url: https://joinpizza.fun
+          - generic [ref=e215]:
+            - heading "~ webring ~" [level=2] [ref=e216]
+            - link "开往-友链接力 Travelling" [ref=e217] [cursor=pointer]:
+              - /url: https://www.travellings.cn/go.html
+              - img "开往-友链接力" [ref=e218]
+              - generic [ref=e219]: Travelling
+          - generic [ref=e221]:
+            - paragraph [ref=e222]: "you are visitor #"
+            - status "You are visitor number 4,569." [ref=e223]:
+              - generic [aria-hidden] [ref=e224]: "0"
+              - generic [aria-hidden] [ref=e225]: "0"
+              - generic [aria-hidden] [ref=e226]: "4"
+              - generic [aria-hidden] [ref=e227]: "5"
+              - generic [aria-hidden] [ref=e228]: "6"
+              - generic [aria-hidden] [ref=e229]: "9"
+          - generic [ref=e230]:
+            - paragraph [ref=e231]: site version
+            - paragraph [ref=e232]:
+              - link "v2.40.0" [ref=e233] [cursor=pointer]:
+                - /url: /changelog
+        - main [ref=e234]:
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - heading [level=2] [ref=e237]:
+                - text: ✹
+                - link "about me" [ref=e238] [cursor=pointer]:
+                  - /url: "#about"
+              - generic [ref=e239]:
+                - code [ref=e240]: "#about"
+                - button "Copy link to about me" [ref=e241] [cursor=pointer]
+            - generic [ref=e245]:
+              - figure "that's me! hi 👋" [ref=e246]:
+                - img "Stimmie taking a mirror selfie" [ref=e248]
+              - generic [ref=e250]:
+                - paragraph [ref=e251]:
+                  - text: I'm
+                  - strong [ref=e252]: Stimmie
+                  - text: ", a creator, tinkerer, and builder of digital experiences. Whether it's writing code, designing interfaces, or crafting data stories, I love bringing wild ideas to life on the internet."
+                - paragraph [ref=e253]: Away from the keyboard I'm usually out exploring Metro Manila, lifting at the gym, taking photowalks, or watching and over-analyzing films. I'm always happy to meet new people, so don't be a stranger!
+            - paragraph [ref=e254]: ~ fun facts ~
+            - list [ref=e255]:
+              - listitem [ref=e256]:
+                - generic [aria-hidden] [ref=e257]: 🎮
+                - generic [ref=e258]: I started coding in Batch when I was 10. Simple text-based RPG games.
+              - listitem [ref=e259]:
+                - generic [aria-hidden] [ref=e260]: 💻
+                - generic [ref=e261]: I built the PC I still use today, by myself, when I was 16.
+              - listitem [ref=e262]:
+                - generic [aria-hidden] [ref=e263]: 👒
+                - generic [ref=e264]: Fedora Linux is my daily driver.
+              - listitem [ref=e265]:
+                - generic [aria-hidden] [ref=e266]: 🚌
+                - generic [ref=e267]: I've alighted at and explored all 51 LRT and MRT stations in Metro Manila.
+              - listitem [ref=e268]:
+                - generic [aria-hidden] [ref=e269]: 🏋️
+                - generic [ref=e270]: "Gym regular (SBD: 100 / 60 / 150)."
+              - listitem [ref=e271]:
+                - generic [aria-hidden] [ref=e272]: 📃
+                - generic [ref=e273]: Big on photowalks and writing.
+              - listitem [ref=e274]:
+                - generic [aria-hidden] [ref=e275]: 🐛
+                - generic [ref=e276]: "My first ever technical failure: I left a VM on its default password and it got drafted into a botnet attacking a Russian IP."
+              - listitem [ref=e277]:
+                - generic [aria-hidden] [ref=e278]: 🎬
+                - generic [ref=e279]:
+                  - text: I watch and analyze films, and yes, I have an
+                  - link "IMDb page" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.imdb.com/name/nm12149035/
+                  - text: .
+          - paragraph [ref=e281]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - heading [level=2] [ref=e284]:
+                - text: ✹
+                - link "resume workshop" [ref=e285] [cursor=pointer]:
+                  - /url: "#resume-workshop"
+              - generic [ref=e286]:
+                - code [ref=e287]: "#resume-workshop"
+                - button "Copy link to resume workshop" [ref=e288] [cursor=pointer]
+            - generic [ref=e292]:
+              - paragraph [ref=e293]: Applying as a student assistant, joining an org, or hunting an internship? Send me your resume or portfolio for a free, pay-as-you-can review. 20+ people helped and counting!
+              - link "📨 get your resume reviewed" [ref=e294] [cursor=pointer]:
+                - /url: /resume-workshop
+          - paragraph [ref=e295]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - heading [level=2] [ref=e298]:
+                - text: ✹
+                - link "my projects" [ref=e299] [cursor=pointer]:
+                  - /url: "#projects"
+              - generic [ref=e300]:
+                - code [ref=e301]: "#projects"
+                - button "Copy link to my projects" [ref=e302] [cursor=pointer]
+            - paragraph [ref=e306]: things I've built. Click a card for the full writeup.
+            - generic [ref=e307]:
+              - link [ref=e308] [cursor=pointer]:
+                - /url: /projects/hearthcraft
+                - img "HearthCraft" [ref=e309]
+                - heading "HearthCraft" [level=3] [ref=e310]
+                - paragraph [ref=e311]: 2018 – 2025
+                - paragraph [ref=e312]: "[Minecraft · Docker · Java · Community]"
+              - link [ref=e313] [cursor=pointer]:
+                - /url: /projects/atlas-of-my-skies
+                - img "Atlas Of My Skies" [ref=e314]
+                - heading "Atlas Of My Skies" [level=3] [ref=e315]
+                - paragraph [ref=e316]: "2025"
+                - paragraph [ref=e317]: "[Photography · Storytelling]"
+              - link [ref=e318] [cursor=pointer]:
+                - /url: /projects/room-tba
+                - img "Room TBA" [ref=e319]
+                - heading "Room TBA" [level=3] [ref=e320]
+                - paragraph [ref=e321]: "2025"
+                - paragraph [ref=e322]: "[3D · Astro · Campus]"
+              - link [ref=e323] [cursor=pointer]:
+                - /url: /projects/elbi-gradesim
+                - img "Elbi GradeSim" [ref=e324]
+                - heading "Elbi GradeSim" [level=3] [ref=e325]
+                - paragraph [ref=e326]: "2025"
+                - paragraph [ref=e327]: "[Tooling · Education · Next.js]"
+            - paragraph [ref=e328]:
+              - link "► see 3 more projects" [ref=e329] [cursor=pointer]:
+                - /url: /projects
+          - paragraph [ref=e330]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - heading [level=2] [ref=e333]:
+                - text: ✹
+                - link "talks & workshops" [ref=e334] [cursor=pointer]:
+                  - /url: "#talks"
+              - generic [ref=e335]:
+                - code [ref=e336]: "#talks"
+                - button "Copy link to talks & workshops" [ref=e337] [cursor=pointer]
+            - paragraph [ref=e341]: sometimes I get invited to yap in public.
+            - generic [ref=e342]:
+              - link [ref=e343] [cursor=pointer]:
+                - /url: /talks/python-in-research-ust
+                - img "Photo from Python in Research" [ref=e344]
+                - heading "Python in Research" [level=3] [ref=e345]
+                - paragraph [ref=e346]: Apr 24, 2026
+                - paragraph [ref=e347]: "Talk · Decode to Defend: A Research Refresher by UST Computer Science Society"
+                - paragraph [ref=e348]: 👥 ~70 in the audience
+              - link [ref=e349] [cursor=pointer]:
+                - /url: /talks/hosting-a-minecraft-server-cdm
+                - img "Photo from Hosting a Minecraft Server" [ref=e350]
+                - heading "Hosting a Minecraft Server" [level=3] [ref=e351]
+                - paragraph [ref=e352]: Mar 3, 2026
+                - paragraph [ref=e353]: Talk · Colegio de Muntinlupa
+                - paragraph [ref=e354]: 👥 ~40 in the audience
+              - link [ref=e355] [cursor=pointer]:
+                - /url: /talks/ml-iris-classification-org-applicants
+                - 'img "Photo from ML Workshop: Iris Classification" [ref=e356]'
+                - 'heading "ML Workshop: Iris Classification" [level=3] [ref=e357]'
+                - paragraph [ref=e358]: Mar 2, 2026
+                - paragraph [ref=e359]: Workshop · UPLB Data Science Guild Apps' Workshop
+                - paragraph [ref=e360]: 👥 ~12 in the audience
+              - link [ref=e361] [cursor=pointer]:
+                - /url: /talks/ml-workshop-smcl
+                - img "Photo from Machine Learning Workshop" [ref=e362]
+                - heading "Machine Learning Workshop" [level=3] [ref=e363]
+                - paragraph [ref=e364]: Feb 19, 2026
+                - paragraph [ref=e365]: Workshop · Saint Michael's College of Laguna
+                - paragraph [ref=e366]: 👥 ~40 in the audience
+            - paragraph [ref=e367]:
+              - link "► see 14 more talks" [ref=e368] [cursor=pointer]:
+                - /url: /talks
+          - paragraph [ref=e369]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - heading [level=2] [ref=e372]:
+                - text: ✹
+                - link "writing" [ref=e373] [cursor=pointer]:
+                  - /url: "#writing"
+              - generic [ref=e374]:
+                - code [ref=e375]: "#writing"
+                - button "Copy link to writing" [ref=e376] [cursor=pointer]
+            - paragraph [ref=e380]: longer thoughts when a tweet won't cut it.
+            - list [ref=e381]:
+              - listitem [ref=e382]:
+                - generic [ref=e383]: October 8, 2026
+                - link "How a leaked API key sent me to collections" [ref=e384] [cursor=pointer]:
+                  - /url: /blog/how-a-leaked-key-sent-me-to-collections
+              - listitem [ref=e385]:
+                - generic [ref=e386]: September 10, 2026
+                - link "What I learned placing top 10% in a Kaggle competition" [ref=e387] [cursor=pointer]:
+                  - /url: /blog/top-ten-percent-on-kaggle
+              - listitem [ref=e388]:
+                - generic [ref=e389]: September 8, 2026
+                - link "On Being Busy" [ref=e390] [cursor=pointer]:
+                  - /url: /blog/on-being-busy
+              - listitem [ref=e391]:
+                - generic [ref=e392]: September 4, 2026
+                - link "Privacy tools explained with Among Us" [ref=e393] [cursor=pointer]:
+                  - /url: /blog/privacy-tools-explained-with-among-us
+              - listitem [ref=e394]:
+                - generic [ref=e395]: September 4, 2026
+                - link "The Death of the Easter Egg" [ref=e396] [cursor=pointer]:
+                  - /url: /blog/the-death-of-the-easter-egg
+              - listitem [ref=e397]:
+                - generic [ref=e398]: June 1, 2026
+                - link "Parkour 🤸‍♂️" [ref=e399] [cursor=pointer]:
+                  - /url: /blog/juneyour
+              - listitem [ref=e400]:
+                - generic [ref=e401]: May 22, 2026
+                - link "11 things I learned from my software engineering class" [ref=e402] [cursor=pointer]:
+                  - /url: /blog/casa
+              - listitem [ref=e403]:
+                - generic [ref=e404]: December 31, 2025
+                - link "Books I Read in 2025" [ref=e405] [cursor=pointer]:
+                  - /url: /blog/books
+              - listitem [ref=e406]:
+                - generic [ref=e407]: June 2025
+                - link "On Walking" [ref=e408] [cursor=pointer]:
+                  - /url: /blog/on-walking
+              - listitem [ref=e409]:
+                - generic [ref=e410]: April 2025
+                - link "The Province of Doing Nothing" [ref=e411] [cursor=pointer]:
+                  - /url: /blog/the-province-of-doing-nothing
+              - listitem [ref=e412]:
+                - generic [ref=e413]: January 2025
+                - link "On Rewatching" [ref=e414] [cursor=pointer]:
+                  - /url: /blog/on-rewatching
+          - paragraph [ref=e415]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - generic [ref=e418]:
+                - heading [level=2] [ref=e419]:
+                  - text: ✹
+                  - link "github activity" [ref=e420] [cursor=pointer]:
+                    - /url: "#github"
+                - generic [ref=e421]:
+                  - code [ref=e422]: "#github"
+                  - button "Copy link to github activity" [ref=e423] [cursor=pointer]
+              - article [ref=e428]
+            - generic [ref=e851]:
+              - generic [ref=e852]:
+                - heading [level=2] [ref=e853]:
+                  - text: ✹
+                  - link "currently into..." [ref=e854] [cursor=pointer]:
+                    - /url: "#currently"
+                - generic [ref=e855]:
+                  - code [ref=e856]: "#currently"
+                  - button "Copy link to currently into..." [ref=e857] [cursor=pointer]
+              - list [ref=e861]:
+                - listitem [ref=e862]:
+                  - img "Gusto Nang Umuwi ni Joy" [ref=e863]
+                  - generic [ref=e864]:
+                    - strong [ref=e865]: "film:"
+                    - text: Gusto Nang Umuwi ni Joy
+                    - paragraph [ref=e866]: ★★★★★
+                - listitem [ref=e867]:
+                  - img "The Design of Everyday Things" [ref=e868]
+                  - generic [ref=e869]:
+                    - strong [ref=e870]: "book:"
+                    - text: The Design of Everyday Things
+                    - paragraph [ref=e871]: Donald A. Norman
+                - listitem [ref=e872]:
+                  - generic [ref=e873]:
+                    - strong [ref=e874]: "music:"
+                    - text: top albums ·
+                    - link "last.fm" [ref=e875] [cursor=pointer]:
+                      - /url: https://www.last.fm/user/mistakenpog
+                    - paragraph [ref=e876]: Past 30 days
+                  - link [ref=e877] [cursor=pointer]:
+                    - /url: https://www.last.fm/user/mistakenpog
+                    - img "mistakenpog's top albums on Last.fm over the past 30 days" [ref=e878]
+          - paragraph [ref=e879]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e880]:
+            - generic [ref=e881]:
+              - heading [level=2] [ref=e882]:
+                - text: ✹
+                - link "friends" [ref=e883] [cursor=pointer]:
+                  - /url: "#friends"
+              - generic [ref=e884]:
+                - code [ref=e885]: "#friends"
+                - button "Copy link to friends" [ref=e886] [cursor=pointer]
+            - paragraph [ref=e890]: "cool people & neighbors from around the web:"
+            - list [ref=e891]:
+              - listitem [ref=e892]:
+                - link "Lyra Rivera (LyraPlasma) ↗" [ref=e893] [cursor=pointer]:
+                  - /url: https://lyraplasma.github.io
+                - generic [ref=e894]: · programmer sharing code projects & running a community Discord
+              - listitem [ref=e895]:
+                - link "Imogen Inocentes ↗" [ref=e896] [cursor=pointer]:
+                  - /url: https://www.imogen.dev
+                - generic [ref=e897]: · lead full-stack dev & AI specialist building custom systems
+              - listitem [ref=e898]:
+                - link "Marsh (brickwall2900) ↗" [ref=e899] [cursor=pointer]:
+                  - /url: https://brickwall2900.github.io
+                - generic [ref=e900]: · Java dev who builds stuff for the love of it 😅
+              - listitem [ref=e901]:
+                - link "Ken Ramiscal ↗" [ref=e902] [cursor=pointer]:
+                  - /url: https://kendan.dev
+                - generic [ref=e903]: · web developer building SvelteKit apps & IoT projects
+              - listitem [ref=e904]:
+                - link "Kalinaw Lukas Aom Bebis ↗" [ref=e905] [cursor=pointer]:
+                  - /url: https://lukasbebis.com
+                - generic [ref=e906]: · CS student & fullstack dev exploring SolidJS and systems
+              - listitem [ref=e907]:
+                - link "Keith Fajardo ↗" [ref=e908] [cursor=pointer]:
+                  - /url: https://keithfajardo.com
+                - generic [ref=e909]: · analytics engineer, dbt developer & trainer
+              - listitem [ref=e910]:
+                - link "Arron Parejas ↗" [ref=e911] [cursor=pointer]:
+                  - /url: https://domodomo.site
+                - generic [ref=e912]: · makes free browser tools & AI utilities
+              - listitem [ref=e913]:
+                - link "Eirmon John Paculan ↗" [ref=e914] [cursor=pointer]:
+                  - /url: https://riecodes.com
+                - generic [ref=e915]: · full-stack dev building web, mobile, IoT & computer vision
+              - listitem [ref=e916]:
+                - link "John Carlo Santos ↗" [ref=e917] [cursor=pointer]:
+                  - /url: https://kuyacarlo.dev
+                - generic [ref=e918]: · data engineer, DevOps builder & hackathon competitor
+              - listitem [ref=e919]:
+                - link "Richard Parayno ↗" [ref=e920] [cursor=pointer]:
+                  - /url: https://richardparayno.com
+                - generic [ref=e921]: · HCI researcher, community leader & design engineer
+              - listitem [ref=e922]:
+                - link "Artemio Arcega ↗" [ref=e923] [cursor=pointer]:
+                  - /url: https://artemiui.vercel.app
+                - generic [ref=e924]: · a collection of ideas and pixels
+              - listitem [ref=e925]:
+                - link "Iyel Villanueva Rodriguez ↗" [ref=e926] [cursor=pointer]:
+                  - /url: https://gilrodriguez.rxrcode.dev/
+                - generic [ref=e927]: · Shopify developer & commerce engineer
+              - listitem [ref=e928]:
+                - link "Rovic ↗" [ref=e929] [cursor=pointer]:
+                  - /url: https://rovicdesign.framer.website/
+                - generic [ref=e930]: · GOATed UX guy, first hackathon teammate
+              - listitem [ref=e931]:
+                - link "Adriel Magalona ↗" [ref=e932] [cursor=pointer]:
+                  - /url: https://www.adrielmagalona.dev/
+                - generic [ref=e933]: · fellow hackathoner
+              - listitem [ref=e934]:
+                - link "Cedrick Guevara ↗" [ref=e935] [cursor=pointer]:
+                  - /url: https://guevix.vercel.app
+                - generic [ref=e936]: · fellow software engineer
+              - listitem [ref=e937]:
+                - link "Anne Reyes ↗" [ref=e938] [cursor=pointer]:
+                  - /url: https://ryeolabs.org
+                - generic [ref=e939]: · fellow ambitious girlie
+              - listitem [ref=e940]:
+                - link "Bernard Jezua ↗" [ref=e941] [cursor=pointer]:
+                  - /url: https://bernardjezua.is-a.dev
+                - generic [ref=e942]: · frontend engineer
+              - listitem [ref=e943]:
+                - link "John Yumul ↗" [ref=e944] [cursor=pointer]:
+                  - /url: https://johnyumul.com
+                - generic [ref=e945]: · does product, Pizza & Friends cofounder
+          - paragraph [ref=e946]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e947]:
+            - generic [ref=e948]:
+              - heading [level=2] [ref=e949]:
+                - text: ✹
+                - link "let's chat!" [ref=e950] [cursor=pointer]:
+                  - /url: "#book"
+              - generic [ref=e951]:
+                - code [ref=e952]: "#book"
+                - button "Copy link to let's chat!" [ref=e953] [cursor=pointer]
+            - generic [ref=e957]:
+              - paragraph [ref=e958]: Got an idea, a question, or just want to say hi? Grab a slot and let's hop on a quick call or chat.
+              - link "☎ book a call or quick chat ↗" [ref=e959] [cursor=pointer]:
+                - /url: https://cal.stimmie.dev
+          - paragraph [ref=e960]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e961]:
+            - generic [ref=e962]:
+              - heading [level=2] [ref=e963]:
+                - text: ✹
+                - link "buy me a kape" [ref=e964] [cursor=pointer]:
+                  - /url: "#support"
+              - generic [ref=e965]:
+                - code [ref=e966]: "#support"
+                - button "Copy link to buy me a kape" [ref=e967] [cursor=pointer]
+            - generic [ref=e971]:
+              - paragraph [ref=e972]: Found something here useful? Kape is my little “buy me a coffee” corner. No pressure at all, but if you'd like to support my work, it genuinely means a lot.
+              - link "☕ buy me a kape ↗" [ref=e973] [cursor=pointer]:
+                - /url: https://kape.stimmie.dev
+          - paragraph [ref=e974]: "✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:* ✧･ﾟ: *✧･ﾟ:*"
+          - generic [ref=e975]:
+            - paragraph [ref=e976]: ~ link to me ~
+            - img "stimmie.dev 88x31 button with a goofy meme face" [ref=e977]
+        - text: ▸ ► ► ► ► ► ► ► ► ► ► ► ► ► ► ►
+      - contentinfo [ref=e978]:
+        - link "开往-友链接力 Travelling" [ref=e980] [cursor=pointer]:
+          - /url: https://www.travellings.cn/go.html
+          - img "开往-友链接力" [ref=e981]
+          - generic [ref=e982]: Travelling
+        - paragraph [ref=e983]:
+          - text: made with ♥ ·
+          - link "v2.40.0" [ref=e984] [cursor=pointer]:
+            - /url: /changelog
+          - text: ·
+          - link "site history" [ref=e985] [cursor=pointer]:
+            - /url: /archive
+        - paragraph [ref=e986]: thanks 4 visiting!!!
+  - alert [ref=e987]

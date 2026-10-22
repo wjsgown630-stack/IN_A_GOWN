@@ -1,0 +1,203 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Alexander Horner" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary navigation" [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Work" [ref=e10] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: /about
+        - link "Experience" [ref=e12] [cursor=pointer]:
+          - /url: /about#experience
+      - generic [ref=e14]:
+        - link "LinkedIn" [ref=e15] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/alexander-horner/
+        - link "GitHub" [ref=e18] [cursor=pointer]:
+          - /url: https://github.com/alexanderhorner
+  - main [ref=e21]:
+    - generic [ref=e24]:
+      - paragraph [ref=e25]: Archive 2022-2026
+      - heading "Featured Artifacts." [level=1] [ref=e26]
+      - paragraph [ref=e27]: A selection of projects across portfolio work, client websites, and research. Each one reflects a different kind of problem, from usability and content structure to implementation and deployment.
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: 01 / OSINT and data visualization
+          - heading "Night Watch Ukraine" [level=2] [ref=e34]
+          - paragraph [ref=e35]: An OSINT tool that combines public alert data from multiple sources and visualizes current and historical activity through interactive 2D and 3D maps.
+          - generic [ref=e36]:
+            - generic [ref=e37]: React
+            - generic [ref=e38]: TanStack Start
+            - generic [ref=e39]: MapLibre GL JS
+          - link "View case study" [ref=e40] [cursor=pointer]:
+            - /url: /work/ukraine-night-watch
+        - link [ref=e44] [cursor=pointer]:
+          - /url: /work/ukraine-night-watch
+          - img "Night Watch Ukraine live alert map" [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: 02 / Research project
+          - heading "View Synthesis of Three-Dimensional Spaces Using Artificial Intelligence" [level=2] [ref=e50]
+          - paragraph [ref=e51]: A school research project exploring whether conditional GANs could generate new views of simple 3D scenes from limited inputs, with possible applications in automotive camera systems.
+          - generic [ref=e52]:
+            - generic [ref=e53]: Unity
+            - generic [ref=e54]: Python
+            - generic [ref=e55]: Conditional GANs
+          - link "View case study" [ref=e56] [cursor=pointer]:
+            - /url: /work/ai-novel-view-synthesis
+        - link [ref=e60] [cursor=pointer]:
+          - /url: /work/ai-novel-view-synthesis
+          - img "Project thumbnail for the novel view synthesis research project" [ref=e62]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: 03 / Portfolio
+          - heading "Portfolio Redesign 2026" [level=2] [ref=e66]
+          - paragraph [ref=e67]: A redesign of my personal portfolio with a more editorial visual direction, built with TanStack Start, Tailwind CSS, Markdown content, and a small build-time image pipeline.
+          - generic [ref=e68]:
+            - generic [ref=e69]: React
+            - generic [ref=e70]: TanStack Start
+            - generic [ref=e71]: Tailwind CSS 4
+          - link "View case study" [ref=e72] [cursor=pointer]:
+            - /url: /work/portfolio-2026
+        - link [ref=e76] [cursor=pointer]:
+          - /url: /work/portfolio-2026
+          - img "Editorial collage showing the 2026 portfolio homepage and work archive" [ref=e78]
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: 04 / Nuxt.js / Firebase
+          - 'heading "Interactive Education: West Germany''s Recovery" [level=2] [ref=e82]'
+          - paragraph [ref=e83]: An interactive history website built for a school assignment, combining text, visuals, video, and modal-based content to make the material easier to explore.
+          - generic [ref=e84]:
+            - generic [ref=e85]: Nuxt.js
+            - generic [ref=e86]: Vue.js
+            - generic [ref=e87]: Firebase
+          - link "View case study" [ref=e88] [cursor=pointer]:
+            - /url: /work/interactive-education
+        - link [ref=e92] [cursor=pointer]:
+          - /url: /work/interactive-education
+          - img "Screenshot of the interactive education website homepage" [ref=e94]
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - paragraph [ref=e97]: 05 / School website
+          - heading "WGG Neumarkt Homepage" [level=2] [ref=e98]
+          - paragraph [ref=e99]: A modern school homepage built as part of a school project with Nuxt and PostgreSQL, focused on content migration, search, scheduling, and simple editing workflows for non-technical users.
+          - generic [ref=e100]:
+            - generic [ref=e101]: Nuxt.js
+            - generic [ref=e102]: Vue.js
+            - generic [ref=e103]: PostgreSQL
+          - link "View case study" [ref=e104] [cursor=pointer]:
+            - /url: /work/wgg-homepage
+        - link [ref=e108] [cursor=pointer]:
+          - /url: /work/wgg-homepage
+          - img "Screenshot of the WGG Neumarkt homepage" [ref=e110]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - paragraph [ref=e113]: 06 / Portfolio
+          - heading "Portfolio 2024" [level=2] [ref=e114]
+          - paragraph [ref=e115]: My 2024 portfolio site, built with Remix and MDX to present projects, articles, and case studies through dialog-based navigation and a lightweight content workflow.
+          - generic [ref=e116]:
+            - generic [ref=e117]: Remix
+            - generic [ref=e118]: React
+            - generic [ref=e119]: MDX
+          - link "View case study" [ref=e120] [cursor=pointer]:
+            - /url: /work/portfolio-2024
+        - link [ref=e124] [cursor=pointer]:
+          - /url: /work/portfolio-2024
+          - img "Screenshot of the 2024 portfolio homepage" [ref=e126]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - paragraph [ref=e129]: 07 / Portfolio
+          - heading "Portfolio 2022" [level=2] [ref=e130]
+          - paragraph [ref=e131]: A playful portfolio site built without a frontend framework, used as a practical way to learn more about serverless hosting and contact form infrastructure.
+          - generic [ref=e132]:
+            - generic [ref=e133]: HTML
+            - generic [ref=e134]: CSS
+            - generic [ref=e135]: JavaScript
+          - link "View case study" [ref=e136] [cursor=pointer]:
+            - /url: /work/portfolio-2022
+        - link [ref=e140] [cursor=pointer]:
+          - /url: /work/portfolio-2022
+          - img "Screenshot of the 2022 portfolio homepage" [ref=e142]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: 08 / Client website
+          - heading "Dentistry Office Homepage" [level=2] [ref=e146]
+          - paragraph [ref=e147]: A small multilingual homepage for a dentistry office, designed mobile-first and optimized around trust signals, reviews, and quick contact.
+          - generic [ref=e148]:
+            - generic [ref=e149]: Next.js
+            - generic [ref=e150]: React
+            - generic [ref=e151]: Tailwind CSS
+          - link "View case study" [ref=e152] [cursor=pointer]:
+            - /url: /work/dentistry-homepage
+        - link [ref=e156] [cursor=pointer]:
+          - /url: /work/dentistry-homepage
+          - img "Screenshot of the dentistry homepage" [ref=e158]
+    - generic [ref=e161]:
+      - heading "What feels effortless is usually built with care." [level=2] [ref=e162]: What feelseffortless is usually built with care.
+      - paragraph [ref=e163]: I'm drawn to work where quality is visible in the details, from the first impression to the underlying system.
+      - generic [ref=e164]:
+        - link "LinkedIn" [ref=e165] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/alexander-horner/
+        - link "GitHub" [ref=e166] [cursor=pointer]:
+          - /url: https://github.com/alexanderhorner
+  - contentinfo [ref=e167]:
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - paragraph [ref=e171]: Explore further
+          - paragraph [ref=e172]: A quieter place to keep browsing.
+          - paragraph [ref=e173]: If you'd like a fuller picture, the work and about pages go deeper into the projects, decisions, and experience behind the site.
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - navigation "Footer pages" [ref=e176]:
+              - paragraph [ref=e177]: Pages
+              - generic [ref=e178]:
+                - link "Home" [ref=e179] [cursor=pointer]:
+                  - /url: /
+                - link "Work" [ref=e180] [cursor=pointer]:
+                  - /url: /work
+                - link "About" [ref=e181] [cursor=pointer]:
+                  - /url: /about
+                - link "Experience" [ref=e182] [cursor=pointer]:
+                  - /url: /about#experience
+            - generic [ref=e183]:
+              - paragraph [ref=e184]: Elsewhere
+              - generic [ref=e185]:
+                - link "LinkedIn" [ref=e186] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/alexander-horner/
+                - link "GitHub" [ref=e187] [cursor=pointer]:
+                  - /url: https://github.com/alexanderhorner
+          - navigation "Footer case studies" [ref=e188]:
+            - paragraph [ref=e189]: Case studies
+            - generic [ref=e190]:
+              - link "Night Watch Ukraine" [ref=e191] [cursor=pointer]:
+                - /url: /work/ukraine-night-watch
+              - link "View Synthesis of Three-Dimensional Spaces Using Artificial Intelligence" [ref=e192] [cursor=pointer]:
+                - /url: /work/ai-novel-view-synthesis
+              - link "Portfolio Redesign 2026" [ref=e193] [cursor=pointer]:
+                - /url: /work/portfolio-2026
+              - 'link "Interactive Education: West Germany''s Recovery" [ref=e194] [cursor=pointer]':
+                - /url: /work/interactive-education
+              - link "WGG Neumarkt Homepage" [ref=e195] [cursor=pointer]:
+                - /url: /work/wgg-homepage
+              - link "Portfolio 2024" [ref=e196] [cursor=pointer]:
+                - /url: /work/portfolio-2024
+              - link "Portfolio 2022" [ref=e197] [cursor=pointer]:
+                - /url: /work/portfolio-2022
+              - link "Dentistry Office Homepage" [ref=e198] [cursor=pointer]:
+                - /url: /work/dentistry-homepage
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - paragraph [ref=e201]: © 2026 Alexander Horner. Crafted with intent.
+          - paragraph [ref=e202]: Based in Hamburg, Germany
+          - generic [ref=e203]:
+            - link "Legal Notice" [ref=e204] [cursor=pointer]:
+              - /url: /legal-notice
+            - link "Privacy Policy" [ref=e205] [cursor=pointer]:
+              - /url: /privacy-policy
+        - paragraph [ref=e206]: Thanks for reading.

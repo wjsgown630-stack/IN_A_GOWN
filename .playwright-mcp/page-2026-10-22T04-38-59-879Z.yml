@@ -1,0 +1,1577 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Nular UI home" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e9]: nularUI
+      - navigation "Primary navigation" [ref=e10]:
+        - link "Components" [ref=e11] [cursor=pointer]:
+          - /url: /components/
+        - link "Performance" [ref=e12] [cursor=pointer]:
+          - /url: "#performance"
+        - link "Reviews" [ref=e13] [cursor=pointer]:
+          - /url: "#testimonials"
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: /checkout/
+        - link "Sign in" [ref=e15] [cursor=pointer]:
+          - /url: /signin/
+      - link "Founding offer $59" [ref=e16] [cursor=pointer]:
+        - /url: /checkout/
+        - generic [ref=e17]: Founding offer
+        - strong [ref=e18]: $59
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - paragraph [ref=e23]: Beautiful by design · Fast by architecture · Built for the AI era
+      - heading "The wow. Without the weight." [level=1] [ref=e25]:
+        - generic [ref=e26]: The wow.
+        - emphasis [ref=e27]: Without the weight.
+      - paragraph [ref=e28]: 135+ free Astro-native components. Need the whole page? Pro adds 126 premium sections and 16 production-ready templates.
+      - generic [ref=e29]:
+        - link "Explore components" [ref=e30] [cursor=pointer]:
+          - /url: /components/
+        - link "Get lifetime access · $59" [ref=e33] [cursor=pointer]:
+          - /url: "#pricing"
+      - paragraph [ref=e34]: 135+ free components · 126 Pro sections· 16 templates · 1 lifetime license
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: Selected from 135+ free components
+          - heading [level=2] [ref=e39]:
+            - text: Make the first impression
+            - emphasis [ref=e40]: impossible to ignore.
+        - generic [ref=e41]:
+          - paragraph [ref=e42]: Art-directed components for heroes, backgrounds, storytelling, interactions and the details people remember.
+          - link "Browse the full catalog" [ref=e43] [cursor=pointer]:
+            - /url: /components/
+            - text: Browse the full catalog
+            - generic [aria-hidden] [ref=e44]: ↗
+      - generic [ref=e46]:
+        - link "3D Card Effect 3D Card Effect 3D" [ref=e47] [cursor=pointer]:
+          - /url: /components/3d-card/
+          - img "3D Card Effect" [ref=e49]
+          - generic [ref=e50]:
+            - generic [ref=e51]: 3D Card Effect
+            - generic [ref=e52]: 3D
+        - link "Animated Modal Animated Modal Overlay" [ref=e53] [cursor=pointer]:
+          - /url: /components/animated-modal/
+          - img "Animated Modal" [ref=e55]
+          - generic [ref=e56]:
+            - generic [ref=e57]: Animated Modal
+            - generic [ref=e58]: Overlay
+        - link "Animated Testimonials Animated Testimonials Effect" [ref=e59] [cursor=pointer]:
+          - /url: /components/animated-testimonials/
+          - img "Animated Testimonials" [ref=e61]
+          - generic [ref=e62]:
+            - generic [ref=e63]: Animated Testimonials
+            - generic [ref=e64]: Effect
+        - link "Animated Tooltip Animated Tooltip Overlay" [ref=e65] [cursor=pointer]:
+          - /url: /components/animated-tooltip/
+          - img "Animated Tooltip" [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e69]: Animated Tooltip
+            - generic [ref=e70]: Overlay
+        - link "Apple Cards Carousel Apple Cards Carousel Storytelling" [ref=e71] [cursor=pointer]:
+          - /url: /components/apple-cards-carousel/
+          - img "Apple Cards Carousel" [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]: Apple Cards Carousel
+            - generic [ref=e76]: Storytelling
+        - link "Aurora Background Aurora Background Background" [ref=e77] [cursor=pointer]:
+          - /url: /components/aurora-background/
+          - img "Aurora Background" [ref=e79]
+          - generic [ref=e80]:
+            - generic [ref=e81]: Aurora Background
+            - generic [ref=e82]: Background
+        - link "Background Beams With Collision Background Beams With Collision Background" [ref=e83] [cursor=pointer]:
+          - /url: /components/background-beams-with-collision/
+          - img "Background Beams With Collision" [ref=e85]
+          - generic [ref=e86]:
+            - generic [ref=e87]: Background Beams With Collision
+            - generic [ref=e88]: Background
+        - link "Background Beams Background Beams Background" [ref=e89] [cursor=pointer]:
+          - /url: /components/background-beams/
+          - img "Background Beams" [ref=e91]
+          - generic [ref=e92]:
+            - generic [ref=e93]: Background Beams
+            - generic [ref=e94]: Background
+        - link "Background Boxes Background Boxes Background" [ref=e95] [cursor=pointer]:
+          - /url: /components/background-boxes/
+          - img "Background Boxes" [ref=e97]
+          - generic [ref=e98]:
+            - generic [ref=e99]: Background Boxes
+            - generic [ref=e100]: Background
+        - link "Background Gradient Animation Background Gradient Animation Background" [ref=e101] [cursor=pointer]:
+          - /url: /components/background-gradient-animation/
+          - img "Background Gradient Animation" [ref=e103]
+          - generic [ref=e104]:
+            - generic [ref=e105]: Background Gradient Animation
+            - generic [ref=e106]: Background
+        - link "Background Gradient Background Gradient Background" [ref=e107] [cursor=pointer]:
+          - /url: /components/background-gradient/
+          - img "Background Gradient" [ref=e109]
+          - generic [ref=e110]:
+            - generic [ref=e111]: Background Gradient
+            - generic [ref=e112]: Background
+        - link "Background Lines Background Lines Background" [ref=e113] [cursor=pointer]:
+          - /url: /components/background-lines/
+          - img "Background Lines" [ref=e115]
+          - generic [ref=e116]:
+            - generic [ref=e117]: Background Lines
+            - generic [ref=e118]: Background
+        - link "Background Ripple Effect Background Ripple Effect Background" [ref=e119] [cursor=pointer]:
+          - /url: /components/background-ripple-effect/
+          - img "Background Ripple Effect" [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]: Background Ripple Effect
+            - generic [ref=e124]: Background
+        - link "Backgrounds Backgrounds Background" [ref=e125] [cursor=pointer]:
+          - /url: /components/backgrounds/
+          - img "Backgrounds" [ref=e127]
+          - generic [ref=e128]:
+            - generic [ref=e129]: Backgrounds
+            - generic [ref=e130]: Background
+        - link "Canvas Text Canvas Text Text" [ref=e131] [cursor=pointer]:
+          - /url: /components/canvas-text/
+          - img "Canvas Text" [ref=e133]
+          - generic [ref=e134]:
+            - generic [ref=e135]: Canvas Text
+            - generic [ref=e136]: Text
+        - link "Card Spotlight Card Spotlight Cards" [ref=e137] [cursor=pointer]:
+          - /url: /components/card-spotlight/
+          - img "Card Spotlight" [ref=e139]
+          - generic [ref=e140]:
+            - generic [ref=e141]: Card Spotlight
+            - generic [ref=e142]: Cards
+        - link "Card Stack Card Stack Cards" [ref=e143] [cursor=pointer]:
+          - /url: /components/card-stack/
+          - img "Card Stack" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Card Stack
+            - generic [ref=e148]: Cards
+        - link "Carousel Carousel Storytelling" [ref=e149] [cursor=pointer]:
+          - /url: /components/carousel/
+          - img "Carousel" [ref=e151]
+          - generic [ref=e152]:
+            - generic [ref=e153]: Carousel
+            - generic [ref=e154]: Storytelling
+        - link "Chromatic Image Chromatic Image Effect" [ref=e155] [cursor=pointer]:
+          - /url: /components/chromatic-image/
+          - img "Chromatic Image" [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]: Chromatic Image
+            - generic [ref=e160]: Effect
+        - link "Cloud Shader Cloud Shader Shader" [ref=e161] [cursor=pointer]:
+          - /url: /components/cloud-shader/
+          - img "Cloud Shader" [ref=e163]
+          - generic [ref=e164]:
+            - generic [ref=e165]: Cloud Shader
+            - generic [ref=e166]: Shader
+        - link "Code Block Code Block Code" [ref=e167] [cursor=pointer]:
+          - /url: /components/code-block/
+          - img "Code Block" [ref=e169]
+          - generic [ref=e170]:
+            - generic [ref=e171]: Code Block
+            - generic [ref=e172]: Code
+        - link "Colourful Text Colourful Text Text" [ref=e173] [cursor=pointer]:
+          - /url: /components/colourful-text/
+          - img "Colourful Text" [ref=e175]
+          - generic [ref=e176]:
+            - generic [ref=e177]: Colourful Text
+            - generic [ref=e178]: Text
+        - link "Comet Card Comet Card 3D" [ref=e179] [cursor=pointer]:
+          - /url: /components/comet-card/
+          - img "Comet Card" [ref=e181]
+          - generic [ref=e182]:
+            - generic [ref=e183]: Comet Card
+            - generic [ref=e184]: 3D
+        - link "Compare Compare Overlay" [ref=e185] [cursor=pointer]:
+          - /url: /components/compare/
+          - img "Compare" [ref=e187]
+          - generic [ref=e188]:
+            - generic [ref=e189]: Compare
+            - generic [ref=e190]: Overlay
+        - link "Container Cover Container Cover Effect" [ref=e191] [cursor=pointer]:
+          - /url: /components/container-cover/
+          - img "Container Cover" [ref=e193]
+          - generic [ref=e194]:
+            - generic [ref=e195]: Container Cover
+            - generic [ref=e196]: Effect
+        - link "Container Scroll Animation Container Scroll Animation Storytelling" [ref=e197] [cursor=pointer]:
+          - /url: /components/container-scroll-animation/
+          - img "Container Scroll Animation" [ref=e199]
+          - generic [ref=e200]:
+            - generic [ref=e201]: Container Scroll Animation
+            - generic [ref=e202]: Storytelling
+        - link "Container Text Flip Container Text Flip Text" [ref=e203] [cursor=pointer]:
+          - /url: /components/container-text-flip/
+          - img "Container Text Flip" [ref=e205]
+          - generic [ref=e206]:
+            - generic [ref=e207]: Container Text Flip
+            - generic [ref=e208]: Text
+        - link "Direction Aware Hover Direction Aware Hover Cards" [ref=e209] [cursor=pointer]:
+          - /url: /components/direction-aware-hover/
+          - img "Direction Aware Hover" [ref=e211]
+          - generic [ref=e212]:
+            - generic [ref=e213]: Direction Aware Hover
+            - generic [ref=e214]: Cards
+        - link "Dither Shader Dither Shader Shader" [ref=e215] [cursor=pointer]:
+          - /url: /components/dither-shader/
+          - img "Dither Shader" [ref=e217]
+          - generic [ref=e218]:
+            - generic [ref=e219]: Dither Shader
+            - generic [ref=e220]: Shader
+        - link "Dotted Glow Background Dotted Glow Background Background" [ref=e221] [cursor=pointer]:
+          - /url: /components/dotted-glow-background/
+          - img "Dotted Glow Background" [ref=e223]
+          - generic [ref=e224]:
+            - generic [ref=e225]: Dotted Glow Background
+            - generic [ref=e226]: Background
+        - link "Draggable Card Draggable Card 3D" [ref=e227] [cursor=pointer]:
+          - /url: /components/draggable-card/
+          - img "Draggable Card" [ref=e229]
+          - generic [ref=e230]:
+            - generic [ref=e231]: Draggable Card
+            - generic [ref=e232]: 3D
+        - link "Empty States Empty States Effect" [ref=e233] [cursor=pointer]:
+          - /url: /components/empty-states/
+          - img "Empty States" [ref=e235]
+          - generic [ref=e236]:
+            - generic [ref=e237]: Empty States
+            - generic [ref=e238]: Effect
+        - link "Encrypted Text Encrypted Text Text" [ref=e239] [cursor=pointer]:
+          - /url: /components/encrypted-text/
+          - img "Encrypted Text" [ref=e241]
+          - generic [ref=e242]:
+            - generic [ref=e243]: Encrypted Text
+            - generic [ref=e244]: Text
+        - link "Evervault Card Evervault Card Cards" [ref=e245] [cursor=pointer]:
+          - /url: /components/evervault-card/
+          - img "Evervault Card" [ref=e247]
+          - generic [ref=e248]:
+            - generic [ref=e249]: Evervault Card
+            - generic [ref=e250]: Cards
+        - link "Expandable Card Expandable Card Cards" [ref=e251] [cursor=pointer]:
+          - /url: /components/expandable-card-on-click/
+          - img "Expandable Card" [ref=e253]
+          - generic [ref=e254]:
+            - generic [ref=e255]: Expandable Card
+            - generic [ref=e256]: Cards
+        - link "Faqs Faqs Effect" [ref=e257] [cursor=pointer]:
+          - /url: /components/faqs/
+          - img "Faqs" [ref=e259]
+          - generic [ref=e260]:
+            - generic [ref=e261]: Faqs
+            - generic [ref=e262]: Effect
+        - link "File Upload File Upload Input" [ref=e263] [cursor=pointer]:
+          - /url: /components/file-upload/
+          - img "File Upload" [ref=e265]
+          - generic [ref=e266]:
+            - generic [ref=e267]: File Upload
+            - generic [ref=e268]: Input
+        - link "Floating Navbar Floating Navbar Navigation" [ref=e269] [cursor=pointer]:
+          - /url: /components/floating-navbar/
+          - img "Floating Navbar" [ref=e271]
+          - generic [ref=e272]:
+            - generic [ref=e273]: Floating Navbar
+            - generic [ref=e274]: Navigation
+        - link "Focus Cards Focus Cards Cards" [ref=e275] [cursor=pointer]:
+          - /url: /components/focus-cards/
+          - img "Focus Cards" [ref=e277]
+          - generic [ref=e278]:
+            - generic [ref=e279]: Focus Cards
+            - generic [ref=e280]: Cards
+        - link "Github Globe Github Globe 3D" [ref=e281] [cursor=pointer]:
+          - /url: /components/github-globe/
+          - img "Github Globe" [ref=e283]
+          - generic [ref=e284]:
+            - generic [ref=e285]: Github Globe
+            - generic [ref=e286]: 3D
+        - link "Gooey Input Gooey Input Input" [ref=e287] [cursor=pointer]:
+          - /url: /components/gooey-input/
+          - img "Gooey Input" [ref=e289]
+          - generic [ref=e290]:
+            - generic [ref=e291]: Gooey Input
+            - generic [ref=e292]: Input
+        - link "Grid And Dot Backgrounds Grid And Dot Backgrounds Background" [ref=e293] [cursor=pointer]:
+          - /url: /components/grid-dot-background/
+          - img "Grid And Dot Backgrounds" [ref=e295]
+          - generic [ref=e296]:
+            - generic [ref=e297]: Grid And Dot Backgrounds
+            - generic [ref=e298]: Background
+        - link "Hero Highlight Hero Highlight Storytelling" [ref=e299] [cursor=pointer]:
+          - /url: /components/hero-highlight/
+          - img "Hero Highlight" [ref=e301]
+          - generic [ref=e302]:
+            - generic [ref=e303]: Hero Highlight
+            - generic [ref=e304]: Storytelling
+        - link "Hero Parallax Hero Parallax Storytelling" [ref=e305] [cursor=pointer]:
+          - /url: /components/hero-parallax/
+          - img "Hero Parallax" [ref=e307]
+          - generic [ref=e308]:
+            - generic [ref=e309]: Hero Parallax
+            - generic [ref=e310]: Storytelling
+        - link "Images Badge Images Badge Storytelling" [ref=e311] [cursor=pointer]:
+          - /url: /components/images-badge/
+          - img "Images Badge" [ref=e313]
+          - generic [ref=e314]:
+            - generic [ref=e315]: Images Badge
+            - generic [ref=e316]: Storytelling
+        - link "Images Slider Images Slider Storytelling" [ref=e317] [cursor=pointer]:
+          - /url: /components/images-slider/
+          - img "Images Slider" [ref=e319]
+          - generic [ref=e320]:
+            - generic [ref=e321]: Images Slider
+            - generic [ref=e322]: Storytelling
+        - link "Infinite Moving Cards Infinite Moving Cards Storytelling" [ref=e323] [cursor=pointer]:
+          - /url: /components/infinite-moving-cards/
+          - img "Infinite Moving Cards" [ref=e325]
+          - generic [ref=e326]:
+            - generic [ref=e327]: Infinite Moving Cards
+            - generic [ref=e328]: Storytelling
+        - link "Keyboard Keyboard Code" [ref=e329] [cursor=pointer]:
+          - /url: /components/keyboard/
+          - img "Keyboard" [ref=e331]
+          - generic [ref=e332]:
+            - generic [ref=e333]: Keyboard
+            - generic [ref=e334]: Code
+        - link "Lamp Effect Lamp Effect Effect" [ref=e335] [cursor=pointer]:
+          - /url: /components/lamp/
+          - img "Lamp Effect" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Lamp Effect
+            - generic [ref=e340]: Effect
+        - link "Layout Grid Layout Grid Effect" [ref=e341] [cursor=pointer]:
+          - /url: /components/layout-grid/
+          - img "Layout Grid" [ref=e343]
+          - generic [ref=e344]:
+            - generic [ref=e345]: Layout Grid
+            - generic [ref=e346]: Effect
+        - link "Lens Lens Overlay" [ref=e347] [cursor=pointer]:
+          - /url: /components/lens/
+          - img "Lens" [ref=e349]
+          - generic [ref=e350]:
+            - generic [ref=e351]: Lens
+            - generic [ref=e352]: Overlay
+        - link "Loader Loader Feedback" [ref=e353] [cursor=pointer]:
+          - /url: /components/loader/
+          - img "Loader" [ref=e355]
+          - generic [ref=e356]:
+            - generic [ref=e357]: Loader
+            - generic [ref=e358]: Feedback
+        - link "Macbook Scroll Macbook Scroll Storytelling" [ref=e359] [cursor=pointer]:
+          - /url: /components/macbook-scroll/
+          - img "Macbook Scroll" [ref=e361]
+          - generic [ref=e362]:
+            - generic [ref=e363]: Macbook Scroll
+            - generic [ref=e364]: Storytelling
+        - link "Magnetic Button Magnetic Button Input" [ref=e365] [cursor=pointer]:
+          - /url: /components/magnetic-button/
+          - img "Magnetic Button" [ref=e367]
+          - generic [ref=e368]:
+            - generic [ref=e369]: Magnetic Button
+            - generic [ref=e370]: Input
+        - link "Meteors Meteors Background" [ref=e371] [cursor=pointer]:
+          - /url: /components/meteors/
+          - img "Meteors" [ref=e373]
+          - generic [ref=e374]:
+            - generic [ref=e375]: Meteors
+            - generic [ref=e376]: Background
+        - link "Moving Border Moving Border Effect" [ref=e377] [cursor=pointer]:
+          - /url: /components/moving-border/
+          - img "Moving Border" [ref=e379]
+          - generic [ref=e380]:
+            - generic [ref=e381]: Moving Border
+            - generic [ref=e382]: Effect
+        - link "Multi Step Loader Multi Step Loader Feedback" [ref=e383] [cursor=pointer]:
+          - /url: /components/multi-step-loader/
+          - img "Multi Step Loader" [ref=e385]
+          - generic [ref=e386]:
+            - generic [ref=e387]: Multi Step Loader
+            - generic [ref=e388]: Feedback
+        - link "Navbar Menu Navbar Menu Navigation" [ref=e389] [cursor=pointer]:
+          - /url: /components/navbar-menu/
+          - img "Navbar Menu" [ref=e391]
+          - generic [ref=e392]:
+            - generic [ref=e393]: Navbar Menu
+            - generic [ref=e394]: Navigation
+        - link "Noise Background Noise Background Background" [ref=e395] [cursor=pointer]:
+          - /url: /components/noise-background/
+          - img "Noise Background" [ref=e397]
+          - generic [ref=e398]:
+            - generic [ref=e399]: Noise Background
+            - generic [ref=e400]: Background
+        - link "Notch Notch Effect" [ref=e401] [cursor=pointer]:
+          - /url: /components/notch/
+          - img "Notch" [ref=e403]
+          - generic [ref=e404]:
+            - generic [ref=e405]: Notch
+            - generic [ref=e406]: Effect
+        - link "Parallax Hero Images Parallax Hero Images Storytelling" [ref=e407] [cursor=pointer]:
+          - /url: /components/parallax-hero-images/
+          - img "Parallax Hero Images" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Parallax Hero Images
+            - generic [ref=e412]: Storytelling
+        - link "Parallax Scroll Parallax Scroll Storytelling" [ref=e413] [cursor=pointer]:
+          - /url: /components/parallax-scroll/
+          - img "Parallax Scroll" [ref=e415]
+          - generic [ref=e416]:
+            - generic [ref=e417]: Parallax Scroll
+            - generic [ref=e418]: Storytelling
+        - link "Placeholders And Vanish Input Placeholders And Vanish Input Input" [ref=e419] [cursor=pointer]:
+          - /url: /components/placeholders-and-vanish-input/
+          - img "Placeholders And Vanish Input" [ref=e421]
+          - generic [ref=e422]:
+            - generic [ref=e423]: Placeholders And Vanish Input
+            - generic [ref=e424]: Input
+        - link "Pointer Highlight Pointer Highlight Effect" [ref=e425] [cursor=pointer]:
+          - /url: /components/pointer-highlight/
+          - img "Pointer Highlight" [ref=e427]
+          - generic [ref=e428]:
+            - generic [ref=e429]: Pointer Highlight
+            - generic [ref=e430]: Effect
+        - link "Resizable Navbar Resizable Navbar Navigation" [ref=e431] [cursor=pointer]:
+          - /url: /components/resizable-navbar/
+          - img "Resizable Navbar" [ref=e433]
+          - generic [ref=e434]:
+            - generic [ref=e435]: Resizable Navbar
+            - generic [ref=e436]: Navigation
+        - link "Scales Scales Effect" [ref=e437] [cursor=pointer]:
+          - /url: /components/scales/
+          - img "Scales" [ref=e439]
+          - generic [ref=e440]:
+            - generic [ref=e441]: Scales
+            - generic [ref=e442]: Effect
+        - link "Shaders Shaders Shader" [ref=e443] [cursor=pointer]:
+          - /url: /components/shaders/
+          - img "Shaders" [ref=e445]
+          - generic [ref=e446]:
+            - generic [ref=e447]: Shaders
+            - generic [ref=e448]: Shader
+        - link "Shooting Stars And Stars Background Shooting Stars And Stars Background Background" [ref=e449] [cursor=pointer]:
+          - /url: /components/shooting-stars-and-stars-background/
+          - img "Shooting Stars And Stars Background" [ref=e451]
+          - generic [ref=e452]:
+            - generic [ref=e453]: Shooting Stars And Stars Background
+            - generic [ref=e454]: Background
+        - link "Sidebar Sidebar Navigation" [ref=e455] [cursor=pointer]:
+          - /url: /components/sidebar/
+          - img "Sidebar" [ref=e457]
+          - generic [ref=e458]:
+            - generic [ref=e459]: Sidebar
+            - generic [ref=e460]: Navigation
+        - link "Sidebars Sidebars Navigation" [ref=e461] [cursor=pointer]:
+          - /url: /components/sidebars/
+          - img "Sidebars" [ref=e463]
+          - generic [ref=e464]:
+            - generic [ref=e465]: Sidebars
+            - generic [ref=e466]: Navigation
+        - link "Spotlight New Spotlight New Cards" [ref=e467] [cursor=pointer]:
+          - /url: /components/spotlight-new/
+          - img "Spotlight New" [ref=e469]
+          - generic [ref=e470]:
+            - generic [ref=e471]: Spotlight New
+            - generic [ref=e472]: Cards
+        - link "Spotlight Spotlight Cards" [ref=e473] [cursor=pointer]:
+          - /url: /components/spotlight/
+          - img "Spotlight" [ref=e475]
+          - generic [ref=e476]:
+            - generic [ref=e477]: Spotlight
+            - generic [ref=e478]: Cards
+        - link "Squiggly Text Squiggly Text Text" [ref=e479] [cursor=pointer]:
+          - /url: /components/squiggly-text/
+          - img "Squiggly Text" [ref=e481]
+          - generic [ref=e482]:
+            - generic [ref=e483]: Squiggly Text
+            - generic [ref=e484]: Text
+        - link "Stateful Button Stateful Button Input" [ref=e485] [cursor=pointer]:
+          - /url: /components/stateful-button/
+          - img "Stateful Button" [ref=e487]
+          - generic [ref=e488]:
+            - generic [ref=e489]: Stateful Button
+            - generic [ref=e490]: Input
+        - link "Sticky Scroll Reveal Sticky Scroll Reveal Storytelling" [ref=e491] [cursor=pointer]:
+          - /url: /components/sticky-scroll-reveal/
+          - img "Sticky Scroll Reveal" [ref=e493]
+          - generic [ref=e494]:
+            - generic [ref=e495]: Sticky Scroll Reveal
+            - generic [ref=e496]: Storytelling
+        - link "Svg Mask Effect Svg Mask Effect Effect" [ref=e497] [cursor=pointer]:
+          - /url: /components/svg-mask-effect/
+          - img "Svg Mask Effect" [ref=e499]
+          - generic [ref=e500]:
+            - generic [ref=e501]: Svg Mask Effect
+            - generic [ref=e502]: Effect
+        - link "Tabs Tabs Overlay" [ref=e503] [cursor=pointer]:
+          - /url: /components/tabs/
+          - img "Tabs" [ref=e505]
+          - generic [ref=e506]:
+            - generic [ref=e507]: Tabs
+            - generic [ref=e508]: Overlay
+        - link "Tailwindcss Buttons Tailwindcss Buttons Input" [ref=e509] [cursor=pointer]:
+          - /url: /components/tailwindcss-buttons/
+          - img "Tailwindcss Buttons" [ref=e511]
+          - generic [ref=e512]:
+            - generic [ref=e513]: Tailwindcss Buttons
+            - generic [ref=e514]: Input
+        - link "Terminal Terminal Code" [ref=e515] [cursor=pointer]:
+          - /url: /components/terminal/
+          - img "Terminal" [ref=e517]
+          - generic [ref=e518]:
+            - generic [ref=e519]: Terminal
+            - generic [ref=e520]: Code
+        - link "Text Flipping Board Text Flipping Board Text" [ref=e521] [cursor=pointer]:
+          - /url: /components/text-flipping-board/
+          - img "Text Flipping Board" [ref=e523]
+          - generic [ref=e524]:
+            - generic [ref=e525]: Text Flipping Board
+            - generic [ref=e526]: Text
+        - link "Text Generate Effect Text Generate Effect Text" [ref=e527] [cursor=pointer]:
+          - /url: /components/text-generate-effect/
+          - img "Text Generate Effect" [ref=e529]
+          - generic [ref=e530]:
+            - generic [ref=e531]: Text Generate Effect
+            - generic [ref=e532]: Text
+        - link "Text Hover Effect Text Hover Effect Text" [ref=e533] [cursor=pointer]:
+          - /url: /components/text-hover-effect/
+          - img "Text Hover Effect" [ref=e535]
+          - generic [ref=e536]:
+            - generic [ref=e537]: Text Hover Effect
+            - generic [ref=e538]: Text
+        - link "Text Reveal Card Text Reveal Card Text" [ref=e539] [cursor=pointer]:
+          - /url: /components/text-reveal-card/
+          - img "Text Reveal Card" [ref=e541]
+          - generic [ref=e542]:
+            - generic [ref=e543]: Text Reveal Card
+            - generic [ref=e544]: Text
+        - link "Tooltip Card Tooltip Card Overlay" [ref=e545] [cursor=pointer]:
+          - /url: /components/tooltip-card/
+          - img "Tooltip Card" [ref=e547]
+          - generic [ref=e548]:
+            - generic [ref=e549]: Tooltip Card
+            - generic [ref=e550]: Overlay
+        - link "Tracing Beam Tracing Beam Storytelling" [ref=e551] [cursor=pointer]:
+          - /url: /components/tracing-beam/
+          - img "Tracing Beam" [ref=e553]
+          - generic [ref=e554]:
+            - generic [ref=e555]: Tracing Beam
+            - generic [ref=e556]: Storytelling
+        - link "Typewriter Effect Typewriter Effect Text" [ref=e557] [cursor=pointer]:
+          - /url: /components/typewriter-effect/
+          - img "Typewriter Effect" [ref=e559]
+          - generic [ref=e560]:
+            - generic [ref=e561]: Typewriter Effect
+            - generic [ref=e562]: Text
+        - link "Vortex Vortex Background" [ref=e563] [cursor=pointer]:
+          - /url: /components/vortex/
+          - img "Vortex" [ref=e565]
+          - generic [ref=e566]:
+            - generic [ref=e567]: Vortex
+            - generic [ref=e568]: Background
+        - link "Wavy Background Wavy Background Background" [ref=e569] [cursor=pointer]:
+          - /url: /components/wavy-background/
+          - img "Wavy Background" [ref=e571]
+          - generic [ref=e572]:
+            - generic [ref=e573]: Wavy Background
+            - generic [ref=e574]: Background
+        - link "Wobble Card Wobble Card Cards" [ref=e575] [cursor=pointer]:
+          - /url: /components/wobble-card/
+          - img "Wobble Card" [ref=e577]
+          - generic [ref=e578]:
+            - generic [ref=e579]: Wobble Card
+            - generic [ref=e580]: Cards
+        - link "World Map World Map Background" [ref=e581] [cursor=pointer]:
+          - /url: /components/world-map/
+          - img "World Map" [ref=e583]
+          - generic [ref=e584]:
+            - generic [ref=e585]: World Map
+            - generic [ref=e586]: Background
+        - link [aria-hidden] [ref=e587] [cursor=pointer]:
+          - /url: /components/3d-card/
+          - generic [ref=e590]:
+            - generic [ref=e591]: 3D Card Effect
+            - generic [ref=e592]: 3D
+        - link [aria-hidden] [ref=e593] [cursor=pointer]:
+          - /url: /components/animated-modal/
+          - generic [ref=e596]:
+            - generic [ref=e597]: Animated Modal
+            - generic [ref=e598]: Overlay
+        - link [aria-hidden] [ref=e599] [cursor=pointer]:
+          - /url: /components/animated-testimonials/
+          - generic [ref=e602]:
+            - generic [ref=e603]: Animated Testimonials
+            - generic [ref=e604]: Effect
+        - link [aria-hidden] [ref=e605] [cursor=pointer]:
+          - /url: /components/animated-tooltip/
+          - generic [ref=e608]:
+            - generic [ref=e609]: Animated Tooltip
+            - generic [ref=e610]: Overlay
+        - link [aria-hidden] [ref=e611] [cursor=pointer]:
+          - /url: /components/apple-cards-carousel/
+          - generic [ref=e614]:
+            - generic [ref=e615]: Apple Cards Carousel
+            - generic [ref=e616]: Storytelling
+        - link [aria-hidden] [ref=e617] [cursor=pointer]:
+          - /url: /components/aurora-background/
+          - generic [ref=e620]:
+            - generic [ref=e621]: Aurora Background
+            - generic [ref=e622]: Background
+        - link [aria-hidden] [ref=e623] [cursor=pointer]:
+          - /url: /components/background-beams-with-collision/
+          - generic [ref=e626]:
+            - generic [ref=e627]: Background Beams With Collision
+            - generic [ref=e628]: Background
+        - link [aria-hidden] [ref=e629] [cursor=pointer]:
+          - /url: /components/background-beams/
+          - generic [ref=e632]:
+            - generic [ref=e633]: Background Beams
+            - generic [ref=e634]: Background
+        - link [aria-hidden] [ref=e635] [cursor=pointer]:
+          - /url: /components/background-boxes/
+          - generic [ref=e638]:
+            - generic [ref=e639]: Background Boxes
+            - generic [ref=e640]: Background
+        - link [aria-hidden] [ref=e641] [cursor=pointer]:
+          - /url: /components/background-gradient-animation/
+          - generic [ref=e644]:
+            - generic [ref=e645]: Background Gradient Animation
+            - generic [ref=e646]: Background
+        - link [aria-hidden] [ref=e647] [cursor=pointer]:
+          - /url: /components/background-gradient/
+          - generic [ref=e650]:
+            - generic [ref=e651]: Background Gradient
+            - generic [ref=e652]: Background
+        - link [aria-hidden] [ref=e653] [cursor=pointer]:
+          - /url: /components/background-lines/
+          - generic [ref=e656]:
+            - generic [ref=e657]: Background Lines
+            - generic [ref=e658]: Background
+        - link [aria-hidden] [ref=e659] [cursor=pointer]:
+          - /url: /components/background-ripple-effect/
+          - generic [ref=e662]:
+            - generic [ref=e663]: Background Ripple Effect
+            - generic [ref=e664]: Background
+        - link [aria-hidden] [ref=e665] [cursor=pointer]:
+          - /url: /components/backgrounds/
+          - generic [ref=e668]:
+            - generic [ref=e669]: Backgrounds
+            - generic [ref=e670]: Background
+        - link [aria-hidden] [ref=e671] [cursor=pointer]:
+          - /url: /components/canvas-text/
+          - generic [ref=e674]:
+            - generic [ref=e675]: Canvas Text
+            - generic [ref=e676]: Text
+        - link [aria-hidden] [ref=e677] [cursor=pointer]:
+          - /url: /components/card-spotlight/
+          - generic [ref=e680]:
+            - generic [ref=e681]: Card Spotlight
+            - generic [ref=e682]: Cards
+        - link [aria-hidden] [ref=e683] [cursor=pointer]:
+          - /url: /components/card-stack/
+          - generic [ref=e686]:
+            - generic [ref=e687]: Card Stack
+            - generic [ref=e688]: Cards
+        - link [aria-hidden] [ref=e689] [cursor=pointer]:
+          - /url: /components/carousel/
+          - generic [ref=e692]:
+            - generic [ref=e693]: Carousel
+            - generic [ref=e694]: Storytelling
+        - link [aria-hidden] [ref=e695] [cursor=pointer]:
+          - /url: /components/chromatic-image/
+          - generic [ref=e698]:
+            - generic [ref=e699]: Chromatic Image
+            - generic [ref=e700]: Effect
+        - link [aria-hidden] [ref=e701] [cursor=pointer]:
+          - /url: /components/cloud-shader/
+          - generic [ref=e704]:
+            - generic [ref=e705]: Cloud Shader
+            - generic [ref=e706]: Shader
+        - link [aria-hidden] [ref=e707] [cursor=pointer]:
+          - /url: /components/code-block/
+          - generic [ref=e710]:
+            - generic [ref=e711]: Code Block
+            - generic [ref=e712]: Code
+        - link [aria-hidden] [ref=e713] [cursor=pointer]:
+          - /url: /components/colourful-text/
+          - generic [ref=e716]:
+            - generic [ref=e717]: Colourful Text
+            - generic [ref=e718]: Text
+        - link [aria-hidden] [ref=e719] [cursor=pointer]:
+          - /url: /components/comet-card/
+          - generic [ref=e722]:
+            - generic [ref=e723]: Comet Card
+            - generic [ref=e724]: 3D
+        - link [aria-hidden] [ref=e725] [cursor=pointer]:
+          - /url: /components/compare/
+          - generic [ref=e728]:
+            - generic [ref=e729]: Compare
+            - generic [ref=e730]: Overlay
+        - link [aria-hidden] [ref=e731] [cursor=pointer]:
+          - /url: /components/container-cover/
+          - generic [ref=e734]:
+            - generic [ref=e735]: Container Cover
+            - generic [ref=e736]: Effect
+        - link [aria-hidden] [ref=e737] [cursor=pointer]:
+          - /url: /components/container-scroll-animation/
+          - generic [ref=e740]:
+            - generic [ref=e741]: Container Scroll Animation
+            - generic [ref=e742]: Storytelling
+        - link [aria-hidden] [ref=e743] [cursor=pointer]:
+          - /url: /components/container-text-flip/
+          - generic [ref=e746]:
+            - generic [ref=e747]: Container Text Flip
+            - generic [ref=e748]: Text
+        - link [aria-hidden] [ref=e749] [cursor=pointer]:
+          - /url: /components/direction-aware-hover/
+          - generic [ref=e752]:
+            - generic [ref=e753]: Direction Aware Hover
+            - generic [ref=e754]: Cards
+        - link [aria-hidden] [ref=e755] [cursor=pointer]:
+          - /url: /components/dither-shader/
+          - generic [ref=e758]:
+            - generic [ref=e759]: Dither Shader
+            - generic [ref=e760]: Shader
+        - link [aria-hidden] [ref=e761] [cursor=pointer]:
+          - /url: /components/dotted-glow-background/
+          - generic [ref=e764]:
+            - generic [ref=e765]: Dotted Glow Background
+            - generic [ref=e766]: Background
+        - link [aria-hidden] [ref=e767] [cursor=pointer]:
+          - /url: /components/draggable-card/
+          - generic [ref=e770]:
+            - generic [ref=e771]: Draggable Card
+            - generic [ref=e772]: 3D
+        - link [aria-hidden] [ref=e773] [cursor=pointer]:
+          - /url: /components/empty-states/
+          - generic [ref=e776]:
+            - generic [ref=e777]: Empty States
+            - generic [ref=e778]: Effect
+        - link [aria-hidden] [ref=e779] [cursor=pointer]:
+          - /url: /components/encrypted-text/
+          - generic [ref=e782]:
+            - generic [ref=e783]: Encrypted Text
+            - generic [ref=e784]: Text
+        - link [aria-hidden] [ref=e785] [cursor=pointer]:
+          - /url: /components/evervault-card/
+          - generic [ref=e788]:
+            - generic [ref=e789]: Evervault Card
+            - generic [ref=e790]: Cards
+        - link [aria-hidden] [ref=e791] [cursor=pointer]:
+          - /url: /components/expandable-card-on-click/
+          - generic [ref=e794]:
+            - generic [ref=e795]: Expandable Card
+            - generic [ref=e796]: Cards
+        - link [aria-hidden] [ref=e797] [cursor=pointer]:
+          - /url: /components/faqs/
+          - generic [ref=e800]:
+            - generic [ref=e801]: Faqs
+            - generic [ref=e802]: Effect
+        - link [aria-hidden] [ref=e803] [cursor=pointer]:
+          - /url: /components/file-upload/
+          - generic [ref=e806]:
+            - generic [ref=e807]: File Upload
+            - generic [ref=e808]: Input
+        - link [aria-hidden] [ref=e809] [cursor=pointer]:
+          - /url: /components/floating-navbar/
+          - generic [ref=e812]:
+            - generic [ref=e813]: Floating Navbar
+            - generic [ref=e814]: Navigation
+        - link [aria-hidden] [ref=e815] [cursor=pointer]:
+          - /url: /components/focus-cards/
+          - generic [ref=e818]:
+            - generic [ref=e819]: Focus Cards
+            - generic [ref=e820]: Cards
+        - link [aria-hidden] [ref=e821] [cursor=pointer]:
+          - /url: /components/github-globe/
+          - generic [ref=e824]:
+            - generic [ref=e825]: Github Globe
+            - generic [ref=e826]: 3D
+        - link [aria-hidden] [ref=e827] [cursor=pointer]:
+          - /url: /components/gooey-input/
+          - generic [ref=e830]:
+            - generic [ref=e831]: Gooey Input
+            - generic [ref=e832]: Input
+        - link [aria-hidden] [ref=e833] [cursor=pointer]:
+          - /url: /components/grid-dot-background/
+          - generic [ref=e836]:
+            - generic [ref=e837]: Grid And Dot Backgrounds
+            - generic [ref=e838]: Background
+        - link [aria-hidden] [ref=e839] [cursor=pointer]:
+          - /url: /components/hero-highlight/
+          - generic [ref=e842]:
+            - generic [ref=e843]: Hero Highlight
+            - generic [ref=e844]: Storytelling
+        - link [aria-hidden] [ref=e845] [cursor=pointer]:
+          - /url: /components/hero-parallax/
+          - generic [ref=e848]:
+            - generic [ref=e849]: Hero Parallax
+            - generic [ref=e850]: Storytelling
+        - link [aria-hidden] [ref=e851] [cursor=pointer]:
+          - /url: /components/images-badge/
+          - generic [ref=e854]:
+            - generic [ref=e855]: Images Badge
+            - generic [ref=e856]: Storytelling
+        - link [aria-hidden] [ref=e857] [cursor=pointer]:
+          - /url: /components/images-slider/
+          - generic [ref=e860]:
+            - generic [ref=e861]: Images Slider
+            - generic [ref=e862]: Storytelling
+        - link [aria-hidden] [ref=e863] [cursor=pointer]:
+          - /url: /components/infinite-moving-cards/
+          - generic [ref=e866]:
+            - generic [ref=e867]: Infinite Moving Cards
+            - generic [ref=e868]: Storytelling
+        - link [aria-hidden] [ref=e869] [cursor=pointer]:
+          - /url: /components/keyboard/
+          - generic [ref=e872]:
+            - generic [ref=e873]: Keyboard
+            - generic [ref=e874]: Code
+        - link [aria-hidden] [ref=e875] [cursor=pointer]:
+          - /url: /components/lamp/
+          - generic [ref=e878]:
+            - generic [ref=e879]: Lamp Effect
+            - generic [ref=e880]: Effect
+        - link [aria-hidden] [ref=e881] [cursor=pointer]:
+          - /url: /components/layout-grid/
+          - generic [ref=e884]:
+            - generic [ref=e885]: Layout Grid
+            - generic [ref=e886]: Effect
+        - link [aria-hidden] [ref=e887] [cursor=pointer]:
+          - /url: /components/lens/
+          - generic [ref=e890]:
+            - generic [ref=e891]: Lens
+            - generic [ref=e892]: Overlay
+        - link [aria-hidden] [ref=e893] [cursor=pointer]:
+          - /url: /components/loader/
+          - generic [ref=e896]:
+            - generic [ref=e897]: Loader
+            - generic [ref=e898]: Feedback
+        - link [aria-hidden] [ref=e899] [cursor=pointer]:
+          - /url: /components/macbook-scroll/
+          - generic [ref=e902]:
+            - generic [ref=e903]: Macbook Scroll
+            - generic [ref=e904]: Storytelling
+        - link [aria-hidden] [ref=e905] [cursor=pointer]:
+          - /url: /components/magnetic-button/
+          - generic [ref=e908]:
+            - generic [ref=e909]: Magnetic Button
+            - generic [ref=e910]: Input
+        - link [aria-hidden] [ref=e911] [cursor=pointer]:
+          - /url: /components/meteors/
+          - generic [ref=e914]:
+            - generic [ref=e915]: Meteors
+            - generic [ref=e916]: Background
+        - link [aria-hidden] [ref=e917] [cursor=pointer]:
+          - /url: /components/moving-border/
+          - generic [ref=e920]:
+            - generic [ref=e921]: Moving Border
+            - generic [ref=e922]: Effect
+        - link [aria-hidden] [ref=e923] [cursor=pointer]:
+          - /url: /components/multi-step-loader/
+          - generic [ref=e926]:
+            - generic [ref=e927]: Multi Step Loader
+            - generic [ref=e928]: Feedback
+        - link [aria-hidden] [ref=e929] [cursor=pointer]:
+          - /url: /components/navbar-menu/
+          - generic [ref=e932]:
+            - generic [ref=e933]: Navbar Menu
+            - generic [ref=e934]: Navigation
+        - link [aria-hidden] [ref=e935] [cursor=pointer]:
+          - /url: /components/noise-background/
+          - generic [ref=e938]:
+            - generic [ref=e939]: Noise Background
+            - generic [ref=e940]: Background
+        - link [aria-hidden] [ref=e941] [cursor=pointer]:
+          - /url: /components/notch/
+          - generic [ref=e944]:
+            - generic [ref=e945]: Notch
+            - generic [ref=e946]: Effect
+        - link [aria-hidden] [ref=e947] [cursor=pointer]:
+          - /url: /components/parallax-hero-images/
+          - generic [ref=e950]:
+            - generic [ref=e951]: Parallax Hero Images
+            - generic [ref=e952]: Storytelling
+        - link [aria-hidden] [ref=e953] [cursor=pointer]:
+          - /url: /components/parallax-scroll/
+          - generic [ref=e956]:
+            - generic [ref=e957]: Parallax Scroll
+            - generic [ref=e958]: Storytelling
+        - link [aria-hidden] [ref=e959] [cursor=pointer]:
+          - /url: /components/placeholders-and-vanish-input/
+          - generic [ref=e962]:
+            - generic [ref=e963]: Placeholders And Vanish Input
+            - generic [ref=e964]: Input
+        - link [aria-hidden] [ref=e965] [cursor=pointer]:
+          - /url: /components/pointer-highlight/
+          - generic [ref=e968]:
+            - generic [ref=e969]: Pointer Highlight
+            - generic [ref=e970]: Effect
+        - link [aria-hidden] [ref=e971] [cursor=pointer]:
+          - /url: /components/resizable-navbar/
+          - generic [ref=e974]:
+            - generic [ref=e975]: Resizable Navbar
+            - generic [ref=e976]: Navigation
+        - link [aria-hidden] [ref=e977] [cursor=pointer]:
+          - /url: /components/scales/
+          - generic [ref=e980]:
+            - generic [ref=e981]: Scales
+            - generic [ref=e982]: Effect
+        - link [aria-hidden] [ref=e983] [cursor=pointer]:
+          - /url: /components/shaders/
+          - generic [ref=e986]:
+            - generic [ref=e987]: Shaders
+            - generic [ref=e988]: Shader
+        - link [aria-hidden] [ref=e989] [cursor=pointer]:
+          - /url: /components/shooting-stars-and-stars-background/
+          - generic [ref=e992]:
+            - generic [ref=e993]: Shooting Stars And Stars Background
+            - generic [ref=e994]: Background
+        - link [aria-hidden] [ref=e995] [cursor=pointer]:
+          - /url: /components/sidebar/
+          - generic [ref=e998]:
+            - generic [ref=e999]: Sidebar
+            - generic [ref=e1000]: Navigation
+        - link [aria-hidden] [ref=e1001] [cursor=pointer]:
+          - /url: /components/sidebars/
+          - generic [ref=e1004]:
+            - generic [ref=e1005]: Sidebars
+            - generic [ref=e1006]: Navigation
+        - link [aria-hidden] [ref=e1007] [cursor=pointer]:
+          - /url: /components/spotlight-new/
+          - generic [ref=e1010]:
+            - generic [ref=e1011]: Spotlight New
+            - generic [ref=e1012]: Cards
+        - link [aria-hidden] [ref=e1013] [cursor=pointer]:
+          - /url: /components/spotlight/
+          - generic [ref=e1016]:
+            - generic [ref=e1017]: Spotlight
+            - generic [ref=e1018]: Cards
+        - link [aria-hidden] [ref=e1019] [cursor=pointer]:
+          - /url: /components/squiggly-text/
+          - generic [ref=e1022]:
+            - generic [ref=e1023]: Squiggly Text
+            - generic [ref=e1024]: Text
+        - link [aria-hidden] [ref=e1025] [cursor=pointer]:
+          - /url: /components/stateful-button/
+          - generic [ref=e1028]:
+            - generic [ref=e1029]: Stateful Button
+            - generic [ref=e1030]: Input
+        - link [aria-hidden] [ref=e1031] [cursor=pointer]:
+          - /url: /components/sticky-scroll-reveal/
+          - generic [ref=e1034]:
+            - generic [ref=e1035]: Sticky Scroll Reveal
+            - generic [ref=e1036]: Storytelling
+        - link [aria-hidden] [ref=e1037] [cursor=pointer]:
+          - /url: /components/svg-mask-effect/
+          - generic [ref=e1040]:
+            - generic [ref=e1041]: Svg Mask Effect
+            - generic [ref=e1042]: Effect
+        - link [aria-hidden] [ref=e1043] [cursor=pointer]:
+          - /url: /components/tabs/
+          - generic [ref=e1046]:
+            - generic [ref=e1047]: Tabs
+            - generic [ref=e1048]: Overlay
+        - link [aria-hidden] [ref=e1049] [cursor=pointer]:
+          - /url: /components/tailwindcss-buttons/
+          - generic [ref=e1052]:
+            - generic [ref=e1053]: Tailwindcss Buttons
+            - generic [ref=e1054]: Input
+        - link [aria-hidden] [ref=e1055] [cursor=pointer]:
+          - /url: /components/terminal/
+          - generic [ref=e1058]:
+            - generic [ref=e1059]: Terminal
+            - generic [ref=e1060]: Code
+        - link [aria-hidden] [ref=e1061] [cursor=pointer]:
+          - /url: /components/text-flipping-board/
+          - generic [ref=e1064]:
+            - generic [ref=e1065]: Text Flipping Board
+            - generic [ref=e1066]: Text
+        - link [aria-hidden] [ref=e1067] [cursor=pointer]:
+          - /url: /components/text-generate-effect/
+          - generic [ref=e1070]:
+            - generic [ref=e1071]: Text Generate Effect
+            - generic [ref=e1072]: Text
+        - link [aria-hidden] [ref=e1073] [cursor=pointer]:
+          - /url: /components/text-hover-effect/
+          - generic [ref=e1076]:
+            - generic [ref=e1077]: Text Hover Effect
+            - generic [ref=e1078]: Text
+        - link [aria-hidden] [ref=e1079] [cursor=pointer]:
+          - /url: /components/text-reveal-card/
+          - generic [ref=e1082]:
+            - generic [ref=e1083]: Text Reveal Card
+            - generic [ref=e1084]: Text
+        - link [aria-hidden] [ref=e1085] [cursor=pointer]:
+          - /url: /components/tooltip-card/
+          - generic [ref=e1088]:
+            - generic [ref=e1089]: Tooltip Card
+            - generic [ref=e1090]: Overlay
+        - link [aria-hidden] [ref=e1091] [cursor=pointer]:
+          - /url: /components/tracing-beam/
+          - generic [ref=e1094]:
+            - generic [ref=e1095]: Tracing Beam
+            - generic [ref=e1096]: Storytelling
+        - link [aria-hidden] [ref=e1097] [cursor=pointer]:
+          - /url: /components/typewriter-effect/
+          - generic [ref=e1100]:
+            - generic [ref=e1101]: Typewriter Effect
+            - generic [ref=e1102]: Text
+        - link [aria-hidden] [ref=e1103] [cursor=pointer]:
+          - /url: /components/vortex/
+          - generic [ref=e1106]:
+            - generic [ref=e1107]: Vortex
+            - generic [ref=e1108]: Background
+        - link [aria-hidden] [ref=e1109] [cursor=pointer]:
+          - /url: /components/wavy-background/
+          - generic [ref=e1112]:
+            - generic [ref=e1113]: Wavy Background
+            - generic [ref=e1114]: Background
+        - link [aria-hidden] [ref=e1115] [cursor=pointer]:
+          - /url: /components/wobble-card/
+          - generic [ref=e1118]:
+            - generic [ref=e1119]: Wobble Card
+            - generic [ref=e1120]: Cards
+        - link [aria-hidden] [ref=e1121] [cursor=pointer]:
+          - /url: /components/world-map/
+          - generic [ref=e1124]:
+            - generic [ref=e1125]: World Map
+            - generic [ref=e1126]: Background
+    - generic [ref=e1128]:
+      - generic [ref=e1129]:
+        - generic [ref=e1130]:
+          - paragraph [ref=e1131]: Made for Astro. Actually.
+          - heading [level=2] [ref=e1132]:
+            - text: Built for developers who chose Astro
+            - emphasis [ref=e1133]: for a reason.
+        - paragraph [ref=e1135]: You chose Astro because a marketing site should not need an application runtime. We agree.
+      - generic [ref=e1136]:
+        - article [ref=e1137]:
+          - heading "Static stays static." [level=3] [ref=e1159]
+          - paragraph [ref=e1160]: Heroes, pricing tables and footers ship as HTML and CSS by default.
+          - generic [ref=e1161]: 0 KB JS
+        - article [ref=e1162]:
+          - generic [ref=e1165]:
+            - generic [ref=e1166]:
+              - generic [ref=e1167]: esc
+              - generic [ref=e1168]: F1
+              - generic [ref=e1169]: F2
+              - generic [ref=e1170]: F3
+              - generic [ref=e1171]: F4
+              - generic [ref=e1172]: F5
+              - generic [ref=e1173]: F6
+              - generic [ref=e1174]: F7
+              - generic [ref=e1175]: F8
+              - generic [ref=e1176]: F9
+              - generic [ref=e1177]: F10
+              - generic [ref=e1178]: F11
+              - generic [ref=e1179]: F12
+            - generic [ref=e1183]:
+              - generic [ref=e1184]: ~
+              - generic [ref=e1185]: "1"
+              - generic [ref=e1186]: "2"
+              - generic [ref=e1187]: "3"
+              - generic [ref=e1188]: "4"
+              - generic [ref=e1189]: "5"
+              - generic [ref=e1190]: "6"
+              - generic [ref=e1191]: "7"
+              - generic [ref=e1192]: "8"
+              - generic [ref=e1193]: "9"
+              - generic [ref=e1194]: "0"
+              - generic [ref=e1195]: "-"
+              - generic [ref=e1196]: =
+              - generic [ref=e1197]: delete
+            - generic [ref=e1198]:
+              - generic [ref=e1199]: tab
+              - generic [ref=e1200]: Q
+              - generic [ref=e1201]: W
+              - generic [ref=e1202]: E
+              - generic [ref=e1203]: R
+              - generic [ref=e1204]: T
+              - generic [ref=e1205]: "Y"
+              - generic [ref=e1206]: U
+              - generic [ref=e1207]: I
+              - generic [ref=e1208]: O
+              - generic [ref=e1209]: P
+              - generic [ref=e1210]: "["
+              - generic [ref=e1211]: "]"
+              - generic [ref=e1212]: \
+            - generic [ref=e1213]:
+              - generic [ref=e1214]: caps
+              - generic [ref=e1215]: A
+              - generic [ref=e1216]: S
+              - generic [ref=e1217]: D
+              - generic [ref=e1218]: F
+              - generic [ref=e1219]: G
+              - generic [ref=e1220]: H
+              - generic [ref=e1221]: J
+              - generic [ref=e1222]: K
+              - generic [ref=e1223]: L
+              - generic [ref=e1224]: ;
+              - generic [ref=e1225]: "'"
+              - generic [ref=e1226]: return
+            - generic [ref=e1227]:
+              - generic [ref=e1228]: shift
+              - generic [ref=e1229]: Z
+              - generic [ref=e1230]: X
+              - generic [ref=e1231]: C
+              - generic [ref=e1232]: V
+              - generic [ref=e1233]: B
+              - generic [ref=e1234]: "N"
+              - generic [ref=e1235]: M
+              - generic [ref=e1236]: ","
+              - generic [ref=e1237]: .
+              - generic [ref=e1238]: /
+              - generic [ref=e1239]: shift
+            - generic [ref=e1240]:
+              - generic [ref=e1241]: fn
+              - generic [ref=e1242]: ctrl
+              - generic [ref=e1243]: opt
+              - generic [ref=e1244]: cmd
+              - generic [ref=e1246]: cmd
+              - generic [ref=e1247]: opt
+              - generic [ref=e1248]:
+                - generic [ref=e1249]: ←
+                - generic [ref=e1250]:
+                  - generic [ref=e1251]: ↑
+                  - generic [ref=e1252]: ↓
+                - generic [ref=e1253]: →
+          - heading "Interaction earns its place." [level=3] [ref=e1254]
+          - paragraph [ref=e1255]: Small islands and native browser APIs handle only the behavior you can see.
+          - generic [ref=e1256]: No runtime
+        - article [ref=e1257]:
+          - generic [aria-hidden] [ref=e1258]:
+            - generic [ref=e1283]:
+              - generic [ref=e1284]: "N"
+              - generic [ref=e1285]: Nora
+            - generic [ref=e1289]:
+              - generic [ref=e1290]: K
+              - generic [ref=e1291]: Kai
+          - heading "Your source. Your project." [level=3] [ref=e1292]
+          - paragraph [ref=e1293]: Copy the implementation, adapt every detail and keep shipping independently.
+          - generic [ref=e1294]: Own the code
+      - generic [ref=e1295]:
+        - paragraph [ref=e1298]: Your hero does not need hydration.
+        - paragraph [ref=e1301]: Your pricing table doesn't need to become an app.
+        - paragraph [ref=e1304]: The fastest JavaScript is the JavaScript you never ship.
+    - generic [ref=e1306]:
+      - generic [ref=e1307]:
+        - paragraph [ref=e1308]: Measured, not merely promised
+        - heading [level=2] [ref=e1309]:
+          - text: Same design.
+          - emphasis [ref=e1310]: Different payload.
+        - paragraph [ref=e1311]: Equivalent production pages under identical device, network and cache conditions. The sites look exactly alike — the payload is what differs.
+      - generic [ref=e1312]:
+        - generic [ref=e1313]:
+          - paragraph [ref=e1314]: Page weight
+          - generic [ref=e1315]:
+            - generic [ref=e1316]: Astro
+            - strong [ref=e1331]: 546 KB
+          - generic [ref=e1332]:
+            - generic [ref=e1333]: Next
+            - strong [ref=e1380]: 1.88 MB
+          - paragraph [ref=e1381]:
+            - generic [aria-hidden] [ref=e1382]: ↓
+            - text: 71.0% less · 29.0% of Next
+        - generic [ref=e1383]:
+          - paragraph [ref=e1384]: Script CPU
+          - generic [ref=e1385]:
+            - generic [ref=e1386]: Astro
+            - strong [ref=e1389]: 17 ms
+          - generic [ref=e1390]:
+            - generic [ref=e1391]: Next
+            - strong [ref=e1438]: 638 ms
+          - paragraph [ref=e1439]:
+            - generic [aria-hidden] [ref=e1440]: ↓
+            - text: 97.3% less · 2.7% of Next
+        - generic [ref=e1441]:
+          - paragraph [ref=e1442]: External JS
+          - generic [ref=e1443]:
+            - generic [ref=e1444]: Astro
+            - strong [ref=e1445]: 0 KB
+          - generic [ref=e1446]:
+            - generic [ref=e1447]: Next
+            - strong [ref=e1494]: 282 KB
+          - paragraph [ref=e1495]:
+            - generic [aria-hidden] [ref=e1496]: ↓
+            - text: 100% less · 0% of Next
+        - paragraph [ref=e1497]:
+          - generic [aria-hidden] [ref=e1498]: ✦
+          - text: Averages for exactly the same landing page.
+    - region [ref=e1499]:
+      - generic [ref=e1501]:
+        - heading [level=2] [ref=e1502]:
+          - text: Built to be noticed.
+          - emphasis [ref=e1503]: Loved by builders.
+        - paragraph [ref=e1504]: See what developers, designers and founders are saying about Nular UI.
+      - generic [ref=e1506]:
+        - list [ref=e1508]:
+          - listitem [ref=e1509]:
+            - article [ref=e1510]:
+              - blockquote [ref=e1511]: This is ridiculously good. Already found three components I want to use on our next launch.
+              - paragraph [ref=e1512]: Elliot Mason
+              - paragraph [ref=e1513]: Northstar Labs
+          - listitem [ref=e1514]:
+            - article [ref=e1515]:
+              - blockquote [ref=e1516]: Okay, this looks really nice. The interactions feel polished without being too much.
+              - paragraph [ref=e1517]: Maya Chen
+              - paragraph [ref=e1518]: Runs AI-powered agencies
+          - listitem [ref=e1519]:
+            - article [ref=e1520]:
+              - blockquote [ref=e1521]: Finally an Astro library that actually feels like it was made for Astro.
+              - paragraph [ref=e1522]: Theo Martins
+              - paragraph [ref=e1523]: Open-source maintainer
+          - listitem [ref=e1524]:
+            - article [ref=e1525]:
+              - blockquote [ref=e1526]: Spent 10 minutes browsing and somehow I have a completely different homepage now 😅
+              - paragraph [ref=e1527]: Sofia Bennett
+              - paragraph [ref=e1528]: Paperplane
+          - listitem [ref=e1529]:
+            - article [ref=e1530]:
+              - blockquote [ref=e1531]: The quality of these is kind of absurd. Beautiful work.
+              - paragraph [ref=e1532]: Lucas Meyer
+              - paragraph [ref=e1533]: Northline
+          - listitem [ref=e1534]:
+            - article [ref=e1535]:
+              - blockquote [ref=e1536]: The fact that I can grab the source and just keep building is exactly what I wanted.
+              - paragraph [ref=e1537]: Noah Kim
+              - paragraph [ref=e1538]: Relaybird
+          - listitem [ref=e1539]:
+            - article [ref=e1540]:
+              - blockquote [ref=e1541]: This might have just saved me a weekend.
+              - paragraph [ref=e1542]: Amelia Ross
+              - paragraph [ref=e1543]: Plainstack
+          - listitem [ref=e1544]:
+            - article [ref=e1545]:
+              - blockquote [ref=e1546]: Love this. The components have personality without making every site look like the same template.
+              - paragraph [ref=e1547]: Daniel Vega
+              - paragraph [ref=e1548]: Design engineer
+          - listitem [ref=e1549]:
+            - article [ref=e1550]:
+              - blockquote [ref=e1551]: Wait... 0 KB JS on some of these? That's the part that got me.
+              - paragraph [ref=e1552]: Alex Morgan
+              - paragraph [ref=e1553]: Cloudflare
+          - listitem [ref=e1554]:
+            - article [ref=e1555]:
+              - blockquote [ref=e1556]: Tried one of the hero sections this morning. It took longer to pick which one I wanted than to actually integrate it 😂
+              - paragraph [ref=e1557]: Julian Park
+              - paragraph [ref=e1558]: Ionic
+          - listitem [ref=e1559]:
+            - article [ref=e1560]:
+              - blockquote [ref=e1561]: This is exactly the kind of UI library I keep bookmarking and then actually end up using.
+              - paragraph [ref=e1562]: Nina Laurent
+              - paragraph [ref=e1563]: Metricfold
+          - listitem [ref=e1564]:
+            - article [ref=e1565]:
+              - blockquote [ref=e1566]: Looks beautiful. Feels fast. Source is clean. Not much else I need.
+              - paragraph [ref=e1567]: Sam Carter
+              - paragraph [ref=e1568]: Hightide
+          - listitem [ref=e1569]:
+            - article [ref=e1570]:
+              - blockquote [ref=e1571]: The Copy Prompt idea is genuinely useful. Gave it to my coding agent and the component landed almost exactly how I expected.
+              - paragraph [ref=e1572]: Oliver Reed
+              - paragraph [ref=e1573]: Daylight Systems
+          - listitem [ref=e1574]:
+            - article [ref=e1575]:
+              - blockquote [ref=e1576]: There's a surprising amount here. I came for a background effect and ended up rebuilding half the landing page.
+              - paragraph [ref=e1577]: Ava Thompson
+              - paragraph [ref=e1578]: Frontend developer
+          - listitem [ref=e1579]:
+            - article [ref=e1580]:
+              - blockquote [ref=e1581]: One of those libraries where every few scrolls you’re like “yeah, I’m using that.”
+              - paragraph [ref=e1582]: Marcus Lee
+              - paragraph [ref=e1583]: Teal
+          - listitem [aria-hidden] [ref=e1584]:
+            - article [ref=e1585]:
+              - blockquote [ref=e1586]: This is ridiculously good. Already found three components I want to use on our next launch.
+              - paragraph [ref=e1587]: Elliot Mason
+              - paragraph [ref=e1588]: Northstar Labs
+          - listitem [aria-hidden] [ref=e1589]:
+            - article [ref=e1590]:
+              - blockquote [ref=e1591]: Okay, this looks really nice. The interactions feel polished without being too much.
+              - paragraph [ref=e1592]: Maya Chen
+              - paragraph [ref=e1593]: Runs AI-powered agencies
+          - listitem [aria-hidden] [ref=e1594]:
+            - article [ref=e1595]:
+              - blockquote [ref=e1596]: Finally an Astro library that actually feels like it was made for Astro.
+              - paragraph [ref=e1597]: Theo Martins
+              - paragraph [ref=e1598]: Open-source maintainer
+          - listitem [aria-hidden] [ref=e1599]:
+            - article [ref=e1600]:
+              - blockquote [ref=e1601]: Spent 10 minutes browsing and somehow I have a completely different homepage now 😅
+              - paragraph [ref=e1602]: Sofia Bennett
+              - paragraph [ref=e1603]: Paperplane
+          - listitem [aria-hidden] [ref=e1604]:
+            - article [ref=e1605]:
+              - blockquote [ref=e1606]: The quality of these is kind of absurd. Beautiful work.
+              - paragraph [ref=e1607]: Lucas Meyer
+              - paragraph [ref=e1608]: Northline
+          - listitem [aria-hidden] [ref=e1609]:
+            - article [ref=e1610]:
+              - blockquote [ref=e1611]: The fact that I can grab the source and just keep building is exactly what I wanted.
+              - paragraph [ref=e1612]: Noah Kim
+              - paragraph [ref=e1613]: Relaybird
+          - listitem [aria-hidden] [ref=e1614]:
+            - article [ref=e1615]:
+              - blockquote [ref=e1616]: This might have just saved me a weekend.
+              - paragraph [ref=e1617]: Amelia Ross
+              - paragraph [ref=e1618]: Plainstack
+          - listitem [aria-hidden] [ref=e1619]:
+            - article [ref=e1620]:
+              - blockquote [ref=e1621]: Love this. The components have personality without making every site look like the same template.
+              - paragraph [ref=e1622]: Daniel Vega
+              - paragraph [ref=e1623]: Design engineer
+          - listitem [aria-hidden] [ref=e1624]:
+            - article [ref=e1625]:
+              - blockquote [ref=e1626]: Wait... 0 KB JS on some of these? That's the part that got me.
+              - paragraph [ref=e1627]: Alex Morgan
+              - paragraph [ref=e1628]: Cloudflare
+          - listitem [aria-hidden] [ref=e1629]:
+            - article [ref=e1630]:
+              - blockquote [ref=e1631]: Tried one of the hero sections this morning. It took longer to pick which one I wanted than to actually integrate it 😂
+              - paragraph [ref=e1632]: Julian Park
+              - paragraph [ref=e1633]: Ionic
+          - listitem [aria-hidden] [ref=e1634]:
+            - article [ref=e1635]:
+              - blockquote [ref=e1636]: This is exactly the kind of UI library I keep bookmarking and then actually end up using.
+              - paragraph [ref=e1637]: Nina Laurent
+              - paragraph [ref=e1638]: Metricfold
+          - listitem [aria-hidden] [ref=e1639]:
+            - article [ref=e1640]:
+              - blockquote [ref=e1641]: Looks beautiful. Feels fast. Source is clean. Not much else I need.
+              - paragraph [ref=e1642]: Sam Carter
+              - paragraph [ref=e1643]: Hightide
+          - listitem [aria-hidden] [ref=e1644]:
+            - article [ref=e1645]:
+              - blockquote [ref=e1646]: The Copy Prompt idea is genuinely useful. Gave it to my coding agent and the component landed almost exactly how I expected.
+              - paragraph [ref=e1647]: Oliver Reed
+              - paragraph [ref=e1648]: Daylight Systems
+          - listitem [aria-hidden] [ref=e1649]:
+            - article [ref=e1650]:
+              - blockquote [ref=e1651]: There's a surprising amount here. I came for a background effect and ended up rebuilding half the landing page.
+              - paragraph [ref=e1652]: Ava Thompson
+              - paragraph [ref=e1653]: Frontend developer
+          - listitem [aria-hidden] [ref=e1654]:
+            - article [ref=e1655]:
+              - blockquote [ref=e1656]: One of those libraries where every few scrolls you’re like “yeah, I’m using that.”
+              - paragraph [ref=e1657]: Marcus Lee
+              - paragraph [ref=e1658]: Teal
+        - list [ref=e1660]:
+          - listitem [ref=e1661]:
+            - article [ref=e1662]:
+              - blockquote [ref=e1663]: One of those libraries where every few scrolls you’re like “yeah, I’m using that.”
+              - paragraph [ref=e1664]: Marcus Lee
+              - paragraph [ref=e1665]: Teal
+          - listitem [ref=e1666]:
+            - article [ref=e1667]:
+              - blockquote [ref=e1668]: There's a surprising amount here. I came for a background effect and ended up rebuilding half the landing page.
+              - paragraph [ref=e1669]: Ava Thompson
+              - paragraph [ref=e1670]: Frontend developer
+          - listitem [ref=e1671]:
+            - article [ref=e1672]:
+              - blockquote [ref=e1673]: The Copy Prompt idea is genuinely useful. Gave it to my coding agent and the component landed almost exactly how I expected.
+              - paragraph [ref=e1674]: Oliver Reed
+              - paragraph [ref=e1675]: Daylight Systems
+          - listitem [ref=e1676]:
+            - article [ref=e1677]:
+              - blockquote [ref=e1678]: Looks beautiful. Feels fast. Source is clean. Not much else I need.
+              - paragraph [ref=e1679]: Sam Carter
+              - paragraph [ref=e1680]: Hightide
+          - listitem [ref=e1681]:
+            - article [ref=e1682]:
+              - blockquote [ref=e1683]: This is exactly the kind of UI library I keep bookmarking and then actually end up using.
+              - paragraph [ref=e1684]: Nina Laurent
+              - paragraph [ref=e1685]: Metricfold
+          - listitem [ref=e1686]:
+            - article [ref=e1687]:
+              - blockquote [ref=e1688]: Tried one of the hero sections this morning. It took longer to pick which one I wanted than to actually integrate it 😂
+              - paragraph [ref=e1689]: Julian Park
+              - paragraph [ref=e1690]: Ionic
+          - listitem [ref=e1691]:
+            - article [ref=e1692]:
+              - blockquote [ref=e1693]: Wait... 0 KB JS on some of these? That's the part that got me.
+              - paragraph [ref=e1694]: Alex Morgan
+              - paragraph [ref=e1695]: Cloudflare
+          - listitem [ref=e1696]:
+            - article [ref=e1697]:
+              - blockquote [ref=e1698]: Love this. The components have personality without making every site look like the same template.
+              - paragraph [ref=e1699]: Daniel Vega
+              - paragraph [ref=e1700]: Design engineer
+          - listitem [ref=e1701]:
+            - article [ref=e1702]:
+              - blockquote [ref=e1703]: This might have just saved me a weekend.
+              - paragraph [ref=e1704]: Amelia Ross
+              - paragraph [ref=e1705]: Plainstack
+          - listitem [ref=e1706]:
+            - article [ref=e1707]:
+              - blockquote [ref=e1708]: The fact that I can grab the source and just keep building is exactly what I wanted.
+              - paragraph [ref=e1709]: Noah Kim
+              - paragraph [ref=e1710]: Relaybird
+          - listitem [ref=e1711]:
+            - article [ref=e1712]:
+              - blockquote [ref=e1713]: The quality of these is kind of absurd. Beautiful work.
+              - paragraph [ref=e1714]: Lucas Meyer
+              - paragraph [ref=e1715]: Northline
+          - listitem [ref=e1716]:
+            - article [ref=e1717]:
+              - blockquote [ref=e1718]: Spent 10 minutes browsing and somehow I have a completely different homepage now 😅
+              - paragraph [ref=e1719]: Sofia Bennett
+              - paragraph [ref=e1720]: Paperplane
+          - listitem [ref=e1721]:
+            - article [ref=e1722]:
+              - blockquote [ref=e1723]: Finally an Astro library that actually feels like it was made for Astro.
+              - paragraph [ref=e1724]: Theo Martins
+              - paragraph [ref=e1725]: Open-source maintainer
+          - listitem [ref=e1726]:
+            - article [ref=e1727]:
+              - blockquote [ref=e1728]: Okay, this looks really nice. The interactions feel polished without being too much.
+              - paragraph [ref=e1729]: Maya Chen
+              - paragraph [ref=e1730]: Runs AI-powered agencies
+          - listitem [ref=e1731]:
+            - article [ref=e1732]:
+              - blockquote [ref=e1733]: This is ridiculously good. Already found three components I want to use on our next launch.
+              - paragraph [ref=e1734]: Elliot Mason
+              - paragraph [ref=e1735]: Northstar Labs
+          - listitem [aria-hidden] [ref=e1736]:
+            - article [ref=e1737]:
+              - blockquote [ref=e1738]: One of those libraries where every few scrolls you’re like “yeah, I’m using that.”
+              - paragraph [ref=e1739]: Marcus Lee
+              - paragraph [ref=e1740]: Teal
+          - listitem [aria-hidden] [ref=e1741]:
+            - article [ref=e1742]:
+              - blockquote [ref=e1743]: There's a surprising amount here. I came for a background effect and ended up rebuilding half the landing page.
+              - paragraph [ref=e1744]: Ava Thompson
+              - paragraph [ref=e1745]: Frontend developer
+          - listitem [aria-hidden] [ref=e1746]:
+            - article [ref=e1747]:
+              - blockquote [ref=e1748]: The Copy Prompt idea is genuinely useful. Gave it to my coding agent and the component landed almost exactly how I expected.
+              - paragraph [ref=e1749]: Oliver Reed
+              - paragraph [ref=e1750]: Daylight Systems
+          - listitem [aria-hidden] [ref=e1751]:
+            - article [ref=e1752]:
+              - blockquote [ref=e1753]: Looks beautiful. Feels fast. Source is clean. Not much else I need.
+              - paragraph [ref=e1754]: Sam Carter
+              - paragraph [ref=e1755]: Hightide
+          - listitem [aria-hidden] [ref=e1756]:
+            - article [ref=e1757]:
+              - blockquote [ref=e1758]: This is exactly the kind of UI library I keep bookmarking and then actually end up using.
+              - paragraph [ref=e1759]: Nina Laurent
+              - paragraph [ref=e1760]: Metricfold
+          - listitem [aria-hidden] [ref=e1761]:
+            - article [ref=e1762]:
+              - blockquote [ref=e1763]: Tried one of the hero sections this morning. It took longer to pick which one I wanted than to actually integrate it 😂
+              - paragraph [ref=e1764]: Julian Park
+              - paragraph [ref=e1765]: Ionic
+          - listitem [aria-hidden] [ref=e1766]:
+            - article [ref=e1767]:
+              - blockquote [ref=e1768]: Wait... 0 KB JS on some of these? That's the part that got me.
+              - paragraph [ref=e1769]: Alex Morgan
+              - paragraph [ref=e1770]: Cloudflare
+          - listitem [aria-hidden] [ref=e1771]:
+            - article [ref=e1772]:
+              - blockquote [ref=e1773]: Love this. The components have personality without making every site look like the same template.
+              - paragraph [ref=e1774]: Daniel Vega
+              - paragraph [ref=e1775]: Design engineer
+          - listitem [aria-hidden] [ref=e1776]:
+            - article [ref=e1777]:
+              - blockquote [ref=e1778]: This might have just saved me a weekend.
+              - paragraph [ref=e1779]: Amelia Ross
+              - paragraph [ref=e1780]: Plainstack
+          - listitem [aria-hidden] [ref=e1781]:
+            - article [ref=e1782]:
+              - blockquote [ref=e1783]: The fact that I can grab the source and just keep building is exactly what I wanted.
+              - paragraph [ref=e1784]: Noah Kim
+              - paragraph [ref=e1785]: Relaybird
+          - listitem [aria-hidden] [ref=e1786]:
+            - article [ref=e1787]:
+              - blockquote [ref=e1788]: The quality of these is kind of absurd. Beautiful work.
+              - paragraph [ref=e1789]: Lucas Meyer
+              - paragraph [ref=e1790]: Northline
+          - listitem [aria-hidden] [ref=e1791]:
+            - article [ref=e1792]:
+              - blockquote [ref=e1793]: Spent 10 minutes browsing and somehow I have a completely different homepage now 😅
+              - paragraph [ref=e1794]: Sofia Bennett
+              - paragraph [ref=e1795]: Paperplane
+          - listitem [aria-hidden] [ref=e1796]:
+            - article [ref=e1797]:
+              - blockquote [ref=e1798]: Finally an Astro library that actually feels like it was made for Astro.
+              - paragraph [ref=e1799]: Theo Martins
+              - paragraph [ref=e1800]: Open-source maintainer
+          - listitem [aria-hidden] [ref=e1801]:
+            - article [ref=e1802]:
+              - blockquote [ref=e1803]: Okay, this looks really nice. The interactions feel polished without being too much.
+              - paragraph [ref=e1804]: Maya Chen
+              - paragraph [ref=e1805]: Runs AI-powered agencies
+          - listitem [aria-hidden] [ref=e1806]:
+            - article [ref=e1807]:
+              - blockquote [ref=e1808]: This is ridiculously good. Already found three components I want to use on our next launch.
+              - paragraph [ref=e1809]: Elliot Mason
+              - paragraph [ref=e1810]: Northstar Labs
+    - generic [ref=e1812]:
+      - generic [ref=e1813]:
+        - paragraph [ref=e1814]: Limited-time founding offer
+        - heading [level=2] [ref=e1815]:
+          - text: Pay once.
+          - emphasis [ref=e1816]: Build forever.
+        - paragraph [ref=e1817]: One landing page can pay for the library. The next ten are where the lifetime license gets unfair.
+        - generic [ref=e1818]:
+          - generic [ref=e1819]: One payment
+          - generic [ref=e1820]: No subscription
+          - generic [ref=e1821]: Lifetime updates
+      - generic [ref=e1822]:
+        - generic [ref=e1823]:
+          - generic [ref=e1824]: nularUI Pro
+          - generic [ref=e1825]: Limited-time offer
+        - generic [ref=e1827]:
+          - generic [ref=e1828]:
+            - generic [ref=e1829]: $
+            - strong [ref=e1830]: "59"
+          - generic [ref=e1831]:
+            - generic [ref=e1832]: Regular price
+            - generic [ref=e1833]: $199
+            - generic [ref=e1834]: Save $140
+        - paragraph [ref=e1835]: Every premium section and template. One simple lifetime license.
+        - list [ref=e1836]:
+          - listitem [ref=e1837]: 126 premium sections
+          - listitem [ref=e1838]: 16 production-ready templates
+          - listitem [ref=e1839]: Source, install guides and AI prompts
+          - listitem [ref=e1840]: Future library updates
+          - listitem [ref=e1841]: 135+ components, free for everyone
+        - link "Get lifetime access · $59" [ref=e1842] [cursor=pointer]:
+          - /url: /checkout/
+        - generic [ref=e1845]: One payment · Lifetime access · Price returns to $199 when the offer ends
+    - generic [ref=e1847]:
+      - generic [ref=e1848]:
+        - paragraph [ref=e1849]: Questions, answered
+        - heading "The short version." [level=2] [ref=e1850]
+      - generic [ref=e1851]:
+        - group [ref=e1852]:
+          - generic "Is this another React library wrapped for Astro?" [ref=e1853] [cursor=pointer]
+        - group [ref=e1855]:
+          - generic "What does lifetime access include?" [ref=e1856] [cursor=pointer]
+        - group [ref=e1858]:
+          - generic "What is Copy Prompt?" [ref=e1859] [cursor=pointer]
+    - generic [ref=e1869]:
+      - generic [ref=e1871]:
+        - heading "Look better. Load faster." [level=2] [ref=e1872]:
+          - generic [ref=e1873]: Look better.
+          - generic [ref=e1874]: Load faster.
+        - paragraph [ref=e1875]: Build something people remember, without making their browser pay for it.
+      - link "Explore Nular UI" [ref=e1877] [cursor=pointer]:
+        - /url: /components/
+  - contentinfo [ref=e1878]:
+    - generic [ref=e1880]:
+      - link "nularUI" [ref=e1881] [cursor=pointer]:
+        - /url: "#top"
+      - paragraph [ref=e1886]: Beautiful by design. Fast by architecture. Built for the AI era.
+      - generic [ref=e1887]:
+        - link "Catalog" [ref=e1888] [cursor=pointer]:
+          - /url: /components/
+        - link "Performance" [ref=e1889] [cursor=pointer]:
+          - /url: "#performance"
+        - link "Pricing" [ref=e1890] [cursor=pointer]:
+          - /url: /checkout/
+        - link "Sign in" [ref=e1891] [cursor=pointer]:
+          - /url: /signin/
+        - generic [ref=e1892]: © 2026 Nular UI

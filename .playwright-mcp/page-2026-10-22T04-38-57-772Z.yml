@@ -1,0 +1,194 @@
+- generic [ref=e2]:
+  - complementary "Site navigation" [ref=e3]:
+    - link "Home" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]: noahjohnson.ai
+    - generic [ref=e6]:
+      - link "+ New post" [ref=e7] [cursor=pointer]:
+        - /url: /subscribe/
+      - button "Search Ctrl K" [ref=e11] [cursor=pointer]:
+        - generic [ref=e14]: Search
+        - generic [ref=e15]: Ctrl K
+    - navigation "Posts and projects" [ref=e16]:
+      - group [ref=e17]:
+        - generic "Posts" [ref=e18] [cursor=pointer]
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - link "What dynamic workflows are actually for" [ref=e25] [cursor=pointer]:
+              - /url: /posts/dynamic-workflows/
+              - generic [aria-hidden] [ref=e26]: New
+          - listitem [ref=e28]:
+            - link "Hello world" [ref=e29] [cursor=pointer]:
+              - /url: /posts/hello-world/
+              - generic [aria-hidden] [ref=e30]: New
+      - group [ref=e32]:
+        - generic "Case Studies" [ref=e33] [cursor=pointer]
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - 'link "The brief is the contract: building an AI intake agent like production software" [ref=e40] [cursor=pointer]':
+              - /url: /case-studies/discovery-agent/
+              - generic [aria-hidden] [ref=e41]: New
+          - listitem [ref=e43]:
+            - link "How I built a writing harness on Claude Code" [ref=e44] [cursor=pointer]:
+              - /url: /case-studies/writing-harness/
+              - generic [aria-hidden] [ref=e45]: New
+      - group [ref=e47]:
+        - generic "Projects" [ref=e48] [cursor=pointer]
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - 'link "Discovery Agent: production-grade AI intake, with the brief as the contract" [ref=e55] [cursor=pointer]':
+              - /url: /projects/client-intake-agent/
+              - generic [aria-hidden] [ref=e56]: New
+          - listitem [ref=e58]:
+            - link "noahjohnson.ai" [ref=e59] [cursor=pointer]:
+              - /url: /projects/noahjohnson-ai/
+              - generic [aria-hidden] [ref=e60]: New
+          - listitem [ref=e62]:
+            - link "A Relational Household CRM, Built in Public" [ref=e63] [cursor=pointer]:
+              - /url: /projects/household-crm/
+              - generic [aria-hidden] [ref=e64]: New
+          - listitem [ref=e66]:
+            - link "Solo Action-Roguelite Portfolio Game" [ref=e67] [cursor=pointer]:
+              - /url: /projects/action-roguelite-game/
+              - generic [aria-hidden] [ref=e68]: New
+          - listitem [ref=e70]:
+            - link "Browser-Based Co-op Dungeon Crawler" [ref=e71] [cursor=pointer]:
+              - /url: /projects/coop-dungeon-crawler/
+              - generic [aria-hidden] [ref=e72]: New
+          - listitem [ref=e74]:
+            - link "Industry-Niche News Aggregator" [ref=e75] [cursor=pointer]:
+              - /url: /projects/niche-news-aggregator/
+              - generic [aria-hidden] [ref=e76]: New
+          - listitem [ref=e78]:
+            - link "Consulting Capacity & Pipeline Planner" [ref=e79] [cursor=pointer]:
+              - /url: /projects/consulting-capacity-pipeline-planner/
+              - generic [aria-hidden] [ref=e80]: New
+      - group [ref=e82]:
+        - generic "About" [ref=e83] [cursor=pointer]
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - link "About" [ref=e90] [cursor=pointer]:
+              - /url: /about/
+              - generic [aria-hidden] [ref=e91]: New
+    - generic [ref=e93]:
+      - generic "Theme" [ref=e94]:
+        - radiogroup "Choose theme" [ref=e96]:
+          - radio "Claude" [checked] [ref=e97] [cursor=pointer]
+          - radio "Codex" [ref=e98] [cursor=pointer]
+          - radio "Antigravity" [ref=e99] [cursor=pointer]
+          - radio "Cursor" [ref=e100] [cursor=pointer]
+      - generic [ref=e101]:
+        - link "About Noah Johnson" [ref=e102] [cursor=pointer]:
+          - /url: /about/
+          - generic [aria-hidden] [ref=e103]: NJ
+          - generic [ref=e104]:
+            - generic [ref=e105]: Noah Johnson
+            - generic [ref=e106]: noahjohnson.ai
+        - generic [ref=e107]:
+          - link "GitHub" [ref=e108] [cursor=pointer]:
+            - /url: https://github.com/noahjohnsonai
+          - link "LinkedIn" [ref=e111] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/connectwithnoah/
+          - link "Email" [ref=e114] [cursor=pointer]:
+            - /url: mailto:noah@noahjohnson.ai
+  - generic [ref=e118]:
+    - banner [ref=e119]:
+      - navigation "Breadcrumb" [ref=e121]:
+        - generic [ref=e122]: noahjohnson.ai
+      - button "Toggle markdown source panel" [ref=e123] [cursor=pointer]
+    - main [ref=e126]:
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Welcome back, Noah" [level=1] [ref=e130]
+          - paragraph [ref=e131]: Field notes from the seam between operations leadership and AI engineering.
+        - generic [ref=e132]:
+          - heading "Recent Sessions" [level=2] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "What dynamic workflows are actually for One prompt became 134 agents working in the background. The skill is not running the swarm, it is recognizing the kind of problem that is shaped for one. 1d" [ref=e136] [cursor=pointer]:
+                - /url: /posts/dynamic-workflows/
+                - generic [aria-hidden] [ref=e137]: New
+                - generic [ref=e138]:
+                  - generic [ref=e139]: What dynamic workflows are actually for
+                  - generic [ref=e140]: One prompt became 134 agents working in the background. The skill is not running the swarm, it is recognizing the kind of problem that is shaped for one.
+                - generic [ref=e141]: 1d
+            - listitem [ref=e142]:
+              - link "Hello world First post. Site is live; real writing to follow. 2w" [ref=e143] [cursor=pointer]:
+                - /url: /posts/hello-world/
+                - generic [aria-hidden] [ref=e144]: New
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Hello world
+                  - generic [ref=e147]: First post. Site is live; real writing to follow.
+                - generic [ref=e148]: 2w
+        - generic [ref=e150]:
+          - heading "Case Studies" [level=2] [ref=e151]
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - 'link "The brief is the contract: building an AI intake agent like production software A hybrid-conversational discovery agent where every architectural rule exists to produce a brief consultants actually trust. The engineering is where the operator judgment lives. 1d" [ref=e154] [cursor=pointer]':
+                - /url: /case-studies/discovery-agent/
+                - generic [aria-hidden] [ref=e155]: New
+                - generic [ref=e156]:
+                  - generic [ref=e157]: "The brief is the contract: building an AI intake agent like production software"
+                  - generic [ref=e158]: A hybrid-conversational discovery agent where every architectural rule exists to produce a brief consultants actually trust. The engineering is where the operator judgment lives.
+                - generic [ref=e159]: 1d
+            - listitem [ref=e160]:
+              - link "How I built a writing harness on Claude Code A grilling-instead-of-drafting workflow for AI-assisted writing, and what it cost to choose the slow path. 2w" [ref=e161] [cursor=pointer]:
+                - /url: /case-studies/writing-harness/
+                - generic [aria-hidden] [ref=e162]: New
+                - generic [ref=e163]:
+                  - generic [ref=e164]: How I built a writing harness on Claude Code
+                  - generic [ref=e165]: A grilling-instead-of-drafting workflow for AI-assisted writing, and what it cost to choose the slow path.
+                - generic [ref=e166]: 2w
+        - generic [ref=e168]:
+          - heading "Projects" [level=2] [ref=e169]
+          - list [ref=e170]:
+            - listitem [ref=e171]:
+              - 'link "Discovery Agent: production-grade AI intake, with the brief as the contract A hybrid-conversational AI intake agent for consulting engagements. The brief is the contract; the architecture is the operator judgment. 2w" [ref=e172] [cursor=pointer]':
+                - /url: /projects/client-intake-agent/
+                - generic [aria-hidden] [ref=e173]: New
+                - generic [ref=e174]:
+                  - generic [ref=e175]: "Discovery Agent: production-grade AI intake, with the brief as the contract"
+                  - generic [ref=e176]: A hybrid-conversational AI intake agent for consulting engagements. The brief is the contract; the architecture is the operator judgment.
+                - generic [ref=e177]: 2w
+            - listitem [ref=e178]:
+              - link "noahjohnson.ai A personal blog and portfolio built as a faithful tribute to the Claude Code desktop UI. 2w" [ref=e179] [cursor=pointer]:
+                - /url: /projects/noahjohnson-ai/
+                - generic [aria-hidden] [ref=e180]: New
+                - generic [ref=e181]:
+                  - generic [ref=e182]: noahjohnson.ai
+                  - generic [ref=e183]: A personal blog and portfolio built as a faithful tribute to the Claude Code desktop UI.
+                - generic [ref=e184]: 2w
+            - listitem [ref=e185]:
+              - link "A Relational Household CRM, Built in Public A relational household CRM for families. Inbox-driven capture, human-curated. 3w" [ref=e186] [cursor=pointer]:
+                - /url: /projects/household-crm/
+                - generic [aria-hidden] [ref=e187]: New
+                - generic [ref=e188]:
+                  - generic [ref=e189]: A Relational Household CRM, Built in Public
+                  - generic [ref=e190]: A relational household CRM for families. Inbox-driven capture, human-curated.
+                - generic [ref=e191]: 3w
+            - listitem [ref=e192]:
+              - link "Solo Action-Roguelite Portfolio Game A low-poly 3D action-roguelite dungeon crawler in Godot. 1mo" [ref=e193] [cursor=pointer]:
+                - /url: /projects/action-roguelite-game/
+                - generic [aria-hidden] [ref=e194]: New
+                - generic [ref=e195]:
+                  - generic [ref=e196]: Solo Action-Roguelite Portfolio Game
+                  - generic [ref=e197]: A low-poly 3D action-roguelite dungeon crawler in Godot.
+                - generic [ref=e198]: 1mo
+    - generic [ref=e200]:
+      - button "Search posts" [ref=e201] [cursor=pointer]:
+        - generic [ref=e204]: Search posts or type / for commands
+        - generic [ref=e205]: Ctrl K
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e208]: Auto
+          - button "Attach" [ref=e209] [cursor=pointer]
+          - button "Voice" [ref=e212] [cursor=pointer]
+          - button "More options" [ref=e216] [cursor=pointer]
+        - generic [ref=e219]:
+          - generic [ref=e220]: Opus 4.7 1M · Max
+          - img "Context usage 92%" [ref=e221] [cursor=pointer]
+  - complementary "Markdown source panel":
+    - generic "Drag to resize" [ref=e224]
+    - generic [ref=e225]:
+      - button "Close markdown source panel" [ref=e231] [cursor=pointer]
+      - paragraph [ref=e238]: Nothing to show here.Articles with take-home files surface them in this drawer.

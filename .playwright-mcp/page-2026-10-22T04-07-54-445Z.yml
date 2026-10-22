@@ -1,0 +1,234 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - complementary [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - link "fanny.dev logo fanny.dev" [ref=e8] [cursor=pointer]:
+              - /url: /
+              - img "fanny.dev logo" [ref=e9]
+              - generic [ref=e10]: fanny.dev
+            - button "Toggle dark mode" [ref=e11]
+          - paragraph [ref=e14]:
+            - text: I’m
+            - link "Fanny" [ref=e15] [cursor=pointer]:
+              - /url: /about
+            - text: . A little corner of the web for my explorations, projects, and experiments.🌱
+          - navigation [ref=e16]:
+            - link "Home" [ref=e17] [cursor=pointer]:
+              - /url: /
+            - link "Blog" [ref=e18] [cursor=pointer]:
+              - /url: /blog
+            - link "Shelves" [ref=e19] [cursor=pointer]:
+              - /url: /shelves
+            - link "Projects" [ref=e20] [cursor=pointer]:
+              - /url: /projects
+            - link "About Me" [ref=e21] [cursor=pointer]:
+              - /url: /about
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - link "YouTube" [ref=e24] [cursor=pointer]:
+                - /url: https://www.youtube.com/@WibuDenial
+              - link "Email" [ref=e28] [cursor=pointer]:
+                - /url: mailto:fannybagus9f@gmail.com
+              - link "GitHub" [ref=e32] [cursor=pointer]:
+                - /url: https://github.com/FannyDevz
+              - link "LinkedIn" [ref=e36] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/Fanny-Bagus-Ramadhan/
+              - link "Instagram" [ref=e40] [cursor=pointer]:
+                - /url: https://www.instagram.com/fanny.bagus.r/
+              - link "Buy me a coffee" [ref=e44] [cursor=pointer]:
+                - /url: https://buymeacoffee.com/fannydevz
+            - generic [ref=e48]:
+              - link "Home" [ref=e49] [cursor=pointer]:
+                - /url: /
+              - generic [aria-hidden] [ref=e50]: "|"
+              - link "Resume" [ref=e51] [cursor=pointer]:
+                - /url: /resume/
+              - generic [aria-hidden] [ref=e52]: "|"
+              - link "Source" [ref=e53] [cursor=pointer]:
+                - /url: https://github.com/FannyDevz
+      - article [ref=e55]:
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: Personal site & digital garden
+          - heading "Hey, I’m Fanny ." [level=1] [ref=e58]
+          - paragraph [ref=e59]: Programmer, Content Creator, Designer, and Whatever Comes My Way.
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - heading "A brief timeline" [level=2] [ref=e63]
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - generic [ref=e66]: Since 2019
+                  - generic [ref=e70]: Freelancing — web development, computer repair & graphic design.
+                - listitem [ref=e71]:
+                  - generic [ref=e72]: "2020"
+                  - generic [ref=e76]: Web developer intern at Ruang Digital, shipping an e-commerce site.
+                - listitem [ref=e77]:
+                  - generic [ref=e78]: 2021-2022
+                  - generic [ref=e82]: Creative & Design at PT Rahma Riyadi Techno.
+                - listitem [ref=e83]:
+                  - generic [ref=e84]: 2022-2023
+                  - generic [ref=e88]: IT support at RSU Lirboyo, building a hospital information system (SIMRS).
+                - listitem [ref=e89]:
+                  - generic [ref=e90]: 2023-Now
+                  - generic [ref=e93]: Research & Developer at PT Jayahost Web Media, building hosting & WHMCS systems and operational automation.
+              - paragraph [ref=e94]: Also - a good husband and a father-to-be.
+            - generic [ref=e95]:
+              - link "About me →" [ref=e96] [cursor=pointer]:
+                - /url: /about
+              - img "Fanny Bagus Ramadhan"
+              - generic [ref=e97]:
+                - text: Just a
+                - link "weeb" [ref=e99] [cursor=pointer]:
+                  - /url: /anime/
+                - text: ", so you can talk about anime with me."
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - heading "Featured projects" [level=2] [ref=e102]
+            - link "All projects →" [ref=e103] [cursor=pointer]:
+              - /url: /projects
+          - generic [ref=e104]:
+            - link [ref=e105] [cursor=pointer]:
+              - /url: /projects/pintar-party/
+              - img "Home" [ref=e107]
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: Frontend · Backend · Game
+                - paragraph [ref=e110]: Pintar Party — Educational Party Games
+                - paragraph [ref=e111]: "A web-based educational party-game platform: the TV or laptop runs the game, and players' phones become controllers after scanning a QR code. Questions are built into the game mechanics."
+                - paragraph [ref=e112]: TypeScript · Node.js · Express.js
+            - link [ref=e113] [cursor=pointer]:
+              - /url: /projects/karirku/
+              - img "Home" [ref=e115]
+              - generic [ref=e116]:
+                - paragraph [ref=e117]: Mobile · Backend · Frontend
+                - paragraph [ref=e118]: Karirku — Workplace Super App
+                - paragraph [ref=e119]: "An employee management and online attendance platform: an Android app for selfie + GPS check-ins, and a web dashboard for shifts, leave, overtime, payroll, reimbursements, and office finance."
+                - paragraph [ref=e120]: Flutter · NestJS · TypeScript
+            - link [ref=e121] [cursor=pointer]:
+              - /url: /projects/mac-service-admin/
+              - img "Home" [ref=e123]
+              - generic [ref=e124]:
+                - paragraph [ref=e125]: Backend · Frontend · DevOps
+                - paragraph [ref=e126]: Mac Service Admin
+                - paragraph [ref=e127]: A local, dependency-free web dashboard for managing a macOS dev environment — Homebrew services, Docker, Laravel Herd, language versions, config files, system stats, and a real terminal in the browser.
+                - paragraph [ref=e128]: Python · JavaScript · xterm.js
+            - link [ref=e129] [cursor=pointer]:
+              - /url: /projects/ai-news-blog-system/
+              - img "Home" [ref=e131]
+              - generic [ref=e132]:
+                - paragraph [ref=e133]: Backend · Frontend
+                - paragraph [ref=e134]: AI News Blog System
+                - paragraph [ref=e135]: A two-component news portal where a Laravel API owns the data and a Python worker scrapes, rewrites articles with an LLM, and auto-publishes them.
+                - paragraph [ref=e136]: PHP · Laravel · Python
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - heading "Latest posts" [level=2] [ref=e139]
+            - link "All posts →" [ref=e140] [cursor=pointer]:
+              - /url: /blog
+          - generic [ref=e141]:
+            - 'link "P Pengalaman WFH sebagai Developer Sep 27, 2026 #wfh #remotework #developer" [ref=e142] [cursor=pointer]':
+              - /url: /blog/opinion/pengalaman-wfh-sebagai-developer/
+              - generic [ref=e143]:
+                - generic [ref=e144]: P
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Pengalaman WFH sebagai Developer
+                  - generic [ref=e147]: Sep 27, 2026
+              - generic [ref=e148]:
+                - generic [ref=e149]: "#wfh"
+                - generic [ref=e150]: "#remotework"
+                - generic [ref=e151]: "#developer"
+            - 'link "A AI dalam Pekerjaan Developer Sep 27, 2026 #ai #developer #productivity" [ref=e152] [cursor=pointer]':
+              - /url: /blog/opinion/ai-dalam-pekerjaan-developer/
+              - generic [ref=e153]:
+                - generic [ref=e154]: A
+                - generic [ref=e155]:
+                  - generic [ref=e156]: AI dalam Pekerjaan Developer
+                  - generic [ref=e157]: Sep 27, 2026
+              - generic [ref=e158]:
+                - generic [ref=e159]: "#ai"
+                - generic [ref=e160]: "#developer"
+                - generic [ref=e161]: "#productivity"
+            - 'link "H HG680-P Sebagai Mini Server Sep 27, 2026 #tech #stb #armbian" [ref=e162] [cursor=pointer]':
+              - /url: /blog/tech-review/hg680p-mini-server/
+              - generic [ref=e163]:
+                - generic [ref=e164]: H
+                - generic [ref=e165]:
+                  - generic [ref=e166]: HG680-P Sebagai Mini Server
+                  - generic [ref=e167]: Sep 27, 2026
+              - generic [ref=e168]:
+                - generic [ref=e169]: "#tech"
+                - generic [ref=e170]: "#stb"
+                - generic [ref=e171]: "#armbian"
+            - 'link "R Review MacBook Air M4 Setelah Beberapa Bulan Sep 27, 2026 #tech #macbook #applesilicon" [ref=e172] [cursor=pointer]':
+              - /url: /blog/tech-review/review-macbook-air-m4/
+              - generic [ref=e173]:
+                - generic [ref=e174]: R
+                - generic [ref=e175]:
+                  - generic [ref=e176]: Review MacBook Air M4 Setelah Beberapa Bulan
+                  - generic [ref=e177]: Sep 27, 2026
+              - generic [ref=e178]:
+                - generic [ref=e179]: "#tech"
+                - generic [ref=e180]: "#macbook"
+                - generic [ref=e181]: "#applesilicon"
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - heading "Shelves" [level=2] [ref=e184]
+            - link "All shelves →" [ref=e185] [cursor=pointer]:
+              - /url: /shelves
+          - generic [ref=e186]:
+            - link "Fundamental Core concepts and basics worth keeping close. 25 items" [ref=e187] [cursor=pointer]:
+              - /url: /shelves/fundamental/
+              - generic [ref=e189]:
+                - paragraph [ref=e190]: Fundamental
+                - paragraph [ref=e191]: Core concepts and basics worth keeping close.
+                - generic [ref=e192]: 25 items
+            - link "Deep Dives Long-form explorations into how things really work. 12 items" [ref=e193] [cursor=pointer]:
+              - /url: /shelves/deep-dives/
+              - generic [ref=e195]:
+                - paragraph [ref=e196]: Deep Dives
+                - paragraph [ref=e197]: Long-form explorations into how things really work.
+                - generic [ref=e198]: 12 items
+            - link "Reinventing the Wheel Building things from scratch, just to understand them. 11 items" [ref=e199] [cursor=pointer]:
+              - /url: /shelves/reinventing-the-wheel/
+              - generic [ref=e201]:
+                - paragraph [ref=e202]: Reinventing the Wheel
+                - paragraph [ref=e203]: Building things from scratch, just to understand them.
+                - generic [ref=e204]: 11 items
+            - link "Off the Clock Notes beyond code — hobbies, life, and everything else. 7 items" [ref=e205] [cursor=pointer]:
+              - /url: /shelves/off-the-clock/
+              - generic [ref=e207]:
+                - paragraph [ref=e208]: Off the Clock
+                - paragraph [ref=e209]: Notes beyond code — hobbies, life, and everything else.
+                - generic [ref=e210]: 7 items
+        - generic [ref=e211]:
+          - heading "Elsewhere" [level=2] [ref=e213]
+          - paragraph [ref=e214]: You can drop by the guestbook to say hello, find me on other corners of the web, or take a look at how everything here is built.
+          - generic [ref=e215]:
+            - link "Social Where else to find me" [ref=e216] [cursor=pointer]:
+              - /url: /about#social
+              - generic [ref=e221]:
+                - generic [ref=e222]: Social
+                - generic [ref=e223]: Where else to find me
+            - link "Guestbook Leave a message or say hello" [ref=e227] [cursor=pointer]:
+              - /url: /guestbook
+              - generic [ref=e232]:
+                - generic [ref=e233]: Guestbook
+                - generic [ref=e234]: Leave a message or say hello
+            - link "Colophon How this site was built" [ref=e238] [cursor=pointer]:
+              - /url: /colophon
+              - generic [ref=e243]:
+                - generic [ref=e244]: Colophon
+                - generic [ref=e245]: How this site was built
+            - link "Privacy What data this site keeps" [ref=e249] [cursor=pointer]:
+              - /url: /privacy
+              - generic [ref=e254]:
+                - generic [ref=e255]: Privacy
+                - generic [ref=e256]: What data this site keeps
+  - contentinfo [ref=e260]:
+    - generic [ref=e265]:
+      - paragraph [ref=e266]: 2026 @ Fanny Bagus Ramadhan
+      - generic [ref=e267]:
+        - link [ref=e268] [cursor=pointer]:
+          - /url: mailto:fannybagus9f@gmail.com
+        - link [ref=e272] [cursor=pointer]:
+          - /url: https://buymeacoffee.com/fannydevz

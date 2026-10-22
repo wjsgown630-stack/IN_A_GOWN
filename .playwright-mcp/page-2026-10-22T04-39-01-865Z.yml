@@ -1,0 +1,300 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner:
+    - generic [ref=e3]:
+      - tablist "Sections" [ref=e4]:
+        - tab "All" [ref=e5]
+        - tab "About" [ref=e6]
+        - tab "Work" [ref=e7]
+        - tab "Blog" [ref=e8]
+      - button "Search" [ref=e9]
+      - link "阅读中文版" [ref=e13] [cursor=pointer]:
+        - /url: /zh/en
+        - generic [aria-hidden] [ref=e14]: 中
+      - button "Toggle dark mode" [ref=e15]
+  - main [ref=e20]:
+    - list [ref=e22]:
+      - listitem "About Eric" [ref=e23]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - button "Flip to meet Bert, my dog" [ref=e27]:
+              - img "Eric Wu" [ref=e30]
+              - generic [ref=e32]: 🐶
+            - generic [ref=e33]:
+              - paragraph [ref=e34]: Eric Wu
+              - paragraph [ref=e35]: Seattle, WA
+          - generic [ref=e38]:
+            - heading "Hey, I'm Eric." [level=1] [ref=e40]:
+              - generic [aria-hidden] [ref=e41]:
+                - generic [ref=e42]: H
+                - generic [ref=e43]: e
+                - generic [ref=e44]: "y"
+                - generic [ref=e45]: ","
+                - generic [ref=e47]: I
+                - generic [ref=e48]: "'"
+                - generic [ref=e49]: m
+                - generic [ref=e51]:
+                  - text: Eric
+                  - generic [ref=e52]: .
+            - paragraph [ref=e54]: An SDE II at AWS building agentic systems and generative UI. UCLA & Purdue alum. Passionate about crafting AI experiences that make life easier. Outside work, I'm hiking with my dog Bert and planning to summit Mount Rainier in 2027!
+          - navigation "Social links" [ref=e55]:
+            - link "GitHub" [ref=e56] [cursor=pointer]:
+              - /url: https://github.com/itsEricWu
+            - link "LinkedIn" [ref=e59] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/chengxiang-wu/
+            - link "Email" [ref=e62] [cursor=pointer]:
+              - /url: mailto:cxwu00@gmail.com
+            - link "Read my blog" [ref=e65] [cursor=pointer]:
+              - /url: /blog
+      - listitem "AWS FinOps Agent" [ref=e66]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - paragraph [ref=e70]: AWS · Public preview
+            - heading "FinOps Agent" [level=2] [ref=e72]
+            - paragraph [ref=e73]: Always-on cost expertise for every engineer, right where they work.
+            - 'link "See it on AWS: FinOps Agent" [ref=e75] [cursor=pointer]':
+              - /url: https://aws.amazon.com/finops-agent/
+              - text: See it on AWS
+          - button [ref=e78] [cursor=pointer]:
+            - img "Daily cost over 30 days with a spike on day 23" [ref=e80]
+            - list
+            - paragraph [ref=e86]: Illustration with sample data
+      - listitem "Amazon Q artifacts" [ref=e87]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - paragraph [ref=e91]: AWS · Amazon Q
+            - heading "Q artifacts" [level=2] [ref=e93]
+            - paragraph [ref=e94]: Answers that arrive as live charts and tables you can sort and explore.
+            - link "Read the docs for Amazon Q chat artifacts" [ref=e96] [cursor=pointer]:
+              - /url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/chat-artifacts.html
+              - text: Read the docs
+          - generic [ref=e99]:
+            - tablist [ref=e100]:
+              - tab "Chart" [selected] [ref=e102]
+              - tab "Table" [ref=e103]
+              - tab "Forecast" [ref=e104]
+            - paragraph [ref=e105]: Chart my costs by region last month
+            - generic [ref=e108]:
+              - paragraph [ref=e109]:
+                - generic [ref=e110]: Cost by region
+                - generic [ref=e111]: $10,240
+              - generic [ref=e112]:
+                - 'button "us-east-1: $4,820" [ref=e113]':
+                  - generic [ref=e115]: us-east-1
+                - 'button "us-west-2: $2,310" [ref=e116]':
+                  - generic [ref=e118]: us-west-2
+                - 'button "eu-west-1: $1,540" [ref=e119]':
+                  - generic [ref=e121]: eu-west-1
+                - 'button "ap-ne-1: $960" [ref=e122]':
+                  - generic [ref=e124]: ap-ne-1
+                - 'button "eu-c-1: $610" [ref=e125]':
+                  - generic [ref=e127]: eu-c-1
+            - paragraph [ref=e128]: Illustration with sample data
+      - listitem "Seattle sky and theme switch" [ref=e129]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - paragraph [ref=e172]: Seattle
+            - button "Toggle dark mode" [ref=e176]
+          - generic [ref=e180]:
+            - paragraph [ref=e181]: Seattle
+            - paragraph [ref=e182]: Sunrise
+      - listitem "Purdue, UCLA, Seattle" [ref=e183]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - paragraph [ref=e187]: Purdue → UCLA → Seattle
+            - paragraph [ref=e188]: Drag to spin
+          - generic [ref=e189]:
+            - img "Globe showing Purdue, UCLA and Seattle" [ref=e190]
+            - generic: Seattle · now
+            - generic: UCLA
+            - generic: Purdue
+      - listitem "SecondSelf" [ref=e191]:
+        - generic [ref=e193]:
+          - 'img "SecondSelf: A social network run by AI agents." [ref=e196]'
+          - 'link "SecondSelf: A social network run by AI agents." [ref=e197] [cursor=pointer]':
+            - /url: https://secondself.us/
+            - generic [ref=e201]: SecondSelf
+      - listitem "PackBook" [ref=e202]:
+        - generic [ref=e204]:
+          - generic [ref=e206]:
+            - paragraph [ref=e207]: Side project · iOS
+            - heading "PackBook" [level=2] [ref=e208]
+            - paragraph [ref=e209]: Snap your gear. Pack it. Share it.
+          - button "Next PackBook screen" [ref=e210]:
+            - img "PackBook gear wall with die-cut gear photos" [ref=e212]
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - button "Show Snap" [ref=e215]
+              - button "Show Identify" [ref=e217]
+              - button "Show Pack" [ref=e219]
+              - button "Show Share" [ref=e221]
+              - button "Show Shop" [ref=e223]
+            - link "packbook.co" [ref=e225] [cursor=pointer]:
+              - /url: https://www.packbook.co/
+      - listitem "Photos" [ref=e228]:
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - paragraph [ref=e232]: Field notes
+            - generic [ref=e233]: 1 of 9
+          - generic [ref=e234]:
+            - generic:
+              - img "A photo from Eric's camera roll"
+            - generic:
+              - img "A photo from Eric's camera roll"
+            - generic:
+              - img "A photo from Eric's camera roll"
+            - generic [ref=e235]:
+              - img "A photo from Eric's camera roll"
+          - generic [ref=e236]:
+            - button "Previous photo" [ref=e237]
+            - button "Next photo" [ref=e240]
+      - listitem "Web Agent" [ref=e243]:
+        - generic [ref=e245]:
+          - 'img "Web Agent: An AI agent that researches and drafts influencer outreach." [ref=e248]'
+          - 'link "Web Agent: An AI agent that researches and drafts influencer outreach." [ref=e249] [cursor=pointer]':
+            - /url: https://www.simplegen.ai/
+            - generic [ref=e253]: Web Agent
+      - listitem "AI Chatbot" [ref=e254]:
+        - generic [ref=e256]:
+          - 'img "AI Chatbot: A collection of persona chatbots." [ref=e259]'
+          - 'link "AI Chatbot: A collection of persona chatbots." [ref=e260] [cursor=pointer]':
+            - /url: https://beta.simplegen.ai/
+            - generic [ref=e264]: AI Chatbot
+      - listitem "Toolbox" [ref=e265]:
+        - generic [ref=e267]:
+          - paragraph [ref=e268]: Toolbox
+          - generic [ref=e269]:
+            - img "TypeScript" [ref=e271]
+            - img "React" [ref=e274]
+            - img "Next.js" [ref=e277]
+            - img "Python" [ref=e280]
+            - img "Claude" [ref=e283]
+            - img "LangChain" [ref=e286]
+            - img "Model Context Protocol" [ref=e289]
+            - img "LangGraph" [ref=e292]
+            - img "Node.js" [ref=e295]
+            - img "Docker" [ref=e298]
+            - img "Hugging Face" [ref=e301]
+            - img "PostgreSQL" [ref=e304]
+            - img "Tailwind CSS" [ref=e307]
+            - img "PyTorch" [ref=e310]
+            - img "CrewAI" [ref=e313]
+            - img "Ollama" [ref=e316]
+            - img "OpenJDK" [ref=e319]
+            - img "GitHub" [ref=e322]
+            - img "Figma" [ref=e325]
+            - img "Vercel" [ref=e328]
+            - img "JavaScript" [ref=e331]
+            - img "Firebase" [ref=e334]
+            - img "Prisma" [ref=e337]
+            - img "Git" [ref=e340]
+            - img "Three.js" [ref=e343]
+            - img "Vitest" [ref=e346]
+          - paragraph [ref=e348]: Drag to spin
+      - listitem "Mini Cooper" [ref=e349]:
+        - generic [ref=e351]:
+          - paragraph [ref=e352]: My Mini
+          - button "Tap for 3D Mini Cooper model" [ref=e353]:
+            - img "Black Mini Cooper" [ref=e355]
+            - generic [ref=e356]: Tap for 3D
+      - listitem "Text to emoji" [ref=e357]:
+        - generic [ref=e359]:
+          - img "Waving hand" [ref=e363]
+          - generic [ref=e364]:
+            - paragraph [ref=e365]: Text to emoji
+            - generic [ref=e366]:
+              - textbox "Describe a mood" [ref=e367]:
+                - /placeholder: Summit day!
+              - button "Go" [ref=e368]
+      - listitem "DT-VAEGAN" [ref=e369]:
+        - generic [ref=e371]:
+          - 'img "DT-VAEGAN: Cumulative Difference Learning VAE for time series with temporally correlated inflow and outflow." [ref=e374]'
+          - 'link "DT-VAEGAN: Cumulative Difference Learning VAE for time series with temporally correlated inflow and outflow." [ref=e375] [cursor=pointer]':
+            - /url: https://ojs.aaai.org/index.php/AAAI/article/view/29266
+            - generic [ref=e379]: DT-VAEGAN
+      - listitem "Latest writing" [ref=e380]:
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - paragraph [ref=e384]: Writing
+            - link "All posts" [ref=e385] [cursor=pointer]:
+              - /url: /blog
+          - list [ref=e388]:
+            - listitem [ref=e389]:
+              - 'link "Dispatch: Will Coders Work Like Delivery Riders? Oct 2026" [ref=e390] [cursor=pointer]':
+                - /url: /blog/3f22feb8-83fd-815f-bd3e-c684037a0e71
+                - generic [ref=e391]:
+                  - generic [ref=e392]: "Dispatch: Will Coders Work Like Delivery Riders?"
+                  - time [ref=e393]: Oct 2026
+            - listitem [ref=e394]:
+              - 'link "Harness Engineering: What 11 Coding Agents Look Like Inside Oct 2026" [ref=e395] [cursor=pointer]':
+                - /url: /blog/3f22feb8-83fd-8166-ad57-ea30ce9650df
+                - generic [ref=e396]:
+                  - generic [ref=e397]: "Harness Engineering: What 11 Coding Agents Look Like Inside"
+                  - time [ref=e398]: Oct 2026
+            - listitem [ref=e399]:
+              - 'link "Marin: What an Open Lab Actually Solves Oct 2026" [ref=e400] [cursor=pointer]':
+                - /url: /blog/3f22feb8-83fd-8189-9ed8-f57e7185abaf
+                - generic [ref=e401]:
+                  - generic [ref=e402]: "Marin: What an Open Lab Actually Solves"
+                  - time [ref=e403]: Oct 2026
+            - listitem [ref=e404]:
+              - link "My LLM & Agent Signal Stack Jan 2026" [ref=e405] [cursor=pointer]:
+                - /url: /blog/2eb2feb8-83fd-807a-b7d8-f55d2defbe21
+                - generic [ref=e406]:
+                  - generic [ref=e407]: My LLM & Agent Signal Stack
+                  - time [ref=e408]: Jan 2026
+            - listitem [ref=e409]:
+              - link "Foxit Capstone Project Aug 2024" [ref=e410] [cursor=pointer]:
+                - /url: /blog/f7cfd748-6c22-4e71-8a3c-477ab443ee3f
+                - generic [ref=e411]:
+                  - generic [ref=e412]: Foxit Capstone Project
+                  - time [ref=e413]: Aug 2024
+            - listitem [ref=e414]:
+              - link "Eaton Canyon Trail with Bert Jul 2024" [ref=e415] [cursor=pointer]:
+                - /url: /blog/5642f567-dd1a-4d4f-82b0-7676aa602562
+                - generic [ref=e416]:
+                  - generic [ref=e417]: Eaton Canyon Trail with Bert
+                  - time [ref=e418]: Jul 2024
+            - listitem [ref=e419]:
+              - 'link "My Cute Doge: Bert Jul 2024" [ref=e420] [cursor=pointer]':
+                - /url: /blog/635bbbd4-2129-494b-92c0-c8c3b5dba243
+                - generic [ref=e421]:
+                  - generic [ref=e422]: "My Cute Doge: Bert"
+                  - time [ref=e423]: Jul 2024
+            - listitem [ref=e424]:
+              - link "pnpm vs. npm vs. yarn Jul 2024" [ref=e425] [cursor=pointer]:
+                - /url: /blog/455df96a-1873-4873-9f97-643c32377b65
+                - generic [ref=e426]:
+                  - generic [ref=e427]: pnpm vs. npm vs. yarn
+                  - time [ref=e428]: Jul 2024
+            - listitem [ref=e429]:
+              - link "My first Blog Jul 2024" [ref=e430] [cursor=pointer]:
+                - /url: /blog/c81aa683-3670-43bb-821f-d0c3e8c4c6e8
+                - generic [ref=e431]:
+                  - generic [ref=e432]: My first Blog
+                  - time [ref=e433]: Jul 2024
+            - listitem [ref=e434]:
+              - link "Blog Supported Components Jul 2024" [ref=e435] [cursor=pointer]:
+                - /url: /blog/e8e696c7-b37e-4985-a6c0-5a5bdcd604fc
+                - generic [ref=e436]:
+                  - generic [ref=e437]: Blog Supported Components
+                  - time [ref=e438]: Jul 2024
+  - contentinfo [ref=e439]:
+    - generic [ref=e440]:
+      - paragraph [ref=e441]:
+        - text: © 2026 Eric Wu · Seattle, WA
+        - generic [ref=e442]: · ⌘K to explore
+      - list [ref=e443]:
+        - listitem [ref=e444]:
+          - link "GitHub" [ref=e445] [cursor=pointer]:
+            - /url: https://github.com/itsEricWu
+        - listitem [ref=e446]:
+          - link "LinkedIn" [ref=e447] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/chengxiang-wu/
+        - listitem [ref=e448]:
+          - link "Email" [ref=e449] [cursor=pointer]:
+            - /url: mailto:cxwu00@gmail.com
+        - listitem [ref=e450]:
+          - link "中文" [ref=e451] [cursor=pointer]:
+            - /url: /zh/en

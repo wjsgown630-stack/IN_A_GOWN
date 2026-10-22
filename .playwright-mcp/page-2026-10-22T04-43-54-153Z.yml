@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - alert [ref=e2]
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - link "Vercel logo":
+        - /url: /home
+        - button [ref=e6] [cursor=pointer]:
+          - img "Vercel Logo" [ref=e7]
+      - navigation [ref=e9]:
+        - navigation [ref=e10]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /signup?next=%2Fsso-api%3Furl%3Dhttps%253A%252F%252Fportfolio-navi-designer.vercel.app%252F%26nonce%3Df82164ba60ee0521d8b27b8b1872ecb805e0d810f3bf49499716fc1b8d12eeef
+            - paragraph [ref=e13]: Sign Up
+    - main [ref=e14]:
+      - generic [ref=e16]:
+        - heading "Log in to Vercel" [level=1] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - textbox "Email Address" [ref=e24]
+            - button "Continue with Email" [ref=e27] [cursor=pointer]
+          - generic [ref=e30]:
+            - button "Continue with Google" [ref=e31] [cursor=pointer]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: Continue with
+                - text: Google
+            - button "Continue with GitHub" [ref=e37] [cursor=pointer]:
+              - generic [ref=e41]:
+                - generic [ref=e42]: Continue with
+                - text: GitHub
+            - button "Continue with ChatGPT" [ref=e43] [cursor=pointer]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: Continue with
+                - text: ChatGPT
+            - button "Continue with SAML SSO" [ref=e50] [cursor=pointer]
+            - button "Continue with Passkey" [ref=e55] [cursor=pointer]
+            - button "Show other options" [ref=e60] [cursor=pointer]
+        - paragraph [ref=e63]:
+          - text: Don't have an account?
+          - link "Sign Up" [ref=e64] [cursor=pointer]:
+            - /url: /signup?next=%2Fsso-api%3Furl%3Dhttps%253A%252F%252Fportfolio-navi-designer.vercel.app%252F%26nonce%3Df82164ba60ee0521d8b27b8b1872ecb805e0d810f3bf49499716fc1b8d12eeef
+      - generic [ref=e67]:
+        - link "Terms" [ref=e68] [cursor=pointer]:
+          - /url: /legal/terms
+        - link "Privacy Policy" [ref=e69] [cursor=pointer]:
+          - /url: /legal/privacy-policy

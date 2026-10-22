@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary
+    - main [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - generic [ref=e10]:
+                - button "Ezekiel Adewumi" [ref=e11] [cursor=pointer]
+                - generic [ref=e12]:
+                  - button "Customize display" [ref=e13] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - paragraph: Readability & fun
+                    - generic:
+                      - generic: Contrast
+                      - generic:
+                        - button "Normal contrast": Aa
+                        - button "High contrast": Aa
+                    - button "Dyslexia Font"
+                    - generic:
+                      - generic: Text Size
+                      - generic:
+                        - button "Decrease text size": A-
+                        - generic: "100"
+                        - button "Increase text size": A+
+                    - generic:
+                      - paragraph: Extras
+                    - button "Lo-fi Mode"
+                    - button "Cursor Trail"
+                    - button "Celebrate 🎉":
+                      - generic: Celebrate
+                      - generic: 🎉
+                    - generic:
+                      - button "Reset All"
+              - generic [ref=e15]:
+                - heading "Ezekiel Adewumi" [level=1] [ref=e16]
+                - paragraph [ref=e22]: Product Engineer
+            - generic [ref=e23]:
+              - paragraph [ref=e25]: Hey, I'm Ezekiel. Data analyst, product engineer, and designer. I turn ideas into websites, tools, and systems that work. Based in Mauritius & Dubai.
+              - paragraph [ref=e26]:
+                - link "Email" [ref=e27] [cursor=pointer]:
+                  - /url: mailto:contact@aaezekiel.co
+                - text: /
+                - link "LinkedIn" [ref=e32] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/aaezekiel
+                - text: /
+                - link "Twitter" [ref=e37] [cursor=pointer]:
+                  - /url: https://x.com/aaezekiel_co
+                - text: /
+                - link "Instagram" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.instagram.com/a.a.ezekiel
+          - generic [ref=e47]:
+            - generic [ref=e49]:
+              - navigation [ref=e50]:
+                - button "Profile" [ref=e52] [cursor=pointer]
+                - button "Lab" [ref=e54] [cursor=pointer]
+              - link "Email" [ref=e56] [cursor=pointer]:
+                - /url: mailto:contact@aaezekiel.co
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - heading "What I Do" [level=2] [ref=e62]
+                - paragraph [ref=e63]: I build websites and applications, design the interfaces, and set up the data and systems behind them. From the first idea to the live product, I handle the whole thing.
+              - generic [ref=e64]:
+                - heading "Education" [level=2] [ref=e65]
+                - generic [ref=e66]:
+                  - generic [ref=e67]:
+                    - img "Rochester Institute of Technology" [ref=e68]
+                    - generic [ref=e69]:
+                      - generic [ref=e70]:
+                        - heading "Rochester Institute of Technology" [level=3] [ref=e71]
+                        - generic [ref=e72]: 2019-2020
+                      - paragraph [ref=e73]: Master in Data Analytics
+                  - generic [ref=e74]:
+                    - img "Elizade University" [ref=e75]
+                    - generic [ref=e76]:
+                      - generic [ref=e77]:
+                        - heading "Elizade University" [level=3] [ref=e78]
+                        - generic [ref=e79]: 2013-2017
+                      - paragraph [ref=e80]: Bachelor in Computer Science
+              - generic [ref=e81]:
+                - heading "Personal Works" [level=2] [ref=e82]
+                - generic [ref=e83]:
+                  - link [ref=e84] [cursor=pointer]:
+                    - /url: https://mondayideas.com
+                    - img "mondayideas" [ref=e85]
+                    - generic [ref=e86]:
+                      - generic [ref=e87]:
+                        - heading "mondayideas" [level=3] [ref=e88]
+                        - generic [ref=e89]: Visit site
+                      - paragraph [ref=e93]: Building an agentic pipeline that mines business ideas from Reddit every Monday.
+                  - link [ref=e94] [cursor=pointer]:
+                    - /url: https://www.thetoolbus.ai
+                    - img "TheToolBus.ai" [ref=e95]
+                    - generic [ref=e96]:
+                      - generic [ref=e97]:
+                        - heading "TheToolBus.ai" [level=3] [ref=e98]
+                        - generic [ref=e99]: Visit site
+                      - paragraph [ref=e103]: 100+ free tools for small businesses, built and run solo.
+                  - link [ref=e104] [cursor=pointer]:
+                    - /url: https://doi.org/10.3390/app13085050
+                    - generic [ref=e109]:
+                      - generic [ref=e110]:
+                        - heading "My Published Paper" [level=3] [ref=e111]
+                        - generic [ref=e112]: Read paper
+                      - paragraph [ref=e116]: AI/ML research on medication identification.
+                  - link [ref=e117] [cursor=pointer]:
+                    - /url: https://www.carrilagency.com
+                    - img "Carril Agency" [ref=e118]
+                    - generic [ref=e119]:
+                      - generic [ref=e120]:
+                        - heading "Carril Agency" [level=3] [ref=e121]
+                        - generic [ref=e122]: Visit site
+                      - paragraph [ref=e126]: The digital marketing agency I founded and run.
+              - generic [ref=e127]:
+                - heading "Stack" [level=2] [ref=e128]
+                - paragraph [ref=e129]: The tools and apps I work in every day. Design, code, and the AI that connects it.
+                - generic [ref=e130]:
+                  - generic "Figma" [ref=e131]:
+                    - img "Figma" [ref=e132]
+                    - text: Figma
+                  - generic "Webflow" [ref=e133]:
+                    - img "Webflow" [ref=e134]
+                    - text: Webflow
+                  - generic "React" [ref=e135]:
+                    - img "React" [ref=e136]
+                    - text: React
+                  - generic "Next.js" [ref=e137]:
+                    - img "Next.js" [ref=e138]
+                    - text: Next.js
+                  - generic "Astro" [ref=e139]:
+                    - img "Astro" [ref=e140]
+                    - text: Astro
+                  - generic "TypeScript" [ref=e141]:
+                    - img "TypeScript" [ref=e142]
+                    - text: TypeScript
+                  - generic "Tailwind" [ref=e143]:
+                    - img "Tailwind" [ref=e144]
+                    - text: Tailwind
+                  - generic "Node.js" [ref=e145]:
+                    - img "Node.js" [ref=e146]
+                    - text: Node.js
+                  - generic "Python" [ref=e147]:
+                    - img "Python" [ref=e148]
+                    - text: Python
+                  - generic "PostgreSQL" [ref=e149]:
+                    - img "PostgreSQL" [ref=e150]
+                    - text: PostgreSQL
+                  - generic "Cloudflare" [ref=e151]:
+                    - img "Cloudflare" [ref=e152]
+                    - text: Cloudflare
+                  - generic "Claude" [ref=e153]:
+                    - img "Claude" [ref=e154]
+                    - text: Claude
+                  - generic "Cursor" [ref=e155]:
+                    - img "Cursor" [ref=e156]
+                    - text: Cursor
+                  - generic "n8n" [ref=e157]:
+                    - img "n8n" [ref=e158]
+                    - text: n8n
+                  - generic "Ahrefs" [ref=e159]:
+                    - img "Ahrefs" [ref=e160]
+                    - text: Ahrefs
+                  - generic "Power BI" [ref=e161]:
+                    - img "Power BI" [ref=e162]
+                    - text: Power BI
+                  - generic "Google Analytics" [ref=e163]:
+                    - img "Google Analytics" [ref=e164]
+                    - text: Google Analytics
+                  - generic "Final Cut Pro" [ref=e165]:
+                    - img "Final Cut Pro" [ref=e166]
+                    - text: Final Cut Pro
+                  - generic "Conductor" [ref=e167]:
+                    - img "Conductor" [ref=e168]
+                    - text: Conductor
+              - generic [ref=e169]:
+                - heading "Latest Notes" [level=2] [ref=e170]
+                - generic [ref=e171]:
+                  - link [ref=e172] [cursor=pointer]:
+                    - /url: /notes/ai-agent-system
+                    - generic [ref=e173]:
+                      - heading "Building AI systems for my agency" [level=3] [ref=e174]
+                      - generic [ref=e175]: Read note
+                  - link [ref=e179] [cursor=pointer]:
+                    - /url: /notes/redesign
+                    - generic [ref=e180]:
+                      - heading "Redesigning my portfolio as a personal OS" [level=3] [ref=e181]
+                      - generic [ref=e182]: Read note
+                  - link [ref=e186] [cursor=pointer]:
+                    - /url: /notes/split-slider
+                    - generic [ref=e187]:
+                      - heading "Split Slider" [level=3] [ref=e188]
+                      - generic [ref=e189]: Read note
+                  - link [ref=e193] [cursor=pointer]:
+                    - /url: /notes/toast-stack
+                    - generic [ref=e194]:
+                      - heading "Toast Stack" [level=3] [ref=e195]
+                      - generic [ref=e196]: Read note
+                  - generic:
+                    - generic:
+                      - link [ref=e200] [cursor=pointer]:
+                        - /url: /notes/spring-number-flow
+                        - generic [ref=e201]:
+                          - heading "Spring Number Flow" [level=3] [ref=e202]
+                          - generic [ref=e203]: Read note
+                      - link [ref=e207] [cursor=pointer]:
+                        - /url: /notes/business-hours-widget
+                        - generic [ref=e208]:
+                          - heading "Business Hours Widget" [level=3] [ref=e209]
+                          - generic [ref=e210]: Read note
+                - button "Load more ↓" [ref=e214] [cursor=pointer]
+              - generic [ref=e215]:
+                - heading "Testimonials" [level=2] [ref=e216]
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]:
+                      - img "Kosiso" [ref=e220]
+                      - generic [ref=e221]:
+                        - generic [ref=e222]: Kosiso
+                        - generic [ref=e223]: Founder, Sherify
+                    - paragraph [ref=e224]: "\"He's a genius at what he does. He takes complex challenges and turns them into simple, effective solutions that actually work. From strategy to execution, everything feels well thought out and handled with ease.\""
+                  - generic [ref=e225]:
+                    - generic [ref=e226]:
+                      - img "Olen Avecillas" [ref=e227]
+                      - generic [ref=e228]:
+                        - generic [ref=e229]: Olen Avecillas
+                        - generic [ref=e230]: Owner, Wire Ninjas
+                    - paragraph [ref=e231]: "\"I was exhausted from years of false promises and marketing teams that never truly delivered. Then I met Ezekiel — from the very first call, his expertise and clarity stood out.\""
+                  - generic [ref=e232]:
+                    - generic [ref=e233]:
+                      - img "Anel-Carline Beukes" [ref=e234]
+                      - generic [ref=e235]:
+                        - generic [ref=e236]: Anel-Carline Beukes
+                        - generic [ref=e237]: HRBP, Bridgestone
+                    - paragraph [ref=e238]: "\"His creation of Power BI dashboards significantly improved our ability to track data for our digitalization and automation projects. Beyond his technical abilities, Ezekiel is known for being friendly and helpful. I wholeheartedly recommend Ezekiel for any project or team in need of data-driven insights and digital solutions.\""
+                  - generic [ref=e239]:
+                    - generic [ref=e240]:
+                      - img "Malik Ahmed" [ref=e241]
+                      - generic [ref=e242]:
+                        - generic [ref=e243]: Malik Ahmed
+                        - generic [ref=e244]: BI Engineer, WTW Credit Risk Solutions
+                    - paragraph [ref=e245]: "\"I've had the pleasure of working with Ezekiel in a fast-paced and data-driven environment. His skills as a Data Analyst are second to none. His proficiency in web design, project management, ability to present data in a clear and compelling manner truly sets him apart.\""
+        - generic [ref=e247]:
+          - generic [ref=e248]: 12:50 PM
+          - navigation [ref=e249]:
+            - link "X (Twitter)" [ref=e250] [cursor=pointer]:
+              - /url: https://x.com/aaezekiel_co
+            - link "LinkedIn" [ref=e253] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/aaezekiel
+            - link "GitHub" [ref=e256] [cursor=pointer]:
+              - /url: https://github.com/aaezekiel
+    - complementary [ref=e259]:
+      - generic [ref=e260]:
+        - button "Scroll up" [disabled] [ref=e261]
+        - button "Scroll down" [ref=e264] [cursor=pointer]
+  - navigation [ref=e267]:
+    - link "Home" [ref=e268] [cursor=pointer]:
+      - /url: /
+    - link "Contact" [ref=e271] [cursor=pointer]:
+      - /url: mailto:contact@aaezekiel.co
+    - button "Send voice message" [ref=e275] [cursor=pointer]:
+      - generic: Voice
+    - button "Toggle theme" [ref=e280] [cursor=pointer]:
+      - generic: Theme

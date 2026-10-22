@@ -1,0 +1,7 @@
+[   58424ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://michxymi.com/contact:0
+[   58799ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://michxymi.com/blog:0
+[   61128ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://michxymi.com/blog/my-nextjs-site-shipped-900kb-javascript:0
+[   63032ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://michxymi.com/projects:0
+[   63162ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://michxymi.com/now:0
+[   63265ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://michxymi.com/:0
+[  147453ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://michxymi.com/:0

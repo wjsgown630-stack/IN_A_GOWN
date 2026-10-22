@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - heading "nwthn.dev" [level=1] [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "About" [ref=e10] [cursor=pointer]:
+              - /url: /about
+            - text: "|"
+            - link "Posts" [ref=e11] [cursor=pointer]:
+              - /url: /posts
+            - text: "|"
+            - link "Art" [ref=e12] [cursor=pointer]:
+              - /url: /art
+          - button "Switch to light mode" [ref=e13] [cursor=pointer]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - paragraph [ref=e23]: 오후 1:43:45
+          - generic [ref=e25]:
+            - link [ref=e26] [cursor=pointer]:
+              - /url: https://www.imdb.com/title/tt12590266/
+              - paragraph [ref=e29]: "01"
+            - link [ref=e30] [cursor=pointer]:
+              - /url: https://www.imdb.com/title/tt1490017/
+              - paragraph [ref=e33]: "02"
+        - generic [ref=e34]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: posts/idle_open_beta
+            - paragraph [ref=e40]: What's New
+          - iframe [ref=e42]:
+            - generic [ref=f2e1]:
+              - generic [ref=f2e6]:
+                - img "I Really Want to Stay at Your House cover" [ref=f2e9] [cursor=pointer]
+                - button "Play on Spotify" [ref=f2e11] [cursor=pointer]
+                - generic [ref=f2e14]:
+                  - heading [level=1] [ref=f2e15]:
+                    - link "I Really Want to Stay at Your House" [ref=f2e19] [cursor=pointer]:
+                      - /url: https://open.spotify.com/track/7mykoq6R3BArsSpNDjFQTm?go=1&sp_cid=4b966b270e531616216867c699c8a8f6&utm_source=embed_player_p&utm_medium=desktop
+                  - generic [ref=f2e20]:
+                    - list "Tags" [ref=f2e21]:
+                      - generic "Preview" [ref=f2e22]
+                    - heading "Rosa Walton , Hallie Coggins" [level=2] [ref=f2e23]:
+                      - generic [ref=f2e27]:
+                        - link "Rosa Walton" [ref=f2e28] [cursor=pointer]:
+                          - /url: https://open.spotify.com/artist/1X0HaTcdkHW7LviblBiEeq?go=1&sp_cid=4b966b270e531616216867c699c8a8f6
+                        - generic [ref=f2e29]: ","
+                        - link "Hallie Coggins" [ref=f2e30] [cursor=pointer]:
+                          - /url: https://open.spotify.com/artist/5JNkPX6dYGLeEm4cUjHNGc?go=1&sp_cid=4b966b270e531616216867c699c8a8f6
+                  - button "Save on Spotify" [ref=f2e32] [cursor=pointer]
+                - generic [ref=f2e38]:
+                  - button "More" [ref=f2e40] [cursor=pointer]
+                  - button "Play" [disabled] [ref=f2e44]
+              - alert [ref=f2e47]
+        - link [ref=e44] [cursor=pointer]:
+          - /url: /about
+          - paragraph [ref=e48]: About ->
+      - generic [ref=e49]:
+        - heading "Recent Posts" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - 'link "idle: the hallway you lost after college" [ref=e55] [cursor=pointer]':
+              - /url: /posts/idle_open_beta
+              - 'img "Cover Image for idle: the hallway you lost after college" [ref=e56]'
+            - heading [level=3] [ref=e57]:
+              - 'link "idle: the hallway you lost after college" [ref=e58] [cursor=pointer]':
+                - /url: /posts/idle_open_beta
+            - time [ref=e60]: April 17, 2026
+            - generic [ref=e61]:
+              - generic [ref=e62]: project
+              - generic [ref=e63]: for fun
+            - paragraph [ref=e64]: i built a social app that recreates the feeling of leaving your dorm room door open. it's in open beta now and i think you should try it.
+            - generic [ref=e65]:
+              - img "Nathan Tang" [ref=e66]
+              - generic [ref=e67]: Nathan Tang
+          - generic [ref=e68]:
+            - 'link "Memento Mori: Building a Deadman Switch" [ref=e71] [cursor=pointer]':
+              - /url: /posts/memento_mori
+              - 'img "Cover Image for Memento Mori: Building a Deadman Switch" [ref=e72]'
+            - heading [level=3] [ref=e73]:
+              - 'link "Memento Mori: Building a Deadman Switch" [ref=e74] [cursor=pointer]':
+                - /url: /posts/memento_mori
+            - time [ref=e76]: March 9, 2026
+            - generic [ref=e77]:
+              - generic [ref=e78]: technical
+              - generic [ref=e79]: project
+              - generic [ref=e80]: for fun
+            - paragraph [ref=e81]: An ex told me I'd die young. So I built a system that notices when I stop showing up — because yes, that is a healthy coping mechanism.
+            - generic [ref=e82]:
+              - img "Nathan Tang" [ref=e83]
+              - generic [ref=e84]: Nathan Tang
+      - link "See all posts" [ref=e86] [cursor=pointer]:
+        - /url: /posts
+        - text: See all posts
+        - generic [aria-hidden] [ref=e87]: →
+  - contentinfo [ref=e88]:
+    - generic [ref=e90]:
+      - heading "Made with ❤️ in Seattle, WA" [level=3] [ref=e91]
+      - link "Contact Me" [ref=e93] [cursor=pointer]:
+        - /url: /about
+  - alert [ref=e94]

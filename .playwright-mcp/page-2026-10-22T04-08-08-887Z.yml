@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Alexander Horner" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary navigation" [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Work" [ref=e10] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: /about
+        - link "Experience" [ref=e12] [cursor=pointer]:
+          - /url: /about#experience
+      - generic [ref=e14]:
+        - link "LinkedIn" [ref=e15] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/alexander-horner/
+        - link "GitHub" [ref=e18] [cursor=pointer]:
+          - /url: https://github.com/alexanderhorner
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - paragraph [ref=e25]: Based in Hamburg, Germany
+        - heading "Software Engineer Pursuing Elegant Solutions and Exceptional User Experiences" [level=1] [ref=e26]:
+          - text: Software Engineer Pursuing Elegant Solutions and
+          - generic [ref=e27]: Exceptional User Experiences
+        - paragraph [ref=e28]: I build web applications with a focus on user experience, maintainable code, and the frontend and backend work needed to ship complete features.
+        - generic [ref=e29]:
+          - link "View Work" [ref=e30] [cursor=pointer]:
+            - /url: /work
+          - link "Read More About Me" [ref=e31] [cursor=pointer]:
+            - /url: /about
+      - img "Professional editorial portrait of Alexander Horner" [ref=e36]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: Introduction
+        - heading "The Work Behind The Perspective" [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: I'm Alexander Horner, a software engineer based in Hamburg, Germany, studying Computer Science at Hamburg University of Technology. I work across frontend and backend and bring particularly strong frontend engineering experience. I care about clear interfaces, maintainable systems, and building complete features from requirements through implementation.
+          - paragraph [ref=e45]: I currently work at T-Systems IFS in System Engineering Defence, contributing to the frontend of a training system for the Danish Navy using Angular, TypeScript, deck.gl, and map-based interfaces. T-Systems IFS develops Classified IT for internal and external security and for authorities with particularly high security requirements.
+          - paragraph [ref=e46]: Before that, I worked at AKRA on the redevelopment of a job-matching platform used by more than 225,000 users and 7,000 employers. My work grew from frontend implementation into broader technical ownership across frontend and backend development, UI design, deployment, client communication, and product decisions, using Nuxt, Go, PostgreSQL, authentication, and geosearch. I also developed an AI-agent prototype for internal talent and consultant management.
+      - complementary [ref=e47]:
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Technologies
+          - generic [ref=e51]:
+            - generic [ref=e52]: Angular
+            - generic [ref=e53]: TypeScript
+            - generic [ref=e54]: deck.gl
+            - generic [ref=e55]: Vue
+            - generic [ref=e56]: Nuxt
+            - generic [ref=e57]: Go
+        - generic [ref=e58]:
+          - paragraph [ref=e59]: Current focus
+          - paragraph [ref=e61]: Clear interfaces, resilient systems, and software that supports both users and the people building it.
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - heading "Curating digital experiences through rigorous engineering." [level=2] [ref=e65]
+        - paragraph [ref=e67]: Selected Works
+      - generic [ref=e68]:
+        - article [ref=e69]:
+          - link [ref=e70] [cursor=pointer]:
+            - /url: /work/ai-novel-view-synthesis
+            - img "Project thumbnail for the novel view synthesis research project" [ref=e73]
+            - generic [ref=e75]:
+              - heading "View Synthesis of Three-Dimensional Spaces Using Artificial Intelligence" [level=3] [ref=e76]
+              - paragraph [ref=e77]: Research project
+        - article [ref=e81]:
+          - link [ref=e82] [cursor=pointer]:
+            - /url: /work/portfolio-2026
+            - img "Editorial collage showing the 2026 portfolio homepage and work archive" [ref=e85]
+            - generic [ref=e87]:
+              - heading "Portfolio Redesign 2026" [level=3] [ref=e88]
+              - paragraph [ref=e89]: React / TanStack Start
+        - article [ref=e93]:
+          - link [ref=e94] [cursor=pointer]:
+            - /url: /work/interactive-education
+            - img "Screenshot of the interactive education website homepage" [ref=e97]
+            - generic [ref=e99]:
+              - 'heading "Interactive Education: West Germany''s Recovery" [level=3] [ref=e100]'
+              - paragraph [ref=e101]: Nuxt.js / Firebase
+        - article [ref=e105]:
+          - link [ref=e106] [cursor=pointer]:
+            - /url: /work/ukraine-night-watch
+            - img "Night Watch Ukraine live alert map" [ref=e109]
+            - generic [ref=e111]:
+              - heading "Night Watch Ukraine" [level=3] [ref=e112]
+              - paragraph [ref=e113]: React / Cloudflare
+    - generic [ref=e118]:
+      - paragraph [ref=e123]: "\"Good software should be easy to use and easy to work on.\""
+      - paragraph [ref=e125]: A principle that shapes how I work
+    - generic [ref=e128]:
+      - heading "Interested in working together?" [level=2] [ref=e129]
+      - paragraph [ref=e130]: Let's connect.
+      - generic [ref=e131]:
+        - link "LinkedIn" [ref=e132] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/alexander-horner/
+        - link "GitHub" [ref=e133] [cursor=pointer]:
+          - /url: https://github.com/alexanderhorner
+  - contentinfo [ref=e134]:
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - paragraph [ref=e138]: Explore further
+          - paragraph [ref=e139]: A quieter place to keep browsing.
+          - paragraph [ref=e140]: If you'd like a fuller picture, the work and about pages go deeper into the projects, decisions, and experience behind the site.
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - navigation "Footer pages" [ref=e143]:
+              - paragraph [ref=e144]: Pages
+              - generic [ref=e145]:
+                - link "Home" [ref=e146] [cursor=pointer]:
+                  - /url: /
+                - link "Work" [ref=e147] [cursor=pointer]:
+                  - /url: /work
+                - link "About" [ref=e148] [cursor=pointer]:
+                  - /url: /about
+                - link "Experience" [ref=e149] [cursor=pointer]:
+                  - /url: /about#experience
+            - generic [ref=e150]:
+              - paragraph [ref=e151]: Elsewhere
+              - generic [ref=e152]:
+                - link "LinkedIn" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/alexander-horner/
+                - link "GitHub" [ref=e154] [cursor=pointer]:
+                  - /url: https://github.com/alexanderhorner
+          - navigation "Footer case studies" [ref=e155]:
+            - paragraph [ref=e156]: Case studies
+            - generic [ref=e157]:
+              - link "Night Watch Ukraine" [ref=e158] [cursor=pointer]:
+                - /url: /work/ukraine-night-watch
+              - link "View Synthesis of Three-Dimensional Spaces Using Artificial Intelligence" [ref=e159] [cursor=pointer]:
+                - /url: /work/ai-novel-view-synthesis
+              - link "Portfolio Redesign 2026" [ref=e160] [cursor=pointer]:
+                - /url: /work/portfolio-2026
+              - 'link "Interactive Education: West Germany''s Recovery" [ref=e161] [cursor=pointer]':
+                - /url: /work/interactive-education
+              - link "WGG Neumarkt Homepage" [ref=e162] [cursor=pointer]:
+                - /url: /work/wgg-homepage
+              - link "Portfolio 2024" [ref=e163] [cursor=pointer]:
+                - /url: /work/portfolio-2024
+              - link "Portfolio 2022" [ref=e164] [cursor=pointer]:
+                - /url: /work/portfolio-2022
+              - link "Dentistry Office Homepage" [ref=e165] [cursor=pointer]:
+                - /url: /work/dentistry-homepage
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - paragraph [ref=e168]: © 2026 Alexander Horner. Crafted with intent.
+          - paragraph [ref=e169]: Based in Hamburg, Germany
+          - generic [ref=e170]:
+            - link "Legal Notice" [ref=e171] [cursor=pointer]:
+              - /url: /legal-notice
+            - link "Privacy Policy" [ref=e172] [cursor=pointer]:
+              - /url: /privacy-policy
+        - paragraph [ref=e173]: Thanks for reading.

@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Brett Snyder" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - navigation "Primary" [ref=e13]:
+            - link "About" [ref=e14] [cursor=pointer]:
+              - /url: /about
+            - link "Projects" [ref=e15] [cursor=pointer]:
+              - /url: /projects
+            - link "Tools" [ref=e16] [cursor=pointer]:
+              - /url: /tools
+            - link "Blog" [ref=e17] [cursor=pointer]:
+              - /url: /blog
+        - button "Switch to light mode" [ref=e19] [cursor=pointer]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Menu" [level=2] [ref=e28]
+        - button "Close menu" [ref=e29] [cursor=pointer]
+      - navigation [ref=e33]:
+        - link "Home" [ref=e34] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e35] [cursor=pointer]:
+          - /url: /about
+        - link "Projects" [ref=e36] [cursor=pointer]:
+          - /url: /projects
+        - link "Tools" [ref=e37] [cursor=pointer]:
+          - /url: /tools
+        - link "Blog" [ref=e38] [cursor=pointer]:
+          - /url: /blog
+        - link "Email Me" [ref=e39] [cursor=pointer]:
+          - /url: mailto:hello@brettsnyder.me?subject=Hello%20from%20your%20portfolio&body=Hi%20there,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20wanted%20to%20say%20hello...
+        - button "Open resume" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: Resume
+      - paragraph [ref=e49]: © 2026 Brett Snyder
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]: Website
+        - heading "Personal Portfolio Site" [level=1] [ref=e59]
+        - paragraph [ref=e60]: A complete rebuild of my personal portfolio site using the latest Next.js and React versions. Features a dark iridescent glassmorphism design with animated elements, and a hybrid JSON/markdown system.
+        - generic [ref=e61]:
+          - generic [ref=e62]: React
+          - generic [ref=e63]: Nextjs
+          - generic [ref=e64]: Typescript
+          - generic [ref=e65]: Web Design
+      - img "Personal Portfolio Site hero image" [ref=e72]
+    - generic [ref=e74]:
+      - article [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Sep 2025
+              - generic [ref=e84]: Prod
+            - generic [ref=e86]:
+              - link "Live" [ref=e87] [cursor=pointer]:
+                - /url: /
+              - link "Code" [ref=e89] [cursor=pointer]:
+                - /url: https://github.com/topwebworks/nextjs-brettsnyder
+          - generic [ref=e97]:
+            - heading "Previous Portfolio" [level=2] [ref=e98]
+            - paragraph [ref=e99]: "I ran my old portfolio site for years using a customized Next.js + Tailwind UI template. It was solid: minimal design, dark mode, markdown content, clean layout. Nothing wrong with it, and it probably could have served me longer, but I was ready for something new."
+            - heading "The Vision" [level=2] [ref=e100]
+            - paragraph [ref=e101]: I wanted to rebuild from scratch using the newest Next.js and React versions, which was risky since they'd just been released and had bugs. But as the only stakeholder, why not push boundaries?
+            - paragraph [ref=e102]: "I chose Lucide icons over Font Awesome for a cleaner look. The goal was a more robust portfolio with the same easy markdown blog workflow, but instead of standard flat black-and-white dark mode, I wanted glassmorphism: dark, iridescent tones with glass and transparency effects."
+            - paragraph [ref=e103]: "Most portfolios use small circular avatars that lack impact on desktop. I didn't want a large portrait staring at visitors on page load either. My compromise: clean homepage with animated orbs and typography, then a large portrait background that appears only on hover."
+            - paragraph [ref=e104]: Navigation would show just two main hero buttons, moving everything else to a side menu and footer. Since I'm on Vercel's free tier, I added a config toggle to hide resume and commercial elements, which I've since turned back on as the site matured.
+            - paragraph [ref=e105]: "Below the hero, I'd keep the successful elements from my old site: latest project cards, recent work timeline, GitHub and LinkedIn links. I planned expanded About and Tools pages, proper blog and project listing pages with thumbnails, and actual project case studies this time. The goal was sharing the same content engine between blogs and projects."
+            - paragraph [ref=e106]: For contact, I stuck with a simple email link. No forms, no bot problems.
+            - heading "Design Approach" [level=2] [ref=e107]
+            - paragraph [ref=e108]: I could have started with Figma mockups, but I already knew I was building sections similar to my old site, so I jumped straight into homepage prototyping to test concepts. The dark iridescent effect using feathered orbs over the hero image gave me exactly the soft color shifting I wanted. The hover portrait felt aggressive at first, but adjusting opacity and easing made it impactful without being overwhelming.
+            - paragraph [ref=e109]: Glass effects were appealing but could easily become cluttered. I added a slow-moving floating background panel to enhance the transparency effect. All hover interactions stayed soft and subtle. I initially tried fully glassy buttons but ended up emphasizing them more for better usability.
+            - heading "The Build" [level=2] [ref=e110]
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - paragraph [ref=e113]:
+                  - strong [ref=e114]: "Homepage:"
+                  - text: Once the design concepts were working, I added navigation and footer components to the layout. The header uses a sticky glass effect. I liked the glass blur there but found it too distracting with content panels, so I mainly used rgba transparency instead. I added placeholder latest project cards and fine-tuned hover effects (the dynamic content would come later). The timeline added some color but was mostly static content mapping.
+                - paragraph [ref=e115]: This is where I hit the challenges of using bleeding-edge Next.js and React. Service worker issues, caching problems, Edge browser bugs, and Tailwind incompatibilities created constant friction. I almost switched back to stable versions, but knowing they'd be deprecated soon, I stuck with it. I ended up removing Tailwind entirely and creating my own utility classes. The framework versions were only weeks old, so bugs weren't surprising. Later I realized Vercel's Edge CDN made my service worker redundant, so I removed it and saw network performance improve.
+              - listitem [ref=e116]:
+                - paragraph [ref=e117]:
+                  - strong [ref=e118]: "About Page:"
+                  - text: I followed the same approach as the homepage but didn't want all the animated orbs, so I built a configurable background component that adapts based on the page. The About page uses one animated orb (top-left) with the rest static. I then updated the homepage to use this same background component.
+                - paragraph [ref=e119]: I added focused stats and achievements, much better than my previous verbose About section. The content was more conversion-oriented with clear takeaways. Glass effects made it more visually interesting than before.
+                - paragraph [ref=e120]: This is also where I finalized the light and dark mode styling. I experimented with several theme variations but settled on the two I liked best. I kept some old test styles in case I want to revisit them later.
+              - listitem [ref=e121]:
+                - paragraph [ref=e122]:
+                  - strong [ref=e123]: "Tools:"
+                  - text: This evolved from my old "Uses" page. Instead of a long scrolling list, I created a 4-tab tile layout. Icons are pulled from a large categorized array, giving me room to expand easily.
+              - listitem [ref=e124]:
+                - paragraph [ref=e125]:
+                  - strong [ref=e126]: "Projects and Blogs:"
+                  - text: "This section required the most trial and error with the new frameworks. The markdown approach from my old site didn't work despite trying multiple angles. My challenge: I wanted markdown's editing ease for blogs and projects, but also the fast loading I'd seen in JSON-based sites like Shopify. How could I combine both without exhausting API resources on Vercel's free tier?"
+                - paragraph [ref=e127]:
+                  - text: The solution came close to what I'd hoped for. To create a project or blog, you add a folder (like
+                  - code [ref=e128]: my-cool-project
+                  - text: ) in the corresponding content directory, add images to that folder, then run an npm script to generate both a markdown file and JSON file in your project folder.
+                - blockquote [ref=e130]:
+                  - paragraph [ref=e131]: You edit only the markdown file. Running the script again updates the JSON file. I use this same script to regenerate any markdown files with timestamps newer than their corresponding JSON files. This gives fast JSON loading with built-in markdown backup if the content gets corrupted.
+                - paragraph [ref=e132]: Originally I wanted everything prebuilt locally (file paths, latest blogs, content) to bypass Vercel build deployment and save resources. But Vercel needed all build files to be static for prebuild deployment, and I was using some dynamic features I did not want to compromise. I didn't like the full-static results, so I let Vercel handle the build and changed the file checking logic to build based on change timestamp comparisons. Deploy times increased but stayed well within free tier limits.
+                - paragraph [ref=e133]: Detail pages use a smart media gallery that detects tall vs. wide formats and skips thumbnail bars for single images. It supports inline images with external link awareness, feature tagging, and optional title overrides.
+                - paragraph [ref=e134]: I also convert markdown to rich HTML within the JSON files. This gives my JSON files basic HTML flexibility when needed. Pure markdown conversion to HTML is slow, and pure JSON is too limiting for styled content. With content redundancy, I get the best of both approaches.
+              - listitem [ref=e135]:
+                - paragraph [ref=e136]:
+                  - strong [ref=e137]: "Policy Pages:"
+                  - text: These are straightforward, no-frills content pages.
+              - listitem [ref=e138]:
+                - paragraph [ref=e139]:
+                  - strong [ref=e140]: "Mobile:"
+                  - text: I used the standard small profile picture approach since text was hard to read otherwise. Everything stacks in typical mobile fashion. I tried to use fluid responsive design and clamp() where I remembered to.
+            - heading "Project Structure" [level=2] [ref=e141]
+            - code [ref=e143]: "src/ ├── app/ # Next.js App Router pages │ ├── about/ # About page │ ├── blog/ # Blog listing & [slug] pages │ ├── projects/ # Project showcase & [slug] pages │ └── tools/ # Tools/stack page ├── components/ # Reusable UI components │ ├── layout/ # Header, Footer, Navigation │ └── ui/ # Button, LoadingSpinner, etc. ├── lib/ # Core utilities │ ├── generated/ # Auto-generated content manifests │ ├── types/ # TypeScript definitions │ ├── blogLoader.ts # Blog content system │ └── projectLoader.ts # Project content system └── styles/ # CSS files"
+            - heading "Adding New Projects" [level=2] [ref=e144]
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - text: "Create folder:"
+                - code [ref=e147]: src/app/projects/content/your-project/
+              - listitem [ref=e148]: Add web-optimized project images to the folder
+              - listitem [ref=e149]:
+                - text: Run
+                - code [ref=e150]: npm run generate-project-data
+              - listitem [ref=e151]:
+                - text: Edit the generated
+                - code [ref=e152]: project.md
+                - text: file (ignore the JSON file)
+              - listitem [ref=e153]:
+                - text: Run
+                - code [ref=e154]: npm run generate-project-data
+                - text: again after editing
+            - heading "Results" [level=2] [ref=e155]
+            - paragraph [ref=e156]: The portfolio rebuild hit most all technical and design goals. The dark iridescent glassmorphism creates visual impact while working well across devices. The hybrid content management system gives me markdown's editing convenience with JSON's performance benefits, making it practical on Vercel's free tier.
+            - paragraph [ref=e157]: "Key achievements: implementing latest Next.js 15 and React 19 within weeks of their release, creating a custom utility system when Tailwind compatibility failed, and building an automated content generation workflow. The hover-activated portrait and animated orb system provides desktop impact without overwhelming mobile users."
+            - paragraph [ref=e158]: I'm still adding to it. New projects, updated content, whatever the site needs next.
+      - article [ref=e159]:
+        - generic [ref=e160]:
+          - heading "Key Achievements & Impact" [level=2] [ref=e161]
+          - generic [ref=e163]:
+            - heading "Next.js 15 & React 19 Migration" [level=3] [ref=e165]
+            - paragraph [ref=e166]: Built with bleeding-edge frameworks released just weeks prior. Overcame local cache, and Edge browser compatibility issues while maintaining modern development practices and performance standards.
+            - list [ref=e167]:
+              - listitem [ref=e168]:
+                - generic [ref=e169]: •
+                - generic [ref=e170]: Next.js 15 and React 19 implementation within weeks of release
+              - listitem [ref=e171]:
+                - generic [ref=e172]: •
+                - generic [ref=e173]: Custom utility classes replacing Tailwind
+              - listitem [ref=e174]:
+                - generic [ref=e175]: •
+                - generic [ref=e176]: Glassmorphism design system with animated orb/panel elements
+              - listitem [ref=e177]:
+                - generic [ref=e178]: •
+                - generic [ref=e179]: Fluid responsive design
+    - link "Back to Projects" [ref=e182] [cursor=pointer]:
+      - /url: /projects
+    - contentinfo [ref=e187]:
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - link "About" [ref=e194] [cursor=pointer]:
+                - /url: /about
+              - link "Projects" [ref=e195] [cursor=pointer]:
+                - /url: /projects
+              - link "Blog" [ref=e196] [cursor=pointer]:
+                - /url: /blog
+            - generic [ref=e197]:
+              - link "Privacy" [ref=e198] [cursor=pointer]:
+                - /url: /policy
+              - link "Terms" [ref=e199] [cursor=pointer]:
+                - /url: /terms
+              - button "Cookies" [ref=e200] [cursor=pointer]
+          - generic [ref=e201]: © 2026 Brett Snyder. All rights reserved worldwide.
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - link "Email Brett Snyder" [ref=e204] [cursor=pointer]:
+              - /url: mailto:hello@brettsnyder.me?subject=Hello%20from%20your%20portfolio&body=Hi%20there,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20wanted%20to%20say%20hello...
+            - link "LinkedIn profile" [ref=e208] [cursor=pointer]:
+              - /url: https://linkedin.com/in/topwebworks
+            - link "GitHub profile" [ref=e213] [cursor=pointer]:
+              - /url: https://github.com/topwebworks
+            - button "Open resume" [ref=e217] [cursor=pointer]
+          - generic [ref=e222]:
+            - generic [ref=e223]: Built with
+            - generic [ref=e224]: Next.js
+            - generic [ref=e225]: TypeScript
+            - generic [ref=e226]: React
+            - generic [ref=e227]: CSS3
+            - generic [ref=e228]: Lucide Icons
+  - dialog "Cookie consent" [ref=e229]:
+    - paragraph [ref=e230]:
+      - text: We use cookies for analytics to understand how visitors use this site.
+      - link "Privacy policy" [ref=e231] [cursor=pointer]:
+        - /url: /policy
+    - generic [ref=e232]:
+      - button "Decline" [ref=e233] [cursor=pointer]
+      - button "Customize" [ref=e234] [cursor=pointer]
+      - button "Accept all" [ref=e235] [cursor=pointer]

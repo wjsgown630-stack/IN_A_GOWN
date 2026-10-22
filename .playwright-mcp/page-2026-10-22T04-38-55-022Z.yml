@@ -1,0 +1,168 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - generic [ref=e9]:
+            - figure [ref=e10]:
+              - img "michxymi" [ref=e11]
+              - generic [ref=e12]: MX
+            - generic [ref=e13]:
+              - generic [ref=e14]: Michael Xymitoulias
+              - generic [ref=e15]: Technical Software Manager
+      - generic [ref=e16]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "About" [ref=e22] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e28]:
+            - link "Now" [ref=e30] [cursor=pointer]:
+              - /url: /now
+          - listitem [ref=e35]:
+            - link "Projects" [ref=e37] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e42]:
+            - link "Blog" [ref=e44] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e50]:
+            - link "Contact" [ref=e52] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e58]:
+          - generic [ref=e59]: Social
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Github" [ref=e64] [cursor=pointer]:
+                - /url: https://github.com/michxymi
+            - listitem [ref=e69]:
+              - link "X" [ref=e71] [cursor=pointer]:
+                - /url: https://x.com/michxymi
+            - listitem [ref=e77]:
+              - link "LinkedIn" [ref=e79] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/mxymitoulias/
+        - generic [ref=e85]:
+          - generic [ref=e86]: Feed
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - link "RSS" [ref=e91] [cursor=pointer]:
+                - /url: /feed.xml
+      - list [ref=e99]:
+        - listitem [ref=e100]:
+          - link "Download CV" [ref=e102] [cursor=pointer]:
+            - /url: /Michael_Xymitoulias_CV.pdf
+      - button "Toggle Sidebar" [ref=e108]
+    - main [ref=e109]:
+      - generic [ref=e111]:
+        - button "Toggle Sidebar" [ref=e112] [cursor=pointer]
+        - separator [ref=e114]
+        - button "Toggle theme" [ref=e115] [cursor=pointer]
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - heading "About" [level=1] [ref=e120]
+            - paragraph [ref=e121]: Everything you wanted to know, neatly packaged.
+          - generic [ref=e122]:
+            - heading "Bio" [level=2] [ref=e123]
+            - generic [ref=e124]:
+              - paragraph [ref=e125]:
+                - text: I’m a Technical Software Manager at
+                - link "Oxford Nanopore Technologies" [ref=e126] [cursor=pointer]:
+                  - /url: https://nanoporetech.com/
+                - text: . I lead a team of software engineers and make internal developer tools that, ideally, prevent other engineers from wanting to throw their laptops into the sea.
+              - paragraph [ref=e127]: Eight years of doing this has taken me across the entire stack. C systems programming. React web apps. Robotics middleware. Python CLI tools. If it involves making software work or more often, figuring out why it doesn’t, I’ve probably touched it.
+              - paragraph [ref=e128]: I care about developer experience, observability tooling, and building systems that make engineers productive instead of miserable. These are related goals.
+              - paragraph [ref=e129]: When I’m not writing code or pretending to know what I’m doing in meetings, I’m exploring AI-assisted development and tinkering with whatever technology seems interesting enough to justify the time investment.
+          - separator [ref=e130]
+          - generic [ref=e131]:
+            - heading "Skills & Technologies" [level=2] [ref=e132]
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: Languages
+                - generic [ref=e138]:
+                  - generic [ref=e139]: Typescript
+                  - generic [ref=e140]: Javascript
+                  - generic [ref=e141]: Python
+                  - generic [ref=e142]: Go
+                  - generic [ref=e143]: C++
+                  - generic [ref=e144]: C
+              - generic [ref=e145]:
+                - generic [ref=e146]: Frontend & Desktop
+                - generic [ref=e149]:
+                  - generic [ref=e150]: React
+                  - generic [ref=e151]: NextJS
+                  - generic [ref=e152]: Electron
+                  - generic [ref=e153]: Tailwind CSS
+                  - generic [ref=e154]: HTML/CSS
+              - generic [ref=e155]:
+                - generic [ref=e156]: Backend
+                - generic [ref=e159]:
+                  - generic [ref=e160]: NodeJS
+                  - generic [ref=e161]: PostgreSQL
+                  - generic [ref=e162]: Redis
+                  - generic [ref=e163]: REST
+                  - generic [ref=e164]: gRPC
+              - generic [ref=e165]:
+                - generic [ref=e166]: DevOps & Tooling
+                - generic [ref=e169]:
+                  - generic [ref=e170]: Docker
+                  - generic [ref=e171]: GitLab CI
+                  - generic [ref=e172]: Github Actions
+                  - generic [ref=e173]: AWS
+                  - generic [ref=e174]: Vercel
+                  - generic [ref=e175]: Cloudflare
+          - separator [ref=e176]
+          - generic [ref=e177]:
+            - heading "Experience" [level=2] [ref=e178]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - heading "Oxford Nanopore Technologies" [level=3] [ref=e184]
+                  - generic [ref=e185]: Current Employer
+                - group [ref=e190]:
+                  - generic "Technical Software Manager Employment Type Full-time Employment Period April 2023 – Present" [ref=e191] [cursor=pointer]:
+                    - heading "Technical Software Manager" [level=4] [ref=e199]
+                    - generic [ref=e204]:
+                      - generic [ref=e205]:
+                        - term [ref=e206]: Employment Type
+                        - definition [ref=e207]: Full-time
+                      - generic [ref=e209]:
+                        - term [ref=e210]: Employment Period
+                        - definition [ref=e211]:
+                          - text: April 2023 –
+                          - generic [ref=e212]: Present
+                  - generic [ref=e216]:
+                    - paragraph [ref=e217]: "I manage a team of four software engineers. This involves the usual suspects: mentoring, objectives, performance reviews, and convincing people that their work matters, because it does."
+                    - paragraph [ref=e218]: "Most of my time goes into building internal developer tools: log aggregation platforms, deployment management apps, and dashboards that make platform operations slightly less painful. The stack is React, NextJS, Electron, Typescript and Python, depending on what needs hitting."
+                    - paragraph [ref=e219]: A significant portion of my sanity has gone into making C++ builds behave like civilized software. Conan, CMake, Docker, Artifactory. Some engineers are converts. Others look at me like I’ve suggested we rewrite everything in Rust.
+              - generic [ref=e220]:
+                - heading "UK Atomic Energy Authority (RACE)" [level=3] [ref=e224]
+                - generic [ref=e225]:
+                  - group [ref=e226]:
+                    - generic [ref=e227] [cursor=pointer]:
+                      - heading "Software Engineer & Section Leader" [level=4] [ref=e235]
+                      - generic [ref=e240]:
+                        - generic [ref=e241]:
+                          - term [ref=e242]: Employment Type
+                          - definition [ref=e243]: Full-time
+                        - generic [ref=e245]:
+                          - term [ref=e246]: Employment Period
+                          - definition [ref=e247]: November 2021 – April 2023
+                    - generic [ref=e248]:
+                      - paragraph [ref=e249]: Led a software development team. Mentored engineers, allocated work, ran reviews, hired people. The leadership trifecta.
+                      - paragraph [ref=e250]: I was a key contributor to CorteX, RACE’s robotic middleware for distributed systems. This meant integrating with ROS2, Qt, OPC-UA, and EtherCAT, plus building interfaces for industrial manipulators using whatever proprietary API the hardware vendor decided to inflict on us.
+                      - paragraph [ref=e251]: Helped put CI/CD pipelines and Git workflows in place. Infrastructure work, the sort that only gets mentioned when its missing.
+                  - group [ref=e252]:
+                    - generic [ref=e253] [cursor=pointer]:
+                      - heading "Control Systems Software Engineer" [level=4] [ref=e261]
+                      - generic [ref=e266]:
+                        - generic [ref=e267]:
+                          - term [ref=e268]: Employment Type
+                          - definition [ref=e269]: Full-time
+                        - generic [ref=e271]:
+                          - term [ref=e272]: Employment Period
+                          - definition [ref=e273]: December 2017 – November 2021
+        - generic [ref=e275]:
+          - link "Privacy Policy" [ref=e276] [cursor=pointer]:
+            - /url: /privacy-policy
+          - generic [ref=e277]: ·
+          - generic [ref=e278]: © 2026 Michael Xymitoulias
+  - region "Notifications"

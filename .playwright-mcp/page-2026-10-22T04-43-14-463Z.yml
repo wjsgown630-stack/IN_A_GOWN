@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - group [ref=e6]:
+      - listitem [ref=e7]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: ./#hero
+          - img [ref=e10]:
+            - heading "Anya Reyes" [level=3] [ref=e12]
+      - listitem [ref=e13]:
+        - link [ref=e15] [cursor=pointer]:
+          - /url: ./#hero
+          - img [ref=e16]:
+            - heading "Anya Reyes" [level=3] [ref=e18]
+      - listitem [ref=e19]:
+        - link [ref=e21] [cursor=pointer]:
+          - /url: ./#hero
+          - img [ref=e22]:
+            - heading "Anya Reyes" [level=3] [ref=e24]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e35]:
+            - heading "Anya Reyes" [level=4] [ref=e37]
+            - paragraph [ref=e39]: Product Designer at Elrune.
+            - paragraph [ref=e43]: San Francisco, California.
+          - paragraph [ref=e46]: I design thoughtful, functional software for ambitious teams from messy zero-to-one products to systems that scale.
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - paragraph [ref=e52]: // At a Glance
+            - generic [ref=e53]:
+              - paragraph [ref=e61]: 7 year Experience
+              - paragraph [ref=e69]: 40+ Products designed
+              - paragraph [ref=e77]: Design services starts from $2,499
+          - generic [ref=e78]:
+            - paragraph [ref=e82]: // What I do
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - paragraph [ref=e88]: Product Design
+                - paragraph [ref=e92]: Brand identity
+              - generic [ref=e93]:
+                - paragraph [ref=e97]: Design systems
+                - paragraph [ref=e101]: UX research
+          - generic [ref=e102]:
+            - paragraph [ref=e106]: // Trusted by 40+ Clients
+            - list [ref=e111]:
+              - listitem [ref=e112]
+              - listitem [ref=e117]
+              - listitem [aria-hidden] [ref=e122]
+              - listitem [aria-hidden] [ref=e127]
+              - listitem [aria-hidden] [ref=e132]
+              - listitem [aria-hidden] [ref=e137]
+              - listitem [aria-hidden] [ref=e142]
+              - listitem [aria-hidden] [ref=e147]
+              - listitem [aria-hidden] [ref=e152]
+              - listitem [aria-hidden] [ref=e157]
+              - listitem [aria-hidden] [ref=e162]
+              - listitem [aria-hidden] [ref=e167]
+              - listitem [aria-hidden] [ref=e172]
+              - listitem [aria-hidden] [ref=e177]
+              - listitem [aria-hidden] [ref=e182]
+              - listitem [aria-hidden] [ref=e187]
+              - listitem [aria-hidden] [ref=e192]
+              - listitem [aria-hidden] [ref=e197]
+        - generic [ref=e202]:
+          - paragraph [ref=e204]: Got a problem worth solving together?
+          - link [ref=e206] [cursor=pointer]:
+            - /url: https://cal.com/
+            - paragraph [ref=e208]: Book a 30 min call
+      - navigation [ref=e217]:
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - link [ref=e223] [cursor=pointer]:
+                - /url: https://x.com/blurrhaus
+              - link [ref=e226] [cursor=pointer]:
+                - /url: https://www.youtube.com
+              - link [ref=e229] [cursor=pointer]:
+                - /url: https://www.framer.com/@blurrhaus/
+            - generic [ref=e231]:
+              - paragraph [ref=e235] [cursor=pointer]: Work
+              - paragraph [ref=e239] [cursor=pointer]: Services
+              - paragraph [ref=e243] [cursor=pointer]: Pricing
+              - paragraph [ref=e247] [cursor=pointer]: FAQ
+              - paragraph [ref=e251] [cursor=pointer]: About
+            - paragraph [ref=e260]: 2 Slots left
+          - generic [ref=e262]:
+            - generic [ref=e267]:
+              - paragraph [ref=e269]: // 004
+              - paragraph [ref=e276]: Erie
+              - paragraph [ref=e279]: Landing Page Design
+            - generic [ref=e288]:
+              - paragraph [ref=e290]: // 002
+              - paragraph [ref=e297]: Mara Portfolio
+              - paragraph [ref=e300]: Landing Page
+            - generic [ref=e309]:
+              - paragraph [ref=e311]: // 003
+              - paragraph [ref=e318]: Alvio Trade
+              - paragraph [ref=e321]: Landing Page
+            - generic [ref=e330]:
+              - paragraph [ref=e332]: // 001
+              - paragraph [ref=e339]: Orderbook
+              - paragraph [ref=e342]: Product Design
+            - generic [ref=e351]:
+              - paragraph [ref=e353]: // 005
+              - paragraph [ref=e360]: Fluxo
+              - paragraph [ref=e363]: Landing Page Design
+            - generic [ref=e372]:
+              - paragraph [ref=e374]: // 006
+              - paragraph [ref=e381]: Aurven Villas
+              - paragraph [ref=e384]: Multi Page Web Design
+            - generic [ref=e393]:
+              - paragraph [ref=e395]: // 007
+              - paragraph [ref=e402]: Thunder
+              - paragraph [ref=e405]: Product UX
+            - generic [ref=e414]:
+              - paragraph [ref=e416]: // 008
+              - paragraph [ref=e423]: Codix AI Editor
+              - paragraph [ref=e426]: Multi Page Website
+            - generic [ref=e435]:
+              - paragraph [ref=e437]: // 009
+              - paragraph [ref=e444]: Centrax Trade
+              - paragraph [ref=e447]: UI/UX Audit
+  - link [ref=e453] [cursor=pointer]:
+    - /url: https://www.framer.com
+    - paragraph [ref=e458]: Create a free website with Framer, the website builder loved by startups, designers and agencies.
